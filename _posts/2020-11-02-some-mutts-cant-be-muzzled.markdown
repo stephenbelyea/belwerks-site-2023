@@ -9,7 +9,10 @@ I recently subscribed to _Shudder_, the streaming video service for horror fans,
 
 Way back in 2007, when my wife and I were first hanging out, one of the first "dates" we had (and I'm using that term very, very loosely) consisted of a stop at Suspect Video -- [a beloved former staple of Toronto's Annex neighbourhood](https://nowtoronto.com/suspect-video-is-closing-down) -- where we rented _Sleepaway Camp_ on VHS to watch back at my sketchy Bathurst Street apartment. Many of our dates in those early years involved horror movies. From catching Rob Zombie's _Halloween_ remake when it was in theatres, to regular cult screenings at Bloor Cinema, to our annual attendance at [the _Toronto After Dark_ film festival](https://torontoafterdark.com/) (starting at Bloor Cinema and later moving to the big downtown Cineplex), horror movies were an important part of our early years together.
 
-![nighttime crowd gathered outside a hole-in-the-wall bloor cinema with toronto after dark on the marquee](/assets/toronto-after-dark.jpg "Toronto After Dark crowd lined up outside the Bloor Cinema for [this 2010 summary of the festival](https://www.vimooz.com/2010/08/19/toronto-after-dark-film-festival-2010-winners/).")
+<figure>
+  <img src="/assets/toronto-after-dark.jpg" alt="nighttime crowd gathered outside a hole-in-the-wall bloor cinema with toronto after dark on the marquee">
+  <figcaption>Toronto After Dark crowd lined up outside the Bloor Cinema for <a href="https://www.vimooz.com/2010/08/19/toronto-after-dark-film-festival-2010-winners/" target="_blank">this 2010 summary of the festival</a>.</figcaption>
+</figure>
 
 The beauty of horror, to me, is the incredible range of styles, sub-genres, stories, and budgets that fit into that bucket. You can be a die-hard fan of peak 80's era slashers or Italian cannibal exploitation flicks and be completely cold to big budget haunting pictures or the self-shot night vision aesthetic. Your favourite films can be anything from _Evil Dead 2_ or _A Nightmare on Elm Street 2_, to _the Conjuring 2_ or _the Exorcist 2_. Yeah, horror has a lot of sequels. All of this under one big label that many people won't even consider exploring. But that's ok -- in fact, it makes the genre more fun. Staying in the dark, buried deep away from mainstream blockbusters, is one of the things that makes it fun. 
 
@@ -25,6 +28,9 @@ Punk and horror both go as big and bonkers or as small and silent as you want to
 
 There's exactly one thing in the world that gives me the same feeling as throwing on a random horror flick and settling in for what I'm assuming will be so-so but turns out to be a masterpiece. That came a few weeks ago when I stumbled on [a vicious little pub punk band out of Australia called _Amyl and the Sniffers_](https://www.youtube.com/watch?v=9QX4bQPw-_w). 
 
-![amyl winding up to lay a punch on the rest of her bandmates](/assets/amyl-and-the-sniffers.jpg "Photo by Charlie Hardy for [an interview with Amyl and the Sniffers](https://happymag.tv/a-chat-with-amyl-and-the-sniffers/).")
+<figure>
+  <img src="/assets/amyl-and-the-sniffers.jpg" alt="amyl winding up to lay a punch on the rest of her bandmates">
+  <figcaption>Photo by Charlie Hardy for <a href="https://happymag.tv/a-chat-with-amyl-and-the-sniffers/" target="_blank">an interview with Amyl and the Sniffers</a>.</figcaption>
+</figure>
 
 May punk bands and horror films continue to delight and surprise me well past the age where it's remotely acceptable for me to continue sporting black graphic tees and whatever half-shaved haircut I've given myself that month.

@@ -13,7 +13,10 @@ Woodwork has been a great hobby the past four years because it ticks a lot of bo
 
 After a little over a year in that first rented townhouse, we borrowed and scraped together enough funds to buy a townhouse of our own in Kitchener. Now that we’d had a garage for a year, it was considered a non-negotiable item in our short list of requirements. I’m happy we got it, because a fixer-upper comes with no shortage of repairs and upgrades to do. These allow me to continue building my skills in planning, designing, budgeting, and all the techniques involved in slowly working my way through each project. 
 
-![early sketch of a desk and shelves next to the finished install](/assets/desk-side-by-side.jpg "Early iPad sketch of a desk and shelves next to yesterday's final installation, complete with my assistant. You'll notice a few changes due to available materials, additional storage, and cost of pre-manufactured components.")
+<figure>
+  <img src="/assets/desk-side-by-side.jpg" alt="early sketch of a desk and shelves next to the finished install">
+  <figcaption>Early iPad sketch of a desk and shelves next to yesterday's final installation, complete with my assistant. You'll notice a few changes due to available materials, additional storage, and cost of pre-manufactured components.</figcaption>
+</figure>
 
 I imagine some folks would find this all to be tedious, time-consuming, or an overall chore. Maybe it is to some extent. There are certainly some projects which drag on, that I’d rather skip. But overall, I love it. The feeling of accomplishment at standing back to check out the closet shelves you’ve just installed. The pride in showing off your newly refinished kitchen bar. It scratches that itch of starting, sticking through, and finishing a project to my own standards and knowing I was able to learn and get better at something along the way.
 

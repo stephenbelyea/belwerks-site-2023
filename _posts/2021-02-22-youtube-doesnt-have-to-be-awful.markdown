@@ -13,7 +13,10 @@ I'm talking about the hate-breeding swamp of grifters and loathsome goons who li
 
 I first encountered YouTube in the summer of 2006. I was up in Toronto for a few days from New Brunswick, looking for an apartment with my soon-to-be roommate, Arthur. On a break between scouring the Annex neighbourhood for listings, he fired up his computer to show me a new video sharing platform. We spent the next couple of hours watching Skinny Puppy music videos and David Lynch interview clips. It was awesome.
 
-![close up of director david lynch's face with a microphone in front of him and a red curtain in the background](/assets/david-lynch-iphone.png "David Lynch famously [dissing film watching on iPhones](https://www.youtube.com/watch?v=wKiIroiCvZ0) circa 2008 (not 2006, I know).")
+<figure>
+  <img src="/assets/david-lynch-iphone.png" alt="close up of director david lynch's face with a microphone in front of him and a red curtain in the background">
+  <figcaption>David Lynch famously <a href="https://www.youtube.com/watch?v=wKiIroiCvZ0" target="_blank">dissing film watching on iPhones</a> circa 2008 (not 2006, I know).</figcaption>
+</figure>
 
 That's really all it was in the beginning. A cool platform for people to upload, watch, share, and comment on videos. I have [a few old ones up](https://www.youtube.com/watch?v=jOYA5IQbntU) since that era for exactly that purpose. It was because of this that YouTube wound up being a massive mainstream phenomenon which inevitably (sadly) led to a huge market valuation and eventual [acquisition by - who else - Google](https://en.wikipedia.org/wiki/History_of_YouTube#:~:text=On%20October%209%2C%202006%2C%20it,was%20Google's%20second%2Dlargest%20acquisition).
 

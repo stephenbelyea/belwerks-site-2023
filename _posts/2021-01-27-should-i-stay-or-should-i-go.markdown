@@ -15,7 +15,10 @@ Flash forward to mid 2020, and I'm tuning in for [#ID24, the annual free online 
 
 So, reluctantly, [I signed back up](https://twitter.com/belwerks/status/1306425902788685825) and [regained my old @belwerks handle](https://twitter.com/belwerks/status/1306426619712679938) pretty easily. I immediately started following and [engaging with everyone in attendance or speaking](https://twitter.com/belwerks/status/1306739938868817920) at the conference. Many of them were people I'd previously followed and/or interacted with on the platform. It was nice.
 
-![tweet from belwerks reads "I'm back. The accessibility community is too Twitter-centric for me to keep off of Twitter. Does anyone know how to reclaim an old handle?"](/assets/first-tweet.png "First Tweet... for the second time.")
+<figure>
+  <img alt="tweet from belwerks reads 'I'm back. The accessibility community is too Twitter-centric for me to keep off of Twitter. Does anyone know how to reclaim an old handle?'" src="/assets/first-tweet.png">
+  <figcaption>First Tweet... for the second time.</figcaption>
+</figure>
 
 One key difference this time around has been the [establishment of some ground rules](https://twitter.com/belwerks/status/1306591911571066880). I won't follow companies, political figures, celebrities, or really any other avenues of blatant marketing and promotion. I will also never log into Twitter on my phone again. Or laptop. It stays on my iMac desktop, where I have to go to my study and fire it up on purpose. Same with Facebook.
 
