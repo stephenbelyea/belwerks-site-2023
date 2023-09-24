@@ -3,6 +3,7 @@ title: “Why is accessibility (and editing!) important?” - Part 3
 date: "2020-08-31"
 description: "Part three of my trilogy of posts on “why is accessibility important?” is now available to read. I'm happy with the way I closed it off, and even happier I took the time to rewrite my initial draft (partly why it's been a month since part two)."
 layout: post
+category: work
 ---
 
 Part three of my trilogy of posts on "why is accessibility important?" is now available to read. I'm happy with the way I closed it off, and even happier I took the time to rewrite my initial draft (partly why it's been a month since part two). 

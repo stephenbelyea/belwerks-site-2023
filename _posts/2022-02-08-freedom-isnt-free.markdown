@@ -3,6 +3,7 @@ title: Freedom isn't free
 date: 2022-02-08
 description: "When I wrote about being a recovering political junkie a couple of weeks ago, I briefly touched on the little convoy of trucks still heading for Ottawa. It is fair to say that in the days since then, things have escalated."
 layout: post
+category: life
 ---
 
 When I [wrote about being a recovering political junkie](https://www.belwerks.com/confessions-of-a-recovering-political-junkie/) a couple of weeks ago, I briefly touched on the little [convoy of trucks heading still for Ottawa](https://globalnews.ca/news/8539349/freedom-convoy-waterloo-region-thursday/). It is fair to say that in the days since then, [things have escalated](https://www.bbc.com/news/world-us-canada-60281088). For over a week, the small-but-loud convoy has ballooned into a full-out occupation of Canada’s capital city - with the outstated goal of ending mandates, restrictions, and other measures related to the pandemic in order to restore rights and freedoms. 

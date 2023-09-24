@@ -3,6 +3,7 @@ title: "Pardon my french"
 date: 2020-11-19
 description: "This year has been an active one for me when it comes to writing. I've been publishing across four different blog platforms, including some paid."
 layout: post
+category: work
 ---
 
 This year has been an active one for me when it comes to writing. I've been publishing across four different blog platforms, including some paid -- both directly and indirectly. I'm planning to do a nice self-serving piece at the end of 2020 with more on this. Fear not!

@@ -3,6 +3,7 @@ title: "Signed by the author"
 date: 2020-10-19
 description: "In the last post I wrote, I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author's name"
 layout: post
+category: life
 ---
 
 [In the last post](/what-condition-my-inscription-is-in/), I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author's name. I've loved that anecdote for a long, long time and always wanted to do something with it. 

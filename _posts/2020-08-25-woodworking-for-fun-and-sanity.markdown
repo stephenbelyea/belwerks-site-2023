@@ -3,6 +3,7 @@ title: "Woodworking for fun and sanity"
 date: "2020-08-25"
 description: "In October, it will have been four years since my wife and I packed up our lives, our dog, our cat, and our son to leave Toronto for good and move to Kitchener. There’s a lot to love about this city, and I’m happy we made the move."
 layout: post
+category: life
 ---
 
 In October, it will have been four years since my wife and I packed up our lives, our dog, our cat, and our son to leave Toronto for good and move to Kitchener. There’s a lot to love about this city, and I’m happy we made the move. Toronto had long since priced us out of any chance of buying a home, and the cost of rent (for a measly one-and-den condo) was leaving us in the negative month-by-month even as a two-income household. Our first residence in Kitchener was a three bedroom townhouse (for less than our condo rental in Toronto) with a garage. 

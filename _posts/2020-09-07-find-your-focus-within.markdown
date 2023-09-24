@@ -3,6 +3,7 @@ title: Find your :focus-within
 date: 2020-09-07
 description: "I love writing CSS. SASS is fun, LESS is (or was?) too, but to me, nothing beats making magic with plain old vanilla CSS. I will happily write to a style.css file any day..."
 layout: post
+category: work
 ---
 
 I love writing **CSS**. [**SASS** is fun](https://sass-lang.com/), [**LESS** is (or was?) too](http://lesscss.org/), but to me, nothing beats making magic with [plain old vanilla **CSS**](https://www.w3.org/Style/CSS/Overview.en.html). I will happily write to a `style.css` file any day rather than muck around with [**CSS-in-JS**](https://cssinjs.org/?v=v10.4.0) for [component encapsulation](https://styled-components.com/). That quackery is for the birds -- or the full stack devs who are terrified of (or do not understand) the **C** in Cascading Style Sheets (CSS).

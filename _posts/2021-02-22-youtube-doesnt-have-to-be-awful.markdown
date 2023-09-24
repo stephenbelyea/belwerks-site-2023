@@ -3,6 +3,7 @@ title: "YouTube doesn't have to be awful"
 date: 2021-02-22
 description: "YouTube can be, and mostly is, awful. I'm not talking about the general proliferation of unboxing, reaction, or livestream videos. Those are very much not my thing, but a lot of people enjoy them and they're mostly harmless."
 layout: post
+category: life
 ---
 
 YouTube can be, and mostly is, awful. I'm not talking about the general proliferation of unboxing, reaction, or livestream videos. Those are very much not my thing, but a lot of people enjoy them and they're mostly harmless. I have my enjoyable trash and you have yours.

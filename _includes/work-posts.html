@@ -1,0 +1,5 @@
+{%- assign posts = site.posts | where: "category","work" -%}
+{%- if posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Work" }}</h2>
+  {%- include posts-feed.html -%}
+{%- endif -%}

@@ -3,6 +3,7 @@ title: “Why is accessibility important?” — Part 1
 date: "2020-07-15"
 description: "Part one of a 3-part post answering the most frequent question I hear in relation to accessibility during my career is live today on the HealthHub Design blog."
 layout: post
+category: work
 ---
 
 Part one of a 3-part post answering the most frequent question I hear in relation to accessibility during my career is live today on the HealthHub Design blog. I warned you this was coming!

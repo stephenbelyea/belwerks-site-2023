@@ -3,6 +3,7 @@ title: "Should I stay or should I go?"
 date: 2021-01-27
 description: "A couple of years back, I quit Twitter. I'd been on it since 2011 and had built a decent-sized community of web developers, accessibility advocates, political progressives, and a health mix of friends and previous co-workers."
 layout: post
+category: life
 ---
 
 I quit Twitter a couple of years back. I'd been on it since 2011 and had built a decent-sized community of web developers, accessibility advocates, political progressives, and a healthy mix of friends and previous co-workers. Conferences and professional events were fun, as it made for a nice list of new follows and let me reach out to celebrate peoples' work when I was much, much too nervous to speak with them in person.

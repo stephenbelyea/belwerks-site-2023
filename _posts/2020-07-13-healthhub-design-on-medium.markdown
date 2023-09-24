@@ -3,6 +3,7 @@ title: HealthHub Design on Medium
 date: "2020-07-13"
 description: "The design team I'm a part of at HealthHub is pretty cool, if you'll excuse a bit of pride. We are intentionally setup as a cross-disciplinary team in all the best ways."
 layout: post
+category: work
 ---
 
 The design team I'm a part of at HealthHub is pretty cool, if you'll excuse a bit of pride. We are intentionally setup as a cross-disciplinary team in all the best ways. I mean, you've got to be very welcoming of people with different disciplines and perspectives if you're willing to bring in a curmudgeonly old front ender like myself, eh?

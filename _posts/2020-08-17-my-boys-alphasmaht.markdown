@@ -3,6 +3,7 @@ title: "My boy's AlphaSmaht"
 date: "2020-08-17"
 description: "Got something fun in the mail today. I ordered it from eBay on my birthday, as a gift to myself to help with writing."
 layout: post
+category: life
 ---
 
 Got something fun in the mail today. I ordered it from **eBay** on my birthday, as a gift to myself to help with writing. 

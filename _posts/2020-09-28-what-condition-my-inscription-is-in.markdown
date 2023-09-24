@@ -3,6 +3,7 @@ title: "What condition my inscription is in"
 date: 2020-09-28
 description: "I buy a lot (read: far, far too many) of used books. It doesn't take much to convince myself I'm supporting small local used bookstores."
 layout: post
+category: life
 ---
 
 I buy a lot (read: far, far too many) of used books. It doesn't take much to convince myself I'm supporting small local used bookstores (my favourite being [**KW Bookstore** in Kitchener](https://www.facebook.com/kwbookstore/)), so I rarely step out of one without at least one purchase. My favourite books to buy are older paperbacks printed in that magical era between the mid 1960s to the early 80s -- especially anything with [an orange **Penguin** spine](https://www.penguinrandomhouse.ca/series/PNG/penguin-orange-collection). Something about the size, the paper stock, typesetting, cover and spine design, smell, and texture just speaks to me. The more creases in the spine, folded page corners, and scribbled notes throughout, the more I feel a connection with anyone who has thumbed through this copy over the past 50 years.  

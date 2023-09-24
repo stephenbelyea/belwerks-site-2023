@@ -3,6 +3,7 @@ title: "Some mutts can't be muzzled"
 date: 2020-11-02
 description: "I recently subscribed to Shudder, the streaming video service for horror fans, and it helped remind me of one key aspect of my being: I friggin' love horror movies. By the numbers, it is absolutely my favourite genre."
 layout: post
+category: life
 ---
 
 I recently subscribed to _Shudder_, the streaming video service for horror fans, and it helped remind me of one key aspect of my being: I friggin' love horror movies. By the numbers, it is absolutely my favourite genre. 

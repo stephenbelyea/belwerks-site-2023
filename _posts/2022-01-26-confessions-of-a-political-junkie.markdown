@@ -3,6 +3,7 @@ title: Confessions of a (recovering) political junkie
 date: 2022-01-26
 description: "Remember that (Canadian) federal election last year? It’s ok if you don’t. We all had bigger things to deal with that made it tough to muster any excitement for the political game. I remember it for one main reason..."
 layout: post
+category: life
 ---
 
 Remember [that (Canadian) federal election last year](https://www.theglobeandmail.com/politics/federal-election/2021-results/)? It’s ok if you don’t. We all had bigger things to deal with that made it tough to muster any excitement for the political game. I remember it for one main reason: it was the first time in 17 years of being able to vote that I very nearly didn’t bother. 

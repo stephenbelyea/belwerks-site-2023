@@ -3,6 +3,7 @@ title: "Making stops along the way"
 date: 2021-06-06
 description: "We're getting into that summer weather, finally, without another 0-degree day in the forecast for the next few months. Summer signals a few important things every year."
 layout: post
+category: life
 ---
 
 We're getting into that summer weather, finally, without another 0-degree day in the forecast for the next few months. Summer signals a few important things every year. For one, it means I've made it through the lulls of winter and lows of Smarch, from March to May - full of teases of sun and warmth, but always happy to slap you around with a few more weeks of sub-zero.
