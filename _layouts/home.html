@@ -9,8 +9,10 @@ layout: default
 
   {{ content }}
 
-  {%- include work-posts.html -%}
-  {%- include life-posts.html -%}
+  <div style="display:flex; margin-top:2rem;">
+    <div style="flex:0 0 50%; padding-right:1rem;">{%- include work-posts.html -%}</div>
+    <div style="flex:0 0 50%; padding-left:1rem;">{%- include life-posts.html -%}</div>
+  </div>
   
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
