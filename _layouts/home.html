@@ -3,9 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
 
   {{ content }}
 
@@ -13,7 +11,9 @@ layout: default
     <div style="flex:0 0 50%; padding-right:1rem;">{%- include work-posts.html -%}</div>
     <div style="flex:0 0 50%; padding-left:1rem;">{%- include life-posts.html -%}</div>
   </div>
-  
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+  <p class="rss-subscribe">subscribe
+    <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+  </p>
 
 </div>
