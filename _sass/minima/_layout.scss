@@ -1,0 +1,33 @@
+.wrapper {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    "side main"
+    "foot foot";
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+
+  > aside {
+    grid-area: side;
+  }
+
+  > main {
+    grid-area: main;
+  }
+
+  > footer {
+    grid-area: foot;
+  }
+}
+
+.panel,
+footer {
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+}
