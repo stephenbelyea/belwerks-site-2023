@@ -8,26 +8,26 @@
     "foot foot";
   min-height: 100vh;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
 
-  > aside {
+  >aside {
     grid-area: side;
   }
 
-  > main {
+  >main {
     grid-area: main;
   }
 
-  > footer {
+  >footer {
     grid-area: foot;
   }
 }
 
-.panel,
-footer {
+.panel {
   padding: 1rem;
 }
 
 footer {
   text-align: center;
+  padding: 1rem 1rem 2rem;
 }
