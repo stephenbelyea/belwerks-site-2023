@@ -3,8 +3,5 @@
 "minima/layout",
 "minima/typography";
 
-.logo {
-  circle, line {
-    stroke-width: 0.185rem;
-  }
-}
+@import "includes/site-icon",
+"includes/logo", "includes/footer";

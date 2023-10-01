@@ -1,0 +1,13 @@
+.site-icon {
+  max-width: 4.5rem;
+  margin: 0 auto;
+
+  svg {
+    max-width: 100%;
+  }
+
+  circle,
+  line {
+    stroke-width: 0.185rem;
+  }
+}

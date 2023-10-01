@@ -19,7 +19,7 @@ body {
   color: var(--colour-body);
 }
 
-a, .alt {
+a, .alt-colour {
   color: var(--colour-link);
 }
 
@@ -27,18 +27,18 @@ strong, .bold, main a, footer a {
   font-weight: var(--font-weight-bold);
 }
 
+footer p, .small, small {
+  font-size: 0.875rem;
+}
+
 main p {
   margin: 1em 0 1.5em;
 }
 
-footer p {
-  font-size: 0.875rem;
-  margin: 0.15em 0;
-}
-
 h2,
 h4,
-h6 {
+h6,
+.alt-font {
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
 }
