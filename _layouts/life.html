@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- include head.html -%}
+  <body>
+    <div class="wrapper layout-life">
+      {% include side-panel.html %}
+      <main class="panel primary">
+        {{ content }}
+        {%- assign posts = site.posts | where: "category", "life" -%}
+        {% include posts-feed.html heading-level = "h2" %}
+      </main>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
