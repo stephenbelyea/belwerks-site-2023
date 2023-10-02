@@ -7,8 +7,12 @@
   --font-family-body: 'Noto Serif', serif;
   --font-family-heading: 'Noto Sans', sans-serif;
 
-  --colour-body: #353434;
+  --colour-body: #3f3636;
   --colour-link: #cf1020;
+  --colour-link-focus: rgb(114, 79, 79);
+  --colour-link-focus-ring: rgba(114, 79, 79, 0.8);
+
+  --timing: 100ms;
 }
 
 body {
@@ -19,15 +23,21 @@ body {
   color: var(--colour-body);
 }
 
-a, .alt-colour {
+a,
+.alt-colour {
   color: var(--colour-link);
 }
 
-strong, .bold, main a, footer a {
+strong,
+.bold,
+main a,
+footer a {
   font-weight: var(--font-weight-bold);
 }
 
-footer p, .small, small {
+footer p,
+.small,
+small {
   font-size: 0.875rem;
 }
 
@@ -54,10 +64,28 @@ h1 {
   margin: 0 0 1em;
 }
 
-h2, h3 {
+h2,
+h3 {
   margin: 1.5em 0 1.35em;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   margin: 1.25em 0;
+}
+
+a {
+  transition: color var(--timing), outline var(--timing);
+  outline: solid transparent 0.15em;
+  outline-offset: 0.35em;
+
+  &:focus,
+  &:hover {
+    color: var(--colour-link-focus);
+  }
+
+  &:focus {
+    outline-color: var(--colour-link-focus-ring);
+  }
 }

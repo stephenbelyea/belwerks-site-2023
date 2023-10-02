@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+nav-include: true
+nav-order: 1
 ---
 
 ## Hello! You've reached belwerks
