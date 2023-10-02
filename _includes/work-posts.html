@@ -2,6 +2,6 @@
   {%- assign posts = site.posts | where: "category", "work" -%}
   {% include posts-feed.html %}
   <p>
-    <a href="{% link work.md | relative_url %}">Read more werks</a>
+    <a href="{{ '/work/' | relative_url }}">Read more werks</a>
   </p>
 </div>
