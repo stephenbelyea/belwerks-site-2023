@@ -7,7 +7,7 @@ nav-order: 1
 
 Integer **viverra erat malesuada consectetur iaculis**. Mauris aliquet iaculis urna, non _pellentesque risus scelerisque sit amet_. Nulla facilisi. Pellentesque aliquet libero orci, ac placerat erat ornare non. _Quisque convallis_, tortor vitae sagittis malesuada, **urna nunc fermentum purus**, ut vulputate eros libero ut sem. Mauris nec efficitur orci. Proin finibus ante id imperdiet aliquam.
 
-Ut convallis cursus libero non semper. Sed at lectus [in sem facilisis pulvinar ac a tortor](http://google.com). 
+Ut convallis cursus libero non semper. Sed at lectus [in sem facilisis pulvinar ac a tortor](http://google.com).
 
 # Heading one looks like this
 
@@ -31,15 +31,14 @@ Sed eget mauris dignissim, hendrerit libero vitae, pulvinar metus. Etiam diam di
 
 Suspendisse a purus non elit condimentum rhoncus a pharetra erat.
 
-##### Holy cow, it's heading five!
+##### Holy cow, it's heading five
 
-Morbi luctus sed erat in elementum. Aenean eu fermentum dolor, eget volutpat dui. Fusce auctor, libero sit amet mollis pretium, sapien massa condimentum urna, tincidunt placerat nisi lacus id sem. 
+Morbi luctus sed erat in elementum. Aenean eu fermentum dolor, eget volutpat dui. Fusce auctor, libero sit amet mollis pretium, sapien massa condimentum urna, tincidunt placerat nisi lacus id sem.
 
 Quisque tincidunt, libero vitae cursus congue, leo ex ornare leo, a sollicitudin quam leo et mi. Nunc vel euismod massa.
 
-###### Wowzers, this looks like a heading six!
+###### Wowzers, this looks like a heading six
 
-Praesent feugiat consequat elit mollis dignissim. Quisque efficitur tortor posuere, mollis odio eget, placerat arcu. Aenean ac nisl pretium, fringilla metus nec, posuere arcu. 
+Praesent feugiat consequat elit mollis dignissim. Quisque efficitur tortor posuere, mollis odio eget, placerat arcu. Aenean ac nisl pretium, fringilla metus nec, posuere arcu.
 
 Ut nec dolor dapibus, dignissim erat ut, facilisis est.  
-    

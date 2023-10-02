@@ -37,17 +37,21 @@ a,
 }
 
 a {
-  transition: color var(--timing), outline var(--timing);
+  transition: color var(--timing), outline var(--timing), box-shadow var(--timing);
+  box-shadow: 0 0.1em 0 0 var(--colour-link);
   outline: solid transparent 0.15em;
   outline-offset: 0.35em;
+  text-decoration: none;
 
-  &:focus,
   &:hover {
     color: var(--colour-link-focus);
+    box-shadow: 0 0.175em 0 0 var(--colour-link-focus);
   }
 
   &:focus {
+    color: var(--colour-link-focus);
     outline-color: var(--colour-link-focus-ring);
+    box-shadow: 0 0 0 0 transparent;
   }
 }
 
@@ -120,4 +124,3 @@ h6 {
 p {
   margin: 1em 0;
 }
-
