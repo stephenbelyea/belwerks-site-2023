@@ -5,40 +5,14 @@ nav-include: true
 nav-order: 1
 ---
 
-Integer **viverra erat malesuada consectetur iaculis**. Mauris aliquet iaculis urna, non _pellentesque risus scelerisque sit amet_. Nulla facilisi. Pellentesque aliquet libero orci, ac placerat erat ornare non. _Quisque convallis_, tortor vitae sagittis malesuada, **urna nunc fermentum purus**, ut vulputate eros libero ut sem. Mauris nec efficitur orci. Proin finibus ante id imperdiet aliquam.
+## I'm Stephen Belyea
 
-Ut convallis cursus libero non semper. Sed at lectus [in sem facilisis pulvinar ac a tortor](http://google.com).
+I am a front end developer with a heavy focus on accessibility, performance, and user interaction for any device or screen size. I like crafting experiences that anyone can use and I'll put in the effort to make sure they're able to do so easily.
 
-# Heading one looks like this
+A developer since 2012, I started in a LAMP stack, with a primary focus on WordPress. After some time in .NET, AngularJS, and early experience with TypeScript, I've settled into a modern JavaScript framework world. Most of my time has been in React, with projects in Angular and Vue to round out the framework trio. Jumping into new tech is a great way to learn and discover all the best and less-best parts of everything.
 
-With some sample paragraph text underneath. Mauris nec efficitur orci. Proin finibus ante id imperdiet aliquam.
+Feel free to reach out on <a href="https://www.linkedin.com/in/sebelyea/" target="_blank">LinkedIn <span class="visually-hidden">opens new tab</span></a> if you’re in Kitchener and want to grab some coffee. Thanks for stopping by!
 
-Nam vehicula pulvinar erat vitae varius. Vestibulum maximus dolor nec tellus consequat, et commodo arcu porttitor. Nulla eget turpis mi. Morbi vehicula velit non nulla bibendum, sed congue nulla pulvinar.
+## Werds and werks
 
-## But then you have heading two
-
-Vestibulum lobortis non tellus vitae efficitur. Etiam feugiat maximus tellus, non rutrum ipsum ullamcorper sit amet. Integer sed dui condimentum, tincidunt ipsum id, feugiat arcu. Vivamus tempus nunc sapien, a varius ex consequat in.
-
-### Don't look now, here comes heading three
-
-Donec ullamcorper at nunc egestas scelerisque. Suspendisse ultrices sodales est. Proin erat nulla, pretium non placerat id, eleifend at ex. Nunc condimentum eu erat sed mollis. Quisque eu lectus eu est congue consectetur sed id ex.
-
-Sed fringilla, nunc et efficitur cursus, sem erat scelerisque ante, id egestas felis nisl quis ligula.
-
-#### Whoa buddy, here comes heading four
-
-Sed eget mauris dignissim, hendrerit libero vitae, pulvinar metus. Etiam diam diam, fringilla ac ultrices in, convallis sed augue.
-
-Suspendisse a purus non elit condimentum rhoncus a pharetra erat.
-
-##### Holy cow, it's heading five
-
-Morbi luctus sed erat in elementum. Aenean eu fermentum dolor, eget volutpat dui. Fusce auctor, libero sit amet mollis pretium, sapien massa condimentum urna, tincidunt placerat nisi lacus id sem.
-
-Quisque tincidunt, libero vitae cursus congue, leo ex ornare leo, a sollicitudin quam leo et mi. Nunc vel euismod massa.
-
-###### Wowzers, this looks like a heading six
-
-Praesent feugiat consequat elit mollis dignissim. Quisque efficitur tortor posuere, mollis odio eget, placerat arcu. Aenean ac nisl pretium, fringilla metus nec, posuere arcu.
-
-Ut nec dolor dapibus, dignissim erat ut, facilisis est.  
+Explore my writing, prototyping, tinkering, and assorted thoughts I've jumbled together.
