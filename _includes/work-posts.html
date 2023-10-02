@@ -1,4 +1,7 @@
 <div class="work-posts">
   {%- assign posts = site.posts | where: "category", "work" -%}
   {% include posts-feed.html %}
+  <p>
+    <a href="{% link work.md %}">Read more werks</a>
+  </p>
 </div>
