@@ -1,5 +1,5 @@
 nav {
-  margin: 2rem 0 1rem;
+  margin: 3rem 0 1rem;
   font-size: var(--font-size-md);
 
   ul {
@@ -11,5 +11,26 @@ nav {
   li {
     margin: 0.25em 0;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  nav {
+    font-size: var(--font-size-base);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  nav {
+    margin: 1rem 0 2.5rem;
+
+    ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      margin: 0 1rem;
+    }
   }
 }
