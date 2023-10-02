@@ -2,11 +2,12 @@
 <html lang="en">
   {%- include head.html -%}
   <body>
-    <div class="wrapper layout-default">
+    <div class="wrapper layout-home">
       {% include side-panel.html %}
       <main class="panel primary">
         {% include greeting.html %}
         {{ content }}
+        {% include work-posts.html limit=3 %}
       </main>
       {% include footer.html %}
     </div>

@@ -1,0 +1,16 @@
+<div class="posts-feed">
+  {% for post in posts limit: include.limit %}
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    <article>
+      <{{ include.heading-level | default:"h3" }} class="heading">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </{{ include.heading-level | default:"h3" }}>
+      <p class="meta">
+        <strong>{{ post.date | date: date_format }}</strong>
+      </p>
+      <p class="description">{{ post.description }}</p>
+    </article>
+  {% endfor %}
+</div>

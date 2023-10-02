@@ -1,0 +1,5 @@
+<div class="work-posts">
+  <h2>Werds and werks</h2>
+  {%- assign posts = site.posts | where: "category", "work" -%}
+  {% include posts-feed.html %}
+</div>
