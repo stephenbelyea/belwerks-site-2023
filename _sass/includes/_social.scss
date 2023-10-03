@@ -1,6 +1,5 @@
-nav {
-  margin: 3rem 0 1rem;
-  font-size: var(--font-size-md);
+.social {
+  margin: 3.5rem 0 1rem;
 
   ul {
     list-style: none;
@@ -15,14 +14,14 @@ nav {
 }
 
 @media screen and (max-width: 750px) {
-  nav {
-    font-size: var(--font-size-base);
+  .social {
+    font-size: var(--font-size-sm);
   }
 }
 
 @media screen and (max-width: 550px) {
-  nav {
-    margin: 1rem 0;
+  .social {
+    margin: 1rem 0 2.5rem;
 
     ul {
       display: flex;
@@ -31,7 +30,7 @@ nav {
     }
 
     li {
-      margin: 0 1rem;
+      margin: 0 0.5rem;
     }
   }
 }
