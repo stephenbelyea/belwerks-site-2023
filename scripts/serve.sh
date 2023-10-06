@@ -1,4 +1,4 @@
 #!/bin/bash
 
 bundle install
-bundle exec jekyll serve --watch --baseurl=""
+bundle exec jekyll serve
