@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://stephenbelyea.github.io/belwerks-site-2023/feed.xml" rel="self" type="application/atom+xml" /><link href="https://stephenbelyea.github.io/belwerks-site-2023/" rel="alternate" type="text/html" /><updated>2023-10-06T00:04:20-04:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/feed.xml</id><title type="html">Belwerks</title><subtitle>Stephen Belyea is an Accessibility Nerd + Front End Developer with over a  decade&apos;s experience building things for the web. He likes to write stuff too.</subtitle><entry><title type="html">Freedom isn’t free</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2022/02/08/freedom-isnt-free.html" rel="alternate" type="text/html" title="Freedom isn’t free" /><published>2022-02-08T00:00:00-05:00</published><updated>2022-02-08T00:00:00-05:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2022/02/08/freedom-isnt-free</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2022/02/08/freedom-isnt-free.html">&lt;p&gt;When I &lt;a href=&quot;https://www.belwerks.com/confessions-of-a-recovering-political-junkie/&quot;&gt;wrote about being a recovering political junkie&lt;/a&gt; a couple of weeks ago, I briefly touched on the little &lt;a href=&quot;https://globalnews.ca/news/8539349/freedom-convoy-waterloo-region-thursday/&quot;&gt;convoy of trucks heading still for Ottawa&lt;/a&gt;. It is fair to say that in the days since then, &lt;a href=&quot;https://www.bbc.com/news/world-us-canada-60281088&quot;&gt;things have escalated&lt;/a&gt;. For over a week, the small-but-loud convoy has ballooned into a full-out occupation of Canada’s capital city - with the outstated goal of ending mandates, restrictions, and other measures related to the pandemic in order to restore rights and freedoms.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The goal is to regain freedom in Canada,” said Brigitte Belton, a trucker who has been regularly making TikTok videos about the convoy… “It seems that Mr. Trudeau thinks that our rights and freedoms can be taken at any point in time.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://globalnews.ca/news/8539349/freedom-convoy-waterloo-region-thursday/&quot;&gt;From Global News&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Regardless of whether you believe the convoy, protest, occupation, and every person participating is good, bad, or something in between, there are a few indisputable elements bubbling up. From the &lt;a href=&quot;https://www.antihate.ca/the_freedom_convoy_is_nothing_but_a_vehicle_for_the_far_right&quot;&gt;horrendous views and outspoken opinions of some organizers&lt;/a&gt;, to the &lt;a href=&quot;https://www.cbc.ca/news/canada/manitoba/manitoba-premier-heather-stefanson-condemns-hate-images-deplorable-1.6334461&quot;&gt;overt symbols of hatred proudly on display by some small groups&lt;/a&gt; in the crowd(s), to the &lt;a href=&quot;https://www.france24.com/en/live-news/20220207-freedom-convoy-raises-funds-on-christian-site-after-gofundme-cutoff&quot;&gt;questionable funding schemes and sources&lt;/a&gt;, across-the-board &lt;a href=&quot;https://psacunion.ca/psac-condemns-truck-convoy-protests-calls-urgent&quot;&gt;condemnation from union groups&lt;/a&gt;, and vocal &lt;a href=&quot;https://www.washingtonpost.com/world/2022/02/08/canada-freedom-convoy-truckers-desantis-paxton/&quot;&gt;support from America’s hard-right-wing politicians&lt;/a&gt;, the core message of “freedom” for Canadians is having trouble staying in focus.&lt;/p&gt;
+
+&lt;p&gt;There’s also the undeniable element of how the &lt;a href=&quot;https://www.thestar.com/opinion/contributors/2022/01/29/while-indigenous-and-black-people-are-killed-for-speaking-up-white-supremacists-get-a-free-pass-in-canada-just-look-at-the-convoy.html?rf&quot;&gt;occupation has been treated by law enforcement&lt;/a&gt; when compared to protests, blockades, and occupations by people in Canada who don’t &lt;em&gt;look&lt;/em&gt; like the leadership of this particular event. It is worth mentioning that while the &lt;a href=&quot;https://www.aptnnews.ca/national-news/why-some-indigenous-people-support-convoy-protest/&quot;&gt;protests in Ottawa aren’t entirely composed of white guys&lt;/a&gt;, they certainly haven’t been organized, lead, or dominated by anyone else.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-talk-about-freedom&quot;&gt;Let’s talk about freedom&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I firmly believe that, Canada being a free country, we should be allowed to make our own choices,” said McLeod, who is Otter Clan and also goes by the traditional name Odemin Kwe. “We should not be forced to do anything we don’t believe in.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://www.aptnnews.ca/national-news/why-some-indigenous-people-support-convoy-protest/&quot;&gt;From APTN National News&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The biggest thing that has stood out to me during this entire media cycle and round of heated public discussions is: &lt;em&gt;what fucking freedom?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Before you close this tab or start chewing me out on Twitter - I am not talking about the “TREUDOPE IS A COMMIE” kind of perspective. To be very, very clear, he is not. We do not have a substantial communist party in Canada - or even a major left-wing political presence, for that matter. The &lt;em&gt;Liberal&lt;/em&gt; party is a centrist, pro-capital, business-first party. They are much the same as the &lt;em&gt;Conservative&lt;/em&gt; party, except for their spoken-but-not-acted-on socially progressive views (as opposed to the latter’s spoken-AND-acted-on regressive views). Our &lt;em&gt;NDP&lt;/em&gt; is &lt;em&gt;slightly&lt;/em&gt; left-oriented, by comparison, but we’ve never given them the opportunity to show us whether or not they would act on &lt;a href=&quot;https://www.ndp.ca/commitments&quot;&gt;their declared ideology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So no, I’m not talking about that kind of flag-waving “freedom” - just in case you’re wondering. I’m referring more to the existential freedom hinted at by the Indegenous protestor, quoted from &lt;em&gt;APTN&lt;/em&gt; above, while she touched on her ancestral teachings:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When you walk with an open heart, you will learn to walk in harmony,” she said. “We all want the same common goal. We want our freedoms. We want to be able to protect our waters, our lands. We want our other children that are still yet to be brought home, brought home.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://www.aptnnews.ca/national-news/why-some-indigenous-people-support-convoy-protest/&quot;&gt;From APTN National News&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I can not pretend to know all the teachings and specific history she’s citing, but I can very much agree that “harmony”, “protect[ing] our waters [and] lands”, and the ability to raise and provide good homes for existing and future generations are the kind of freedoms I very much agree with.&lt;/p&gt;
+
+&lt;p&gt;I also think that’s the very idea of freedom that we very much do not have.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-murica&quot;&gt;What about ‘Murica!?&lt;/h2&gt;
+
+&lt;p&gt;Americans - or at least the caricature we generally see of them from outside their borders - love to go on and on about their freedoms. They have fought and died to gain and keep them, apparently, and they’ll happily continue to do just that. Once again, I have to ask: &lt;em&gt;what fucking freedom?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Do we have the freedom to choose which fast-food or chain restaurant we want to exchange money for something approximating food at? Sure. Do we have the freedom to shop at one of a handful of big box stores, where we can choose which brand of TV, clothing, and phone we want? Sure, I guess. Do we have the freedom to pick whichever source of “news” and entertainment we want to indoctrinate ourselves with? Yeah, for better or for worse.&lt;/p&gt;
+
+&lt;p&gt;But do we have the freedom to choose what we want to do for a living? Some of us, maybe. Do we have the freedom to pursue leisure, creativity, learning, and other activities that fuel and inspire us? Not really - not all of us, anyway. Do we have the freedom of knowing that our next meal, medical visit, rent cheque, car payment, childcare expense, and source of entertainment will be covered without us having to stress over the source of the funds and outcome of choosing one over the other? For most of us, not at all.&lt;/p&gt;
+
+&lt;p&gt;Do we have the freedom to drop out of the system where we throw away 40+ years of our lives in order to make money for someone who could not care less about us? No, not really. Do we have the freedom to enjoy the beauty of the natural world around us, unrestricted by ridiculous notions of “private property” or land development carving everything up? Not one bit. Do we have the freedom to know that our land, water, and future will exist in harmony with the world around us, and that we can raise a family and contribute to a community off of that land and water, without destroying any of it?&lt;/p&gt;
+
+&lt;p&gt;No. Absolutely not. Not in the world of retail “freedom” we’ve built for ourselves, anyway. Even if a few of us enjoy a few freedoms, no one is truly free until we all are.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-am-i-getting-at&quot;&gt;What am I getting at?&lt;/h2&gt;
+
+&lt;p&gt;When the current occupation of Ottawa talks about “freedom”, I think of it the same way as I think of a politician talking about “the economy”. None of it matters, really. It’s all an illusion and it does not help anyone - except for the tiny handful of folks who already have power and control over the rest of us.&lt;/p&gt;
+
+&lt;p&gt;All of the current talk about &lt;a href=&quot;https://www.bbc.com/news/world-us-canada-60297364&quot;&gt;antagonzing the locals&lt;/a&gt;, &lt;a href=&quot;https://nationalpost.com/opinion/rex-murphy-freedom-convoy-protests-have-exposed-the-deep-divisions-in-our-nation&quot;&gt;causing division among Canadians&lt;/a&gt;, and &lt;a href=&quot;https://www.cbc.ca/news/politics/truckers-vaccine-vandetta-conservative-mps-1.6325761&quot;&gt;staunch political lines&lt;/a&gt; is not important in the context of &lt;em&gt;real&lt;/em&gt; freedom. Like &lt;a href=&quot;https://financialpost.com/opinion/theres-a-good-reason-the-immigration-debate-in-canada-is-calmer-than-in-the-u-s&quot;&gt;“debates” around immigration&lt;/a&gt;, &lt;a href=&quot;https://nypost.com/2020/08/08/why-millennials-distaste-for-baby-boomers-is-justified/&quot;&gt;generational divides&lt;/a&gt;, or &lt;a href=&quot;https://www.npr.org/sections/thesalt/2014/11/12/363580928/40-percent-of-the-worlds-cropland-is-in-or-near-cities&quot;&gt;the urban/rural split&lt;/a&gt;, it is all just another set of tools to keep us squabbling.&lt;/p&gt;
+
+&lt;p&gt;When I say “us”, I mean the amalgamation of folks in poverty, those who barely scrape by, the working poor, the middle classes, and even those who make a pretty decent living. We are all in the same world and “freedom” has never been a part of it - at least not since our species has had a ruling class.&lt;/p&gt;
+
+&lt;p&gt;So, the next time you get riled up about the freedom protests and find yourself in an argument with someone else - whether you’re &lt;em&gt;for&lt;/em&gt; or &lt;em&gt;against&lt;/em&gt; the current situation* - remember what’s really happening. You aren’t arguing about the freedom to live a high quality life of health, peace, and leisure. You’re arguing about what label is best on the slop that the ruling classes see fit to let us have access to.&lt;/p&gt;
+
+&lt;p&gt;Maybe if we stop looking at the freedom to go shopping and instead examine the freedom (for ALL of us) to live a life with more meaning and less misery, we’ll actually be able to achieve something. Remember - this is what the rulers do not want. That’s why they work so hard to make sure we spend our time squabbling and forming camps, instead of standing up and working together.&lt;/p&gt;
+
+&lt;p&gt;Every single one of us should absolutely be angry, confused, exhausted, and scared. But we’re mistaken when we take it out on one another.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;small&gt;*Obviously, if you (or the other person) are arguing that people who don’t look like you/them, love the same people, come from the same culture, share the same beliefs, have the same abilities, or express their gender in the same way somehow deserve less rights, freedoms, or quality of life, you (or that person) are a complete asshole and I highly recommend returning to your/their favourite position of head planted firmly up one’s own ass.&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">When I wrote about being a recovering political junkie a couple of weeks ago, I briefly touched on the little convoy of trucks heading still for Ottawa. It is fair to say that in the days since then, things have escalated. For over a week, the small-but-loud convoy has ballooned into a full-out occupation of Canada’s capital city - with the outstated goal of ending mandates, restrictions, and other measures related to the pandemic in order to restore rights and freedoms.</summary></entry><entry><title type="html">Confessions of a (recovering) political junkie</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2022/01/26/confessions-of-a-political-junkie.html" rel="alternate" type="text/html" title="Confessions of a (recovering) political junkie" /><published>2022-01-26T00:00:00-05:00</published><updated>2022-01-26T00:00:00-05:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2022/01/26/confessions-of-a-political-junkie</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2022/01/26/confessions-of-a-political-junkie.html">&lt;p&gt;Remember &lt;a href=&quot;https://www.theglobeandmail.com/politics/federal-election/2021-results/&quot;&gt;that (Canadian) federal election last year&lt;/a&gt;? It’s ok if you don’t. We all had bigger things to deal with that made it tough to muster any excitement for the political game. I remember it for one main reason: it was the first time in 17 years of being able to vote that I very nearly didn’t bother.&lt;/p&gt;
+
+&lt;p&gt;If you don’t know me, this probably isn’t anything remarkable. &lt;a href=&quot;https://en.wikipedia.org/wiki/Voter_turnout_in_Canada&quot;&gt;Plenty of people don’t vote&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you do know me - especially pre-pandemic - you know this is a substantial change of heart. I’ve long been one of those blowhard “exercise your democratic right/responsibility” types, preaching the power of voting and political engagement as the primary tool for driving meaningful change. To believe anything different or to “throw away” your vote was essentially committing heresy against the democratic religion.&lt;/p&gt;
+
+&lt;p&gt;Yeah, I know. I’m cringing too.&lt;/p&gt;
+
+&lt;p&gt;So, what happened? What could turn nearly two decades of indoctrinated fervour over on its head so suddenly?&lt;/p&gt;
+
+&lt;p&gt;You guessed it: &lt;em&gt;the pandemic&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For those of you in another time (or maybe unstuck from it altogether), folks my age refer to the global spread of COVID-19 throughout 2020, 2021, 2022, and probably well beyond as “THE Pandemic”. Kind of like how folks alive from 1914-1918 called &lt;a href=&quot;https://en.wikipedia.org/wiki/World_War_I&quot;&gt;that feud between European empires&lt;/a&gt; “The Great War.” I’m sure that sounds hilariously quaint to my future readers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The pandemic has done a lot of damage to an awful lot of people. Obviously the &lt;a href=&quot;https://www.worldometers.info/coronavirus/coronavirus-death-toll/&quot;&gt;death and long-term illness rates&lt;/a&gt; are a significant factor. Apart from having a couple of friends and colleagues struggling with “&lt;a href=&quot;https://www.webmd.com/lung/what-is-long-covid-pasc#1&quot;&gt;Long COVID&lt;/a&gt;”, I’m very fortunate to have seen very little of that side of the tragedy close up. I’m also very fortunate that I’ve not only been employed the entire time, but have been a part of “&lt;a href=&quot;https://en.wikipedia.org/wiki/Great_Resignation&quot;&gt;The Great Resignation&lt;/a&gt;” (twice, actually) during the pandemic. I’ve even been part of &lt;a href=&quot;https://www.forbes.com/sites/rogertrapp/2021/09/29/the-shift-to-remote-working-is-just-the-start-now-it-must-get-better/?sh=7608c1646982&quot;&gt;that permanent shift to remote work&lt;/a&gt; and have no intentions of wasting any more of my life in someone else’s office.&lt;/p&gt;
+
+&lt;p&gt;I don’t say any of this to brag. I offer it as context. My own individual experience, at least when it comes to employment, has been the kind of steady and predictable that I know many, many people would give anything to have at this point. I recognize this and do my best to keep it in mind at all times.&lt;/p&gt;
+
+&lt;p&gt;On a family level, things have been much less stable and reliable. My wife was laid-off in the first few weeks of the pandemic in the most callous and inhumane way that could only be dreamed up by a tech company. She has found employment since then (also twice), but it has left a permanent mark. My oldest son started the pandemic as a bright-eyed and promising kindergartner, making friends and learning to navigate the social world. Now, he’s in second grade and struggling, like most kids his age, with the constant shifts back-and-forth from online learning at home, to stripped-down antisocial school in person. My youngest has thankfully been in a home daycare the entire time, which has stayed open as much as the province of Ontario has allowed - but even he is struggling with basics like potty training and pronunciation because his parents are so burned out and struggling to get through the days.&lt;/p&gt;
+
+&lt;p&gt;Extended family and social circles have been a broad range of experiences. From layoffs, to underemployment, to collapsing small businesses, to mental health crisis, burnout, and extreme isolation - things have been dark.&lt;/p&gt;
+
+&lt;p&gt;I’m writing all this to paint a picture of the world we’re currently in and the absolute shit-storm we’ve been living through. To put it mildly: things haven’t been great.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-how-does-this-lead-to-an-apathetic-outlook-of-politics&quot;&gt;So, how does this lead to an apathetic outlook of politics?&lt;/h2&gt;
+
+&lt;p&gt;In times like these, while people are struggling - burned out, exhausted, barely (if at all) surviving - we should be able to rely on the vision and leadership of the people we elect to represent us. This is what emergency funds and government bodies are meant to handle. Day-to-day socio-economic functioning in “normal” times of lesser crisis can basically be run on autopilot; but the desperate times are when we must be able to rely on the people in power to see us through. At least, that’s the story we’ve been sold time and time again - from Churchill addressing the UK during long nights of blitzkrieg, to Obama selling “hope” and pushing for universal healthcare as a path to recovering from the previous great recession.&lt;/p&gt;
+
+&lt;p&gt;Obviously, politicians are human beings too (allegedly, at least). As such, they deserve the same compassion and understanding that we all do when it comes to struggling through the defining crisis of this decade (so far). They very likely also have friends and family who are suffering, sick, and dying. They may stumble and make a few miscalculations, but we should trust that they’re doing all they can to get us all back on track, right?&lt;/p&gt;
+
+&lt;h3 id=&quot;right&quot;&gt;Right?&lt;/h3&gt;
+
+&lt;p&gt;The “in this together” message carried a lot of weight early on, especially in those first few months of shock and confusion. During those long ago days, we shared schlocky stuff like &lt;a href=&quot;https://www.youtube.com/watch?v=bQK32bwvRuI&quot;&gt;that infamous Imagine video&lt;/a&gt;, because it felt like even the rich and famous were stuck at home like the rest of us. &lt;a href=&quot;https://en.wikipedia.org/wiki/Saturday_Night_Live_at_Home&quot;&gt;Late night television worked from home&lt;/a&gt; for a little while, while comedians produced &lt;a href=&quot;https://en.wikipedia.org/wiki/Saturday_Night_Live_at_Homehttps://en.wikipedia.org/wiki/Bo_Burnham:_Inside&quot;&gt;ground-breaking specials from the confines of a single room&lt;/a&gt;. Even an &lt;a href=&quot;https://www.ctvnews.ca/politics/pm-trudeau-plans-to-keep-working-from-home-1.4871202&quot;&gt;unshaven and shaggy-haired Trudeau was giving press conferences from his front steps&lt;/a&gt;. For once, it felt like the rich and powerful were on the same level as the rest of us. Sure, they weren’t stuck working for minimum wage and &lt;a href=&quot;https://nypost.com/2021/09/09/anti-mask-karen-fired-over-viral-grocery-store-coughing-video/&quot;&gt;being screamed and coughed at by maskless Karens&lt;/a&gt; - but they were making adjustments for the situation at hand!&lt;/p&gt;
+
+&lt;h3 id=&quot;right-1&quot;&gt;Right…?&lt;/h3&gt;
+
+&lt;p&gt;And that’s pretty much where the pandemic stopped for the ruling class. Once masks came into the picture, while lockdowns were still in full strength for most of us, our politicians were free to continue flying, travelling, and attending global events. And the wealthy were too, of course. Pretty soon, the most realistic televised depiction of the pandemic was coming from &lt;a href=&quot;https://www.indiewire.com/2021/08/succession-season-3-ignores-covid-wealthy-people-1234660723/&quot;&gt;shows about rich people that chose to ignore it altogether&lt;/a&gt;. While mandating vaccines became the debate topic du jour leading into that 2021 election, many of us were still struggling to access a first shot. By now, it has become obvious that &lt;a href=&quot;https://www.ctvnews.ca/canada/so-many-angry-people-experts-say-online-conversation-around-trucker-convoy-veering-into-dangerous-territory-1.5754580&quot;&gt;the stick-over-carrot approach to vaccines has been failing&lt;/a&gt; for a variety of reasons - yet politicians, news reports, and public tastemakers can’t (or won’t) see this. The pandemic has been in the past for them for so long at this point that they literally can’t understand why people are still angry, exhausted, and feeling left behind.&lt;/p&gt;
+
+&lt;h2 id=&quot;were-all-in-this-together-has-quickly-become-what-the-fuck-is-wrong-with-you&quot;&gt;“We’re all in this together” has quickly become “what the fuck is wrong with you?”&lt;/h2&gt;
+
+&lt;p&gt;I’m not saying that vaccines are bad or that the folks raging against them are entirely justified, mind you. I am only trying to illustrate the level of nuance, compassion, empathy, and understanding that many of us have to exercise on a daily basis while making tough decisions about what’s best for ourselves, our families, and the communities we’re a part of. The burden of this grey-area on each individual is too much to bear - and it’s causing much of the stress and burnout we’re all slogging through. Respecting everyone around you as a living, breathing human being with thoughts, feelings, fears, and their own bundles of trauma, and treating them with dignity and compassion is exhausting! It is absolutely the right thing to do - and arguably something we should always be doing - but it doesn’t make it any less of a pile of stress. It is also the thing we are supposed to be able to look to our leaders to model and display as an example for all of us.&lt;/p&gt;
+
+&lt;p&gt;But this isn’t the case for politicians. From their bird’s-eye-view of the pandemic as an event in past, everything is a clean divide between party lines. It doesn’t matter what each person in the wider public thinks - they’re either right or wrong on an ideological level and deserve acceptance or scorn as result. Forget the incurable rifts between families or incalculable impact of deaths and illness. Don’t mind the generations of trauma that will need to be processed and treated. Who cares about the extreme burnout and mental health risks of low-wage workers, teachers, parents, and others who have borne the brunt of this pandemic! None of it matters to a political class who has been shielded from all of this by party lines and a thick layer of public money.&lt;/p&gt;
+
+&lt;p&gt;This has gone considerably off track and you can certainly see that I, like all of us, am still working through a lot at this stage of the pandemic. I am fucking exhausted. Every day, I get to feel like a complete failure as a parent, partner, employee, and person in the world - and I have it easy compared to many!&lt;/p&gt;
+
+&lt;p&gt;I’ve stopped believing in politics as a solution to our situation because it has become increasingly obvious that we live in a failed state. Politicians and the political class exist only to reinforce the status quo - regardless of their party or stated ideology. They have no imagination or vision of a future - and a complete lack of will or desire to dream anything up. Generations of nothing but the same, as we teeter back-and-forth between two brands of mayonnaise, has left me with little energy to get worked up over the next hand-off between the red and blue logos.&lt;/p&gt;
+
+&lt;p&gt;I have much, &lt;em&gt;much&lt;/em&gt; more to say on the lack of vision or imagination in politics, but this piece has gone on for long enough. Take care of one another. Focus on the family, friends, and community around you and ignore the empty suits, selling snake oil. The future is people, and our only path forward is together - even if we don’t agree on anything.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">Remember that (Canadian) federal election last year? It’s ok if you don’t. We all had bigger things to deal with that made it tough to muster any excitement for the political game. I remember it for one main reason: it was the first time in 17 years of being able to vote that I very nearly didn’t bother.</summary></entry><entry><title type="html">Making stops along the way</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2021/06/06/making-stops-along-the-way.html" rel="alternate" type="text/html" title="Making stops along the way" /><published>2021-06-06T00:00:00-04:00</published><updated>2021-06-06T00:00:00-04:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2021/06/06/making-stops-along-the-way</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2021/06/06/making-stops-along-the-way.html">&lt;p&gt;We’re getting into that summer weather, finally, without another 0-degree day in the forecast for the next few months. Summer signals a few important things every year. For one, it means I’ve made it through the lulls of winter and lows of Smarch, from March to May - full of teases of sun and warmth, but always happy to slap you around with a few more weeks of sub-zero.&lt;/p&gt;
+
+&lt;p&gt;A good friend made a half-joke on Twitter recently about how much the weather has unexpectedly come to rein over his mood as he ages - and I can’t agree more.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;we don’t talk enough about how getting older means becoming way more at the whims of the weather&lt;/p&gt;
+
+  &lt;p&gt;brought to you by my realization that I feel like shit today because it&apos;s……cloudy outside&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://twitter.com/mikesbarnes/status/1395480146916876310?ref_src=twsrc%5Etfw&quot;&gt;@mikesbarnes&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;With the warm weather and sunny days, summer also means energy. I have the energy to tackle projects, get back to more running, and spend quality time with the kids without being (as) completely exhausted by every bit of effort. Having the energy to do more than just barely survive means I have the energy to care again - to read and absorb more about topics I care about but can’t always budget the emotional, cognitive, or physical energy to put into.&lt;/p&gt;
+
+&lt;p&gt;Summer also means &lt;strong&gt;The Tragically Hip&lt;/strong&gt;. They kicked this one off with a &lt;a href=&quot;https://thehip.com/pages/saskadelphia&quot;&gt;new album of thought-lost tracks&lt;/a&gt; just in time for the May 2-4 weekend and it’s already a national treasure. The &lt;a href=&quot;https://musiccanada.com/charts/2021-05-31/#albums:~:text=The%20Tragically%20HipSaskadelphia&quot;&gt;Canadian charts agree&lt;/a&gt;, too. My vinyl copy is currently lost somewhere in a Canada Post warehouse, like the crated Ark at the end of Raiders. Fortunately, on my recent push to collect &lt;strong&gt;The Hip&lt;/strong&gt;’s albums on vinyl, I have my beloved copy of &lt;em&gt;Fully Completely&lt;/em&gt; to get the summer started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/belwerks-site-2023/assets/fully-completely.jpg&quot; alt=&quot;Album art and vinyl copy of The Tragically Hip&apos;s 1993 Fully Completely&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love music, but I frequently find myself dazing out to lyrics. I’ll have a few stick in my head, but they rarely grab me like the instrumentation does. Gord Downie’s lyrics aren’t like this. They hook me and dig right in. The man’s poetry has always caught me like he’s fishing for dinner, rather than catch-and-release. Songs like “Courage (for Hugh MacLennan)” grab me in a way I’ve seldom encountered with other music. I love following Gord’s web of references and influences - and I have a growing shelf of Hugh MacLennan paperbacks to prove it!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/belwerks-site-2023/assets/maclennan-books.jpg&quot; alt=&quot;Shelf of paperback spines, featuring Hunter S. Thompson, Margaret Atwood, Kurt Vonnegut Jr., and three books from Hugh MacLennan&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This time around, “Looking For a Place to Happen” was the track that grabbed me. I’ve liked the starting verse for years, since first hearing it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Got a job &lt;br /&gt;
+I explore &lt;br /&gt;
+I follow every little whiff &lt;br /&gt;
+and I want my life to smell like this &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And, of course, the main chorus:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Looking for a place to happen &lt;br /&gt;
+making stops along the way&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I love the picture painted of a person who isn’t just exploring, but who is free to wander, follow whims (or whiffs), and search out a place that grabs them. Pair that with the “making stops along the way” line, and I start to feel that kind of connection I haven’t had since “Courage”.&lt;/p&gt;
+
+&lt;p&gt;Seriously - you can ask my running buddy how much of a 15km run I recently spent talking his ear off about &lt;em&gt;The Watch that Ends the Night&lt;/em&gt; and that &lt;a href=&quot;http://www.hipmuseum.com/hugh.html#:~:text=Paraphrased%20directly%20from%20the%20below%20passage%20in%20%22The%20Watch%20That%20Ends%20The%20Night,%22%20this%20verse%20is%20a%20modern%20%22Carpe%20Diem%22%20for%20MacLennan%20and%20embodies%20the%20message%20in%20%22Courage:%22&quot;&gt;beautiful “human tragedy” verse borrowed by Downie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/courage-still.png&quot; alt=&quot;Gord Downie, bathed in shadows blue light, singing there&apos;s no simple explanation&quot; /&gt;
+  &lt;figcaption&gt;Still from the &lt;a href=&quot;https://youtu.be/FhpezwGtDEg?t=114&quot;&gt;video for &lt;em&gt;‘Courage (for Hugh MacLennan)’&lt;/em&gt;&lt;/a&gt; as Gord Downie hits that brillant passage from the novel that helped inspire the song.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Summer also brings my birthday at the end of July. Another year means I spend some time reflecting on the person I am, I’d like to be, and the one I’ve mostly left behind. “Making stops along the way”, for me, helps sum up something which has taken most of my life to realize, acknowledge, and start to lean into. I love to explore. I love to follow every little whiff. And while I don’t always know where I’m going or what I want out of life, I certainly make many stops along the way. For me, the fun of life is to figure things out - even if it hurts, leads down dark paths, or just takes a really long time. I take the long way around with just about everything. I like to think of it as the scenic route.&lt;/p&gt;
+
+&lt;p&gt;There’s a reason I dropped out of university after one year. I don’t learn from sitting in a big room and being told about the world. Passive knowledge is not for me. It might be a cognitive limitation, but it’s something I’ve learned to accept and live with. There’s a reason why I’ve excelled at agency and consulting work, too - I like quickly learning about new worlds, people, industries, audiences, and then moving on when I’m done. This is just me and I’m working on making the best of it.&lt;/p&gt;
+
+&lt;p&gt;So, with all this in mind, I naturally wanted to learn more about Gord’s influences and intentions with this particular song. I knew &lt;a href=&quot;https://www.youtube.com/watch?v=nfKr-D5VDBU&quot;&gt;Jacques Cartier is named as the explorer&lt;/a&gt;, and there are &lt;a href=&quot;https://www.lyrics.com/lyric/26822957/Looking+For+a+Place+to+Happen&quot;&gt;references to people showing up and sticking around&lt;/a&gt;, but that was about it. If you &lt;a href=&quot;http://www.hipmuseum.com/looking.html&quot;&gt;look into the meaning yourself&lt;/a&gt;, you’ll find it collides quite heavily with a great, big, awful part of Canada’s colonial history which has &lt;a href=&quot;https://www.cbc.ca/news/canada/british-columbia/tk-eml%C3%BAps-te-secw%C3%A9pemc-215-children-former-kamloops-indian-residential-school-1.6043778&quot;&gt;exploded back into the news in recent weeks&lt;/a&gt; (&lt;strong&gt;content warning for that link&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;And &lt;em&gt;this&lt;/em&gt; is why I love &lt;strong&gt;The Tragically Hip&lt;/strong&gt; and Gord Downie. The band and its front man are a big part of the small collection of things that I still love about Canada. And that’s an increasingly tough thought to wrap my head around - especially while the &lt;a href=&quot;https://www.thecanadianencyclopedia.ca/en/article/genocide-and-indigenous-peoples-in-canada&quot;&gt;country’s heinous ongoing history&lt;/a&gt; (&lt;strong&gt;content warning for that link&lt;/strong&gt;) is back on the front burner.&lt;/p&gt;
+
+&lt;p&gt;I’m thankful that summer is here. The energy to care about bigger things is back in my life, and once again, &lt;strong&gt;The Hip&lt;/strong&gt; has helped keep me pointed where I want to be and finding the whiff I’d like my home to follow. I’m here, &lt;a href=&quot;https://heynova.io/blog/whats-the-deal-with-colour-contrast/&quot;&gt;I’m writing again&lt;/a&gt;, and I’m looking for my way to make things happen - even if I have made stops along the way.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/qMpflB1kgNo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="life" /><summary type="html">We’re getting into that summer weather, finally, without another 0-degree day in the forecast for the next few months. Summer signals a few important things every year. For one, it means I’ve made it through the lulls of winter and lows of Smarch, from March to May - full of teases of sun and warmth, but always happy to slap you around with a few more weeks of sub-zero.</summary></entry><entry><title type="html">YouTube doesn’t have to be awful</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2021/02/22/youtube-doesnt-have-to-be-awful.html" rel="alternate" type="text/html" title="YouTube doesn’t have to be awful" /><published>2021-02-22T00:00:00-05:00</published><updated>2021-02-22T00:00:00-05:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2021/02/22/youtube-doesnt-have-to-be-awful</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2021/02/22/youtube-doesnt-have-to-be-awful.html">&lt;p&gt;YouTube can be, and mostly is, awful. I’m not talking about the general proliferation of unboxing, reaction, or livestream videos. Those are very much not my thing, but a lot of people enjoy them and they’re mostly harmless. I have my enjoyable trash and you have yours.&lt;/p&gt;
+
+&lt;p&gt;I’m talking about the hate-breeding swamp of grifters and loathsome goons who live in symbiosis with YouTube’s toxic recommendation engine and autoplay funnel.&lt;/p&gt;
+
+&lt;h2 id=&quot;was-it-always-like-this&quot;&gt;Was it always like this?&lt;/h2&gt;
+
+&lt;p&gt;I first encountered YouTube in the summer of 2006. I was up in Toronto for a few days from New Brunswick, looking for an apartment with my soon-to-be roommate, Arthur. On a break between scouring the Annex neighbourhood for listings, he fired up his computer to show me a new video sharing platform. We spent the next couple of hours watching Skinny Puppy music videos and David Lynch interview clips. It was awesome.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/david-lynch-iphone.png&quot; alt=&quot;close up of director david lynch&apos;s face with a microphone in front of him and a red curtain in the background&quot; /&gt;
+  &lt;figcaption&gt;David Lynch famously &lt;a href=&quot;https://www.youtube.com/watch?v=wKiIroiCvZ0&quot;&gt;dissing film watching on iPhones&lt;/a&gt; circa 2008 (not 2006, I know).&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That’s really all it was in the beginning. A cool platform for people to upload, watch, share, and comment on videos. I have &lt;a href=&quot;https://www.youtube.com/watch?v=jOYA5IQbntU&quot;&gt;a few old ones up&lt;/a&gt; since that era for exactly that purpose. It was because of this that YouTube wound up being a massive mainstream phenomenon which inevitably (sadly) led to a huge market valuation and eventual &lt;a href=&quot;https://en.wikipedia.org/wiki/History_of_YouTube#:~:text=On%20October%209%2C%202006%2C%20it,was%20Google&apos;s%20second%2Dlargest%20acquisition&quot;&gt;acquisition by - who else - Google&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s where the sinister parts really started coming into play. YouTube was originally more-or-less a public service without much of a revenue model. For the first years under Google’s looming shadow, it continued in mostly the same vein. Over time, however, YouTube became an advertising and data harvesting platform, deeply tied into Google’s search, analytics, and marketing monopoly. Whatever primitive recommendation programming existed before, based on titles, tags, length, author, etc., was rewritten and over-engineered in that distinctly “big tech” way that we’re all so painfully familiar with by now. Rather than enjoying some fun stuff from creators around the globe, YouTube’s prime objective became keeping your eyes glued to their parade of ads while logging your habits for as long as possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-rabbit-hole&quot;&gt;The rabbit hole&lt;/h2&gt;
+
+&lt;p&gt;This becomes a vicious cycle because content creators know very, very well how this works. They generate regular, scheduled videos of a sweet-spot length to attract as much viewership and circulation as possible while delicately stepping around banned words or subject matter that will get a video de-monetized. YouTube rewards regularly published content of a specific length because it allows them to sell targeted ads to a constant, captive audience. They profit from wider reach and more views because that means more people watching ads and feeding more viewing data into the platform. They punish words and thoughts which generate complaints or controversy for their advertisers.&lt;/p&gt;
+
+&lt;p&gt;While contributing to the ocean of dumb, trashy content (again, no judgement), it also generates the perfect environment for spewing hate, cooking up reactionary rage, and radicalizing those who are particularly susceptible to that variety of content.&lt;/p&gt;
+
+&lt;p&gt;The next time YouTube recommends a pile of videos to populate your feed, ask yourself a few questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do I already agree with what they’re showing me?&lt;/li&gt;
+  &lt;li&gt;Am I being fed simple answers to the things that frustrate me?&lt;/li&gt;
+  &lt;li&gt;Would my friends and family be uncomfortable with what I’m watching?&lt;/li&gt;
+  &lt;li&gt;Is this just making me angry?&lt;/li&gt;
+  &lt;li&gt;Is this content giving me a target person or group for my anger?&lt;/li&gt;
+  &lt;li&gt;Am I jumping into the comments and duking it out while watching the video?&lt;/li&gt;
+  &lt;li&gt;Will I likely share this on other social media platforms?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/youtube-recs.png&quot; alt=&quot;grid of dozens of youtube thumbnails&quot; /&gt;
+  &lt;figcaption&gt;Revealing my recommendations, packed with bread tube, news clips, and late night hosts feels very intrusive.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;so-what-can-you-do&quot;&gt;So what can you do?&lt;/h2&gt;
+
+&lt;p&gt;Take the questions above for a start. You may not think of it, but &lt;a href=&quot;https://www.cnbc.com/2018/02/13/youtube-is-causing-stress-and-sexualization-in-young-children.html&quot;&gt;YouTube is a powerful drug&lt;/a&gt;. Many factors, including video editing, music choice, timing of ads and auto-play, clickbait titles, and larger concerns around &lt;a href=&quot;https://www.theverge.com/2018/9/17/17832948/youtube-youtubers-influencer-creator-fans-subscribers-friends-celebrities&quot;&gt;manipulation and parasocial dynamics&lt;/a&gt; all combine to block your brain’s critical thinking abilities and leave you open to the worst kinds of grifters.&lt;/p&gt;
+
+&lt;p&gt;Here are a few suggestions for keeping your defences up and your brain intact.&lt;/p&gt;
+
+&lt;h3 id=&quot;down-with-autoplay&quot;&gt;Down with autoplay&lt;/h3&gt;
+
+&lt;p&gt;Disable autoplay. Just do it. &lt;a href=&quot;https://support.google.com/youtube/answer/6327615?hl=en&amp;amp;co=GENIE.Platform%3DAndroid&quot;&gt;Disable it on every device you use&lt;/a&gt;. If you are going to watch 10 videos in a row, you should be choosing each one of them. They may be garbage, but at least they’ll be your garbage. There are numerous stories, told by people who have recovered from radicalization, of how &lt;a href=&quot;https://www.youtube.com/watch?v=bWLvW3xEIQw&quot;&gt;the autoplay and recommendation funnel took them from cringe compilations down a dark and filthy tunnel&lt;/a&gt; straight to red pilling and incel-dom.&lt;/p&gt;
+
+&lt;h3 id=&quot;stay-out-of-the-comments&quot;&gt;Stay out of the comments&lt;/h3&gt;
+
+&lt;p&gt;Avoid browsing the comments. There be all variety of trolls and monsters in there. Even the most innocuous children’s videos can be poisoned with a desolate ocean of goons in the comments. For every good one, there’ll be a dozen Russian bots and copy-pasted conspiracy theories.&lt;/p&gt;
+
+&lt;h3 id=&quot;suspect-recommendations&quot;&gt;Suspect recommendations&lt;/h3&gt;
+
+&lt;p&gt;If YouTube recommends you a video or channel, regard it with utmost suspicion. They will only recommend what is most likely to pull you in for longer and engage more actively. This is not about your interests — it is about your eyeballs and sweet, sweet data.&lt;/p&gt;
+
+&lt;h3 id=&quot;challenge-assumptions&quot;&gt;Challenge assumptions&lt;/h3&gt;
+
+&lt;p&gt;Are you watching only content you agree with? We’re all trapped in increasingly smaller bubbles based around our interests, fears, experiences, politics, and preferences. Poke your head out for air now and then. Watch something you wouldn’t think you’d like.&lt;/p&gt;
+
+&lt;h3 id=&quot;seek-outside-perspectives&quot;&gt;Seek outside perspectives&lt;/h3&gt;
+
+&lt;p&gt;YouTube can be one hell of an empathy machine if you use it right. Like the internet in general, the platform gives you access to the thoughts and experiences of people around the globe. Try it out now and then. Check out videos from creators who don’t match your race, gender, orientation, age, or background. If you’re like me (30-something straight, cis, white male), this step is even more important. If you look like me, you are very likely to encounter a lot of bad ideas online from other guys who look like us.&lt;/p&gt;
+
+&lt;h3 id=&quot;beware-the-explainer&quot;&gt;Beware the explainer&lt;/h3&gt;
+
+&lt;p&gt;Did you know explainers are their own genre now? You can search and filter by them. The format is flexible but the mechanism is simple: a host or narrator walks through concepts and points, building a rhetorical argument and pulling you in. These can be riddled with deceptive or downright fabricated facts and evidence. They exist to drive a thought into your skull and convince you it is true. YouTube does not require citations or a comprehensive bibliography — there is no fact checking. Much as I hate to admit it, this goes for documentaries too.&lt;/p&gt;
+
+&lt;h3 id=&quot;anger-leads-to-hate&quot;&gt;Anger leads to hate&lt;/h3&gt;
+
+&lt;p&gt;I can’t stress this one enough: avoid content that riles you up. If the creator you’re absorbing is raging against a group - especially those less powerful or privileged than they are - tread carefully! This is a gateway through the radicalization funnel that YouTube is uniquely gifted at providing. If you share those same attributes as me (listed a couple of sections back), this is an especially vital one. Historically, when guys who look like us get angry people get hurt.&lt;/p&gt;
+
+&lt;h3 id=&quot;curb-your-conspiracy&quot;&gt;Curb your conspiracy&lt;/h3&gt;
+
+&lt;p&gt;No one should have to say this one, but conspiracy theories can lead down dark, toxic, dangerous paths. Always be critical about the wider world, but if your skepticism uncovers a shadowy cabal of international elites, you are well on your way down the rabbit hole.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/fresh-avacado.png&quot; alt=&quot;taco restaurant sign with spaced apart letters reading &amp;quot;fr e sh a voca do&quot; /&gt;
+  &lt;figcaption&gt;You have your makeup tutorials and I have my &lt;a href=&quot;https://youtu.be/8rDNZ5Ebwsc?t=72&quot;&gt;FREE SHAVACADOO!&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I could write another couple of thousand words on this, but I’ll leave it here. I enjoy YouTube for a lot of stuff. I use it to learn just about everything related to woodwork - from &lt;a href=&quot;https://www.youtube.com/watch?v=qSbS5zhH7cE&quot;&gt;keeping my fingers intact&lt;/a&gt; to the finer details of &lt;a href=&quot;https://www.youtube.com/watch?v=JcaV5jWpR1k&quot;&gt;crafting my own hand tools&lt;/a&gt;. Everything I’ve learned about the &lt;a href=&quot;https://www.youtube.com/watch?v=EdvM_pRfuFM&quot;&gt;perspectives and life experiences of transgender&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=N35D1jko6wA&quot;&gt;non-binary people&lt;/a&gt; has been from YouTube, and I feel I’m growing as a person because of it. Same goes for my scratching-the-surface level of learning about &lt;a href=&quot;https://www.youtube.com/watch?v=3dJ7_7VpR6k&quot;&gt;the experience of black&lt;/a&gt;, brown, &lt;a href=&quot;https://www.youtube.com/watch?v=A6MT6Qg9J7c&quot;&gt;indigenous&lt;/a&gt;, and other people navigating life in modern North America. And then there are plenty of video essays about &lt;a href=&quot;https://www.youtube.com/watch?v=hdxk7dB9yeU&quot;&gt;Zack Snyder’s awful DC universe&lt;/a&gt;, or hours of dashcam crashes and &lt;a href=&quot;https://www.youtube.com/watch?v=8rDNZ5Ebwsc&quot;&gt;Vine compilations&lt;/a&gt;. We all have our trash.&lt;/p&gt;
+
+&lt;p&gt;YouTube has the power and potential to be a great tool for bettering humanity. We just need to tweak some features, update settings, change the channel, and maybe shut it off once in a while.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">YouTube can be, and mostly is, awful. I’m not talking about the general proliferation of unboxing, reaction, or livestream videos. Those are very much not my thing, but a lot of people enjoy them and they’re mostly harmless. I have my enjoyable trash and you have yours.</summary></entry><entry><title type="html">Should I stay or should I go?</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2021/01/27/should-i-stay-or-should-i-go.html" rel="alternate" type="text/html" title="Should I stay or should I go?" /><published>2021-01-27T00:00:00-05:00</published><updated>2021-01-27T00:00:00-05:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2021/01/27/should-i-stay-or-should-i-go</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2021/01/27/should-i-stay-or-should-i-go.html">&lt;p&gt;I quit Twitter a couple of years back. I’d been on it since 2011 and had built a decent-sized community of web developers, accessibility advocates, political progressives, and a healthy mix of friends and previous co-workers. Conferences and professional events were fun, as it made for a nice list of new follows and let me reach out to celebrate peoples’ work when I was much, much too nervous to speak with them in person.&lt;/p&gt;
+
+&lt;p&gt;Like many other things in life, the taint of Trump, wafting up from down South, made Twitter utterly unbearable. Mind you, the platform has been a hive of scum and villainy for years prior - but MAGA really opened the floodgates of people believing (correctly, as it would mostly seem) that they’d no longer be judged for their awful, bigoted views.&lt;/p&gt;
+
+&lt;p&gt;2016-2018 was a bad stretch for doom scrolling. It impacted my family life, my sleep, my level of irritation and radicalization – really, it was just generally awful all around. So, I left. I deleted my Twitter account and ditched all the community I had been building for years. I also deleted Instagram and locked down privacy and sharing on Facebook.&lt;/p&gt;
+
+&lt;p&gt;Flash forward to mid 2020, and I’m tuning in for &lt;a href=&quot;https://inclusivedesign24.org/2020/&quot;&gt;#ID24, the annual free online inclusive design conference&lt;/a&gt;. Every single speaker would put up their Twitter handle at the end of a talk and nudge the conversation into that sphere. For the first major time since leaving, I really, really missed the positives of Twitter.&lt;/p&gt;
+
+&lt;p&gt;So, reluctantly, &lt;a href=&quot;https://twitter.com/belwerks/status/1306425902788685825&quot;&gt;I signed back up&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/belwerks/status/1306426619712679938&quot;&gt;regained my old @belwerks handle&lt;/a&gt; pretty easily. I immediately started following and &lt;a href=&quot;https://twitter.com/belwerks/status/1306739938868817920&quot;&gt;engaging with everyone in attendance or speaking&lt;/a&gt; at the conference. Many of them were people I’d previously followed and/or interacted with on the platform. It was nice.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/first-tweet.png&quot; alt=&quot;tweet from belwerks reads &apos;I&apos;m back. The accessibility community is too Twitter-centric for me to keep off of Twitter. Does anyone know how to reclaim an old handle?&apos;&quot; /&gt;
+  &lt;figcaption&gt;First Tweet… for the second time.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;One key difference this time around has been the &lt;a href=&quot;https://twitter.com/belwerks/status/1306591911571066880&quot;&gt;establishment of some ground rules&lt;/a&gt;. I won’t follow companies, political figures, celebrities, or really any other avenues of blatant marketing and promotion. I will also never log into Twitter on my phone again. Or laptop. It stays on my iMac desktop, where I have to go to my study and fire it up on purpose. Same with Facebook.&lt;/p&gt;
+
+&lt;p&gt;I quickly built up a nice, positive feed of accessibility advocates and inclusive designers. Coincidentally, this also wound up with a progressive-minded feed, as far as political opinions go. Funny how that works, eh? It’s almost like compassion and empathy correlates with a particular side of the political spectrum…&lt;/p&gt;
+
+&lt;p&gt;It’s still impossible to avoid politics altogether - as I care deeply about human progress, equality, and justice, as well as investigative and ethical journalism. I still have doom scrolling moments - especially &lt;a href=&quot;https://twitter.com/belwerks/status/1346927367651008516&quot;&gt;during the recent insurrection attempt&lt;/a&gt; - but it’s easier to step away when it isn’t on my phone or any other portable device. I recommend the same for everyone else.&lt;/p&gt;
+
+&lt;p&gt;In light of all this, you might notice a Twitter icon in my social links and a “keep the discussion going” shout-out at the bottom of every post now. I likely won’t respond right away (or at all, if you’re a dick about it), but I’m hoping it’s a good way to keep up the positive, communal aspects of this often-heinous platform.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">I quit Twitter a couple of years back. I’d been on it since 2011 and had built a decent-sized community of web developers, accessibility advocates, political progressives, and a healthy mix of friends and previous co-workers. Conferences and professional events were fun, as it made for a nice list of new follows and let me reach out to celebrate peoples’ work when I was much, much too nervous to speak with them in person.</summary></entry><entry><title type="html">Pardon my french</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/work/2020/11/19/pardon-my-french.html" rel="alternate" type="text/html" title="Pardon my french" /><published>2020-11-19T00:00:00-05:00</published><updated>2020-11-19T00:00:00-05:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/work/2020/11/19/pardon-my-french</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/work/2020/11/19/pardon-my-french.html">&lt;p&gt;This year has been an active one for me when it comes to writing. I’ve been publishing across four different blog platforms, including some paid – both directly and indirectly. I’m planning to do a nice self-serving piece at the end of 2020 with more on this. Fear not!&lt;/p&gt;
+
+&lt;p&gt;For now, I’ve hit a fun milestone: I’ve now had my work translated to French! I’ve written in French before, though not really since high school essays, but I’ve never had my (somewhat) professional writing translated until this point.&lt;/p&gt;
+
+&lt;p&gt;This one started with a mashup of my three-part epic on the importance of accessibility for &lt;a href=&quot;https://medium.com/healthhub-design&quot;&gt;the HealthHub design team blog&lt;/a&gt;. Our marketing team’s copywriter had the thankless task of composing my bumbling text into a single, comprehensible piece, which was posted in English on the HealthHub website’s news/blog section. From there, the tome was sent to a translator who combed through and did their best to make sense of it. It was an interesting process to be involved in each step of – including a couple of editors in the mix too.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://healthhubsolutions.ca/why-accessibility-matters-insights-from-healthhubs-senior-ui-and-accessibility-designer/&quot;&gt;Read the English monolith&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://healthhubsolutions.ca/fr/why-accessibility-matters-insights-from-healthhubs-senior-ui-and-accessibility-designer/&quot;&gt;Read the french version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="work" /><summary type="html">This year has been an active one for me when it comes to writing. I’ve been publishing across four different blog platforms, including some paid – both directly and indirectly. I’m planning to do a nice self-serving piece at the end of 2020 with more on this. Fear not!</summary></entry><entry><title type="html">Some mutts can’t be muzzled</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2020/11/02/some-mutts-cant-be-muzzled.html" rel="alternate" type="text/html" title="Some mutts can’t be muzzled" /><published>2020-11-02T00:00:00-05:00</published><updated>2020-11-02T00:00:00-05:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2020/11/02/some-mutts-cant-be-muzzled</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2020/11/02/some-mutts-cant-be-muzzled.html">&lt;p&gt;I recently subscribed to &lt;em&gt;Shudder&lt;/em&gt;, the streaming video service for horror fans, and it helped remind me of one key aspect of my being: I friggin’ love horror movies. By the numbers, it is absolutely my favourite genre.&lt;/p&gt;
+
+&lt;p&gt;Way back in 2007, when my wife and I were first hanging out, one of the first “dates” we had (and I’m using that term very, very loosely) consisted of a stop at Suspect Video – &lt;a href=&quot;https://nowtoronto.com/suspect-video-is-closing-down&quot;&gt;a beloved former staple of Toronto’s Annex neighbourhood&lt;/a&gt; – where we rented &lt;em&gt;Sleepaway Camp&lt;/em&gt; on VHS to watch back at my sketchy Bathurst Street apartment. Many of our dates in those early years involved horror movies. From catching Rob Zombie’s &lt;em&gt;Halloween&lt;/em&gt; remake when it was in theatres, to regular cult screenings at Bloor Cinema, to our annual attendance at &lt;a href=&quot;https://torontoafterdark.com/&quot;&gt;the &lt;em&gt;Toronto After Dark&lt;/em&gt; film festival&lt;/a&gt; (starting at Bloor Cinema and later moving to the big downtown Cineplex), horror movies were an important part of our early years together.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/toronto-after-dark.jpg&quot; alt=&quot;nighttime crowd gathered outside a hole-in-the-wall bloor cinema with toronto after dark on the marquee&quot; /&gt;
+  &lt;figcaption&gt;Toronto After Dark crowd lined up outside the Bloor Cinema for &lt;a href=&quot;https://www.vimooz.com/2010/08/19/toronto-after-dark-film-festival-2010-winners/&quot;&gt;this 2010 summary of the festival&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The beauty of horror, to me, is the incredible range of styles, sub-genres, stories, and budgets that fit into that bucket. You can be a die-hard fan of peak 80’s era slashers or Italian cannibal exploitation flicks and be completely cold to big budget haunting pictures or the self-shot night vision aesthetic. Your favourite films can be anything from &lt;em&gt;Evil Dead 2&lt;/em&gt; or &lt;em&gt;A Nightmare on Elm Street 2&lt;/em&gt;, to &lt;em&gt;the Conjuring 2&lt;/em&gt; or &lt;em&gt;the Exorcist 2&lt;/em&gt;. Yeah, horror has a lot of sequels. All of this under one big label that many people won’t even consider exploring. But that’s ok – in fact, it makes the genre more fun. Staying in the dark, buried deep away from mainstream blockbusters, is one of the things that makes it fun.&lt;/p&gt;
+
+&lt;p&gt;I’ve said this in conversation to friends before, and I’m certain I’m not the first person to make this comparison, but horror is the punk rock of movies.&lt;/p&gt;
+
+&lt;p&gt;Like punk rock, a few dedicated creators can have no budget or experience and yet still manage to put something out into the world that has an impact on people. On the other side, studios can back a massive horror movie or punk band with all the star power, marketing budget, and demographic analysis in the world behind it and have it bomb entirely if it doesn’t click as authentic with the core fans of the genre.&lt;/p&gt;
+
+&lt;p&gt;There’s another big factor for me that I’m never entirely sure how to describe. “Attitude”, maybe? “Gusto”, perhaps? The “punk attitude” is somewhat synonymous with a Do It Yourself (DIY) approach to everything from clothing and housing, to venues and promotion. Horror fits this in a lot of ways. Look at something like &lt;em&gt;Evil Dead&lt;/em&gt;, or &lt;em&gt;Blair Witch Project&lt;/em&gt;, or &lt;em&gt;Paranormal Activity&lt;/em&gt; – all about as DIY as movies get. That gusto to get some friends together and just get it done. Figure it out along the way. That speaks to me in a big way.&lt;/p&gt;
+
+&lt;p&gt;There’s more than the DIY side, though. Being a horror filmmaker or member of a punk band slaps you into an immediate box by that industry and the wider world. There’s an assumption that both genres are dumb, or made just for teenagers, or are more about aesthetic than content. Sure, there’s some truth to that. There are plenty of dumb punk bands, just like there are plenty of dumb horror movies. But being lumped in with that underdog lot gives you the freedom to say nothing or everything – all without expectations over your head. You can sing about being bored and jerking off or you can speak to the malaise and apathy that comes from long periods of depression – &lt;a href=&quot;https://www.youtube.com/watch?v=NUTGr5t3MoY&quot;&gt;all with the same pithy lyrics&lt;/a&gt;. Likewise, you can make a weird neon slasher sequel where a nightmare man comes after a high school jock, or you can speak at length about the fear, anxiety, and sense of abandonment that was ripe in the Reagan-era handling of the AIDs epidemic – again, &lt;a href=&quot;https://www.youtube.com/watch?v=xqvrgX2Urug&quot;&gt;all with the same weird movie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Punk and horror both go as big and bonkers or as small and silent as you want to make them. Both are ripe for thematic exploration buried under a veneer of spraying blood or smashing guitars. Both have managed to keep fighting off the studio money and big budget creep that threatens to strip away all authenticity and meaning time and time again. Both give me renewed hope for film and music with every passing year.&lt;/p&gt;
+
+&lt;p&gt;There’s exactly one thing in the world that gives me the same feeling as throwing on a random horror flick and settling in for what I’m assuming will be so-so but turns out to be a masterpiece. That came a few weeks ago when I stumbled on &lt;a href=&quot;https://www.youtube.com/watch?v=9QX4bQPw-_w&quot;&gt;a vicious little pub punk band out of Australia called &lt;em&gt;Amyl and the Sniffers&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/amyl-and-the-sniffers.jpg&quot; alt=&quot;amyl winding up to lay a punch on the rest of her bandmates&quot; /&gt;
+  &lt;figcaption&gt;Photo by Charlie Hardy for &lt;a href=&quot;https://happymag.tv/a-chat-with-amyl-and-the-sniffers/&quot;&gt;an interview with Amyl and the Sniffers&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;May punk bands and horror films continue to delight and surprise me well past the age where it’s remotely acceptable for me to continue sporting black graphic tees and whatever half-shaved haircut I’ve given myself that month.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">I recently subscribed to Shudder, the streaming video service for horror fans, and it helped remind me of one key aspect of my being: I friggin’ love horror movies. By the numbers, it is absolutely my favourite genre.</summary></entry><entry><title type="html">Signed by the author</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2020/10/19/signed-by-the-author.html" rel="alternate" type="text/html" title="Signed by the author" /><published>2020-10-19T00:00:00-04:00</published><updated>2020-10-19T00:00:00-04:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2020/10/19/signed-by-the-author</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2020/10/19/signed-by-the-author.html">&lt;p&gt;&lt;a href=&quot;/what-condition-my-inscription-is-in/&quot;&gt;In the last post&lt;/a&gt;, I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author’s name. I’ve loved that anecdote for a long, long time and always wanted to do something with it.&lt;/p&gt;
+
+&lt;p&gt;Last year, while on an extended leave from work, I finally put together a short story inspired very loosely by the Skipper’s little idiosyncracy. Mix in my grandmother’s (the Skipper’s daughter) passion for classic films and books, some French-Canadian heritage, and my own love of reading, and I wound up with 2000-or-so words that I’m pretty happy with.&lt;/p&gt;
+
+&lt;p&gt;Here it is, for your enjoyment:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/belwerks-site-2023/assets/cozy-library.jpg&quot; alt=&quot;two comfy old chairs with their backs to a wall of floor to ceiling shelves, packed with books&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;signed-by-the-author&quot;&gt;Signed by the author&lt;/h2&gt;
+
+&lt;p&gt;“Ow are your studies, Elise?” Mirabelle cut the silence as she placed two steaming mugs on an antique coffee table and nestled into her worn leather reading chair. She brushed her bouncing grey bangs out of her face and waited for a response.&lt;/p&gt;
+
+&lt;p&gt;“They’re okay,” Elise smiled politely and turned to meet Mirabelle’s lively, brown eyes. Elise had been scanning the bookshelves and framed photos around her grandmother’s stuffy living room, waiting for the questions to start. She tugged at the battered quilt around her legs, tucking it in to fend off the winter chill.&lt;/p&gt;
+
+&lt;p&gt;“You are nearly finished,” Mirabelle would not let the quiet come again, “that must be exciting – non?”&lt;/p&gt;
+
+&lt;p&gt;“I guess, yeah,” Elise considered whether to continue. She picked up her tea and decided to throw her grandmother a line.&lt;/p&gt;
+
+&lt;p&gt;“Just kinda want it done with,” Elise offered while blowing steam from her mug, “it’s all pretty boring now.”&lt;/p&gt;
+
+&lt;p&gt;“It can not possibly be all so dull,” Mirabelle jumped in with a tone that immediately felt more judgemental than she intended. She scolded herself as she leaned forward to pluck her mug from the table.&lt;/p&gt;
+
+&lt;p&gt;“It &lt;em&gt;is&lt;/em&gt;,” Elise muttered before taking a sip. She shifted in her seat, away from her grandmother and back to scanning spines on the bookshelf. Had she already made it to ‘R’ before the last question? That still left far more on the shelf than Elise had ever read; even when she used to love reading.&lt;/p&gt;
+
+&lt;p&gt;Mirabelle knew she was losing Elise again and it pained her. She and the dark-haired young woman sitting beside her had grown so distant the past few years. She missed the little girl with such a fiery spirit and brown eyes wide enough to drink in every bit of life the world had to offer. Mirabelle was desperate to be a part of her granddaughter’s life again, more than she had failed to with her own children. Her son treated these visits with Elise as charity, and Mirabelle hated the feeling. Now his daughter was doing the same and it ached. She took a long sip and felt like crawling into her mug to hide.&lt;/p&gt;
+
+&lt;p&gt;“Tell me, what is one thing you are working on?” Mirabelle was grasping.&lt;/p&gt;
+
+&lt;p&gt;Elise cut short a sigh before Mirabelle caught it, “I have to find a book I’ve connected with and write about what makes it personal and stuff.”&lt;/p&gt;
+
+&lt;p&gt;“This is fantastic!” Mirabelle lit up.&lt;/p&gt;
+
+&lt;p&gt;Elise didn’t hide her sigh this time. It drained out of her before she responded.&lt;/p&gt;
+
+&lt;p&gt;“Except when am I supposed to find time to &lt;em&gt;enjoy&lt;/em&gt; a book?” She felt a bit harsh for the long sigh and the sting it caused her grandmother.&lt;/p&gt;
+
+&lt;p&gt;“Is the task to enjoy a book,” Mirabelle asked carefully, “or connect with it?”&lt;/p&gt;
+
+&lt;p&gt;“Same thing,” Elise knew it wasn’t, “and I still don’t have time for it with all the other stuff I have to get done.”&lt;/p&gt;
+
+&lt;p&gt;“Ave you not found one?” Mirabelle was poised in her seat.&lt;/p&gt;
+
+&lt;p&gt;“No, I haven’t,” Elise knew she had just thrown her grandmother a lifeline.&lt;/p&gt;
+
+&lt;p&gt;Mirabelle was up and darting toward her wall of books before Elise could finish lifting her mug for another sip. Elise noticed the worn-down path of carpet her grandmother followed. Mirabelle’s fingers waved in front of the shelf for a second, tracking her target, before locking onto a spine. Elise fell into a rush of memories, watching her grandmother pluck a book from those floor-to-ceiling shelves. She caught herself smiling as Mirabelle swung around.&lt;/p&gt;
+
+&lt;p&gt;“Ave you read this?” Mirabelle asked as she held out her selection.&lt;/p&gt;
+
+&lt;p&gt;Elise sat up and reached out for the ancient looking hardcover. She turned the book over, glancing at the back and again at the cover.&lt;/p&gt;
+
+&lt;p&gt;“I’ve heard of it,” Elise was skeptical, though unsure why, “some guy in like the 50’s hitchhikes across the States.”&lt;/p&gt;
+
+&lt;p&gt;“Not just any ‘guy’, Elise,” Mirabelle was beaming, “ouvret!”&lt;/p&gt;
+
+&lt;p&gt;Elise peeled open the front cover and stopped on the first page. A hand-written note was scribbled across the page.&lt;/p&gt;
+
+&lt;p&gt;“Is this from the author?” Elise scanned the inscription.&lt;/p&gt;
+
+&lt;p&gt;“Eh ben oui,” Mirabelle sat facing Elise on the edge of her seat, “it is.”&lt;/p&gt;
+
+&lt;p&gt;Elise flipped back to the cover and pointed at the author’s name, “but it’s not the same.”&lt;/p&gt;
+
+&lt;p&gt;“Jean-Louis is – was – is real name,” Mirabelle fed the mystery, waiting to hook her granddaughter.&lt;/p&gt;
+
+&lt;p&gt;“‘Beaulieu’ was your maiden name, right?” Mirabelle nodded.&lt;/p&gt;
+
+&lt;p&gt;“This is old French,” Elise was mouthing as she worked through the inscription.&lt;/p&gt;
+
+&lt;p&gt;“Québecois by way of Massachusetts,” Mirabelle smiled.&lt;/p&gt;
+
+&lt;p&gt;“Is that Latin?” Elise turned the book to face her grandmother.&lt;/p&gt;
+
+&lt;p&gt;“‘Ic calix!’,” Mirabelle spouted without looking, “something ee used to say.”&lt;/p&gt;
+
+&lt;p&gt;Elise dropped her hands across the open book and looked up at Mirabelle, “okay, you win, what’s the story?”&lt;/p&gt;
+
+&lt;p&gt;“Win what?” Mirabelle finished a long sip of tea and feigned coy.&lt;/p&gt;
+
+&lt;p&gt;Elise furrowed her brow and smirked, “give it up, grand-mère.”&lt;/p&gt;
+
+&lt;p&gt;“I was your age,” Mirabelle set her mug down, smiled, and sat back in her chair. She paused, drinking-in the memory, “just about to trade school for the world!”&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;“How was it?” Bernard asked his daughter without watching for her response across the bench seat. He held tight to the steering wheel, flicking an eye to his mother’s snowy house shrinking in the rearview mirror. The end of her road was always the worst leg of the trip in this weather. He’d dug this truck out of that ditch more than once over the years.&lt;/p&gt;
+
+&lt;p&gt;“Fine,” Elise turned to her father with a smile, “actually we had fun.”&lt;/p&gt;
+
+&lt;p&gt;“Fun?” Bernard couldn’t help but scoff and glance over at Elise to scan for signs of sarcasm. Bernard’s eyes were wide and lively, like his mother’s and his daughter’s, but with a hazel tint that shifted green the more upset he was. Elise caught the green when his eyes snapped her way.&lt;/p&gt;
+
+&lt;p&gt;“She has some cool stories,” Elise was surprised at herself for being happy. She struggled to think of the last time a smile snuck up on her.&lt;/p&gt;
+
+&lt;p&gt;“Like what?” Bernard asked with his eyes fixed back on the road.&lt;/p&gt;
+
+&lt;p&gt;“Just about writers she knew and road trips and stuff,” Elise trailed off. She wanted to keep the details light in hopes that her father would find less to jump on. She never enjoyed his interrogations after a trip to her grandmother’s.&lt;/p&gt;
+
+&lt;p&gt;Bernard smirked to himself and nodded, “well thank you, El, for spending time with her.”&lt;/p&gt;
+
+&lt;p&gt;Elise turned and caught a glance from her father.&lt;/p&gt;
+
+&lt;p&gt;“It means a lot to her,” he delivered before locking his eyes back to the road ahead.&lt;/p&gt;
+
+&lt;p&gt;“It was fun,” Elise shrugged. She sat up straight and faced forward while her father white-knuckled the wheel around the snowy bend. They had both learned to drive on this road, and she knew it demanded more focus than most she’d encountered since. The cab of the truck was silent except for muffled snow crunching under studded tires and hot air blasting the windshield.&lt;/p&gt;
+
+&lt;p&gt;“What’s in there?” Bernard asked after a long breath of relief, gesturing to the bag at Elise’s feet. They’d finally cleared the worst of the route.&lt;/p&gt;
+
+&lt;p&gt;“She lent me a couple of books to help with an assignment,” Elise reached for the bag.&lt;/p&gt;
+
+&lt;p&gt;“You be careful with those,” Bernard warned, “she loves her books more than she ever loved her kids.”&lt;/p&gt;
+
+&lt;p&gt;Elise rolled her eyes. She had heard this pity party from him many times before and wasn’t falling for it. She extracted the ancient looking hardcover her grandmother had first pulled down from the shelf.&lt;/p&gt;
+
+&lt;p&gt;“This one’s signed,” she ran her fingers over the cover.&lt;/p&gt;
+
+&lt;p&gt;“Are the others signed too?” Bernard asked in a neutral tone.&lt;/p&gt;
+
+&lt;p&gt;“Dunno,” Elise shrugged and leaned forward to check the bag. She pulled two more books from it and cracked each cover, scanning the first few pages.&lt;/p&gt;
+
+&lt;p&gt;“Oh, cool,” her face lit up, “they are!”&lt;/p&gt;
+
+&lt;p&gt;“Mm-hm,” Bernard uttered through a strained, tight-lipped grin.&lt;/p&gt;
+
+&lt;p&gt;“I bet she has great stories behind these,” Elise scanned over the inscriptions.&lt;/p&gt;
+
+&lt;p&gt;“I bet she does,” Bernard let his tone go, coming off more bitter and flippant to his daughter than he should have.&lt;/p&gt;
+
+&lt;p&gt;One at a time, Elise closed the books and stacked them in her lap. She sighed loudly and rolled her head to the side to stare at her father. Bernard caught the move in his peripheral and glanced back at Elise.&lt;/p&gt;
+
+&lt;p&gt;“What?” He played dumb with his eyes returned to the road.&lt;/p&gt;
+
+&lt;p&gt;“I know you two don’t get along or whatever,” Elise projected in a tone she meant as calm and collected, “but you’re always telling me how important it is to connect with her.”&lt;/p&gt;
+
+&lt;p&gt;Bernard nodded and inhaled a “yuh.”&lt;/p&gt;
+
+&lt;p&gt;“Now we finally find a way to do just that,” Elise dropped the calm exterior and decided to go for the throat, “and you’re acting like a jealous asshole.”&lt;/p&gt;
+
+&lt;p&gt;Bernard took a long breath, determined to leave his daughter’s comment alone. She knew how to sting him. He took another breath. She turned away from him and crossed her arms. She could see his effort and decided to let the exchange cool off. They both sat staring out the windshield for a long moment, pouting.&lt;/p&gt;
+
+&lt;p&gt;“Those books,” Bernard spoke softly, “are they all the same author?”&lt;/p&gt;
+
+&lt;p&gt;“No,” Elise responded flatly and flipped the stack up to double check the spines.&lt;/p&gt;
+
+&lt;p&gt;“Take a look at the inscriptions,” Bernard tilted his head to gesture toward the books.&lt;/p&gt;
+
+&lt;p&gt;“I &lt;em&gt;have&lt;/em&gt;,” Elise shot back without budging.&lt;/p&gt;
+
+&lt;p&gt;“Take another look,” Bernard glanced at Elise and caught her eye, “humour me.”&lt;/p&gt;
+
+&lt;p&gt;Elise made a show of flipping open the cover of each book and wobbling her head on her shoulders.&lt;/p&gt;
+
+&lt;p&gt;“Notice the handwriting?” Bernard asked without acknowledging her performance.&lt;/p&gt;
+
+&lt;p&gt;“It’s,” Elise broke off the sass and paused for a closer inspection, “it’s the same.” She wasn’t sure what to feel. Was it betrayal? Frustration? Amusement? She settled on a curt “&lt;em&gt;hm&lt;/em&gt;.”&lt;/p&gt;
+
+&lt;p&gt;Bernard nodded and inhaled another “yuh.”&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;“Ow are your studies, Elise?” Mirabelle asked as she stood up from her vegetable garden with a full basket. Her back yard was small, but brimming with lush garden beds. Packed in the back, a small frosted glass greenhouse glowed green with all the life inside. Elise always loved her grandmother’s gardens and longed to have her own when she made it to the home owning point in life.&lt;/p&gt;
+
+&lt;p&gt;“They’re all done, grand-mère!” Elise beamed.&lt;/p&gt;
+
+&lt;p&gt;“Your father tells me you are not taking university?” Mirabelle was placing her gloves and gardening tools away in the tiny shed, next to the greenhouse.&lt;/p&gt;
+
+&lt;p&gt;“I’m taking a year first,” Elise held the vegetable basket, “trading school for the world.”&lt;/p&gt;
+
+&lt;p&gt;Mirabelle smiled at her granddaughter. She closed the shed and held out her hand for the basket. Elise obliged.&lt;/p&gt;
+
+&lt;p&gt;“That is smart of you,” Mirabelle walked the narrow path between overflowing garden beds, towards her home, “what are your plans?”&lt;/p&gt;
+
+&lt;p&gt;“I haven’t decided,” Elise looked down at her grandmother’s bare feet in the beaten down grass. She blushed at the thought of judgement to come.&lt;/p&gt;
+
+&lt;p&gt;“That is even more smart of you,” Mirabelle opened the door and stepped inside, rubbing her feet on the worn mat. Mirabelle set her basket on the counter and started the kitchen tap. She hummed as she began rinsing the vegetables. Elise stepped into the adjoining living room and picked up her bag.&lt;/p&gt;
+
+&lt;p&gt;“I brought your books back,” Elise started as she stepped back into the kitchen.&lt;/p&gt;
+
+&lt;p&gt;“Un moment,” Mirabelle spoke over the tap, “nearly finished.”&lt;/p&gt;
+
+&lt;p&gt;Elise pulled the three hardcover books from her bag and set them on the table. Mirabelle dried her hands and carefully folded the towel before returning it to the oven door’s handle. She turned, smiling at her granddaughter.&lt;/p&gt;
+
+&lt;p&gt;“Did this elp with your assignment?” Mirabelle asked, picking up the ancient hardcover. Her smile settled to a content smirk as she caressed the book’s spine.&lt;/p&gt;
+
+&lt;p&gt;“Kind of,” Elise shrugged, “but I didn’t do it on that one.”&lt;/p&gt;
+
+&lt;p&gt;Mirabelle broke from her trance and looked up at her granddaughter, almost hurt.&lt;/p&gt;
+
+&lt;p&gt;“After hearing your stories,” Elise dug in the bag and fished out a battered paperback, “I found this in a shop.”&lt;/p&gt;
+
+&lt;p&gt;“Oh, I adore her!” Mirabelle lit back up as Elise held the cover to face her, “but I ave not read this.”&lt;/p&gt;
+
+&lt;p&gt;“It’s about a journalist in the 70’s who goes looking for her father at their old family cottage in Québec,” Elise handed the book to her grandmother, “you can have it.”&lt;/p&gt;
+
+&lt;p&gt;Mirabelle carefully took the book, turning it over in her hands to examine the front and back. She cracked open the cover to glance inside. Her fingertips fell on the first blank page, where she found a note in the handwriting of a young woman. She took a moment to trace along the inscription with her fingers. It was signed by the author, but Mirabelle recognized the handwriting. Years’ worth of cards, art, and poems from Elise were tucked among cluttered shelves and pinned on busy walls around her home. That same bubbly script adorning all of it.&lt;/p&gt;
+
+&lt;p&gt;“Merci,” Mirabelle whispered as she looked up at Elise with a glint in her eye.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">In the last post, I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author’s name. I’ve loved that anecdote for a long, long time and always wanted to do something with it.</summary></entry><entry><title type="html">What condition my inscription is in</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/life/2020/09/28/what-condition-my-inscription-is-in.html" rel="alternate" type="text/html" title="What condition my inscription is in" /><published>2020-09-28T00:00:00-04:00</published><updated>2020-09-28T00:00:00-04:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/life/2020/09/28/what-condition-my-inscription-is-in</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/life/2020/09/28/what-condition-my-inscription-is-in.html">&lt;p&gt;I buy a lot (read: far, far too many) of used books. It doesn’t take much to convince myself I’m supporting small local used bookstores (my favourite being &lt;a href=&quot;https://www.facebook.com/kwbookstore/&quot;&gt;&lt;strong&gt;KW Bookstore&lt;/strong&gt; in Kitchener&lt;/a&gt;), so I rarely step out of one without at least one purchase. My favourite books to buy are older paperbacks printed in that magical era between the mid 1960s to the early 80s – especially anything with &lt;a href=&quot;https://www.penguinrandomhouse.ca/series/PNG/penguin-orange-collection&quot;&gt;an orange &lt;strong&gt;Penguin&lt;/strong&gt; spine&lt;/a&gt;. Something about the size, the paper stock, typesetting, cover and spine design, smell, and texture just speaks to me. The more creases in the spine, folded page corners, and scribbled notes throughout, the more I feel a connection with anyone who has thumbed through this copy over the past 50 years.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/books-on-shelf.jpg&quot; alt=&quot;While it&apos;s nice to have books up on a shelf, I&apos;ll admit I&apos;m well overdue for sorting.&quot; /&gt;
+  &lt;figcaption&gt;While it’s nice to have books up on a shelf, I’ll admit I’m well overdue for sorting.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The real score, for me, is when the novel I’ve picked comes with a faded inscription pencilled-in on the first blank page. I don’t mean an autograph from the author, though I do also enjoy collecting those, but from the person who once gifted the book to someone in their life.&lt;/p&gt;
+
+&lt;p&gt;I recently started reading a copy of James Joyce’s &lt;em&gt;“A Portrait of the Artist as a Young Man”&lt;/em&gt; that I had bought years ago. Inside the front cover read the following in quick but legible ink:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tricia, &lt;br /&gt;
+Hope you enjoy this book as much as I did. &lt;br /&gt;
+lots of love, &lt;br /&gt;
+Amer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/belwerks-site-2023/assets/inscription.jpg&quot; alt=&quot;paperback open to the inside of the front cover with the quoted inscription written inside&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Who is Tricia? Who is Amer? What is their relationship? Why did Amer enjoy this novel so much? Did Tricia find the same joy in it? How did her copy wind up at a used bookstore in Kitchener, Ontario, Canada?&lt;/p&gt;
+
+&lt;p&gt;Like any life-long reader, I’m fond of stories about people. As someone who attempts to write my thoughts and experiences in an engaging way, I’m also taken by the mysteries and stories that happen around us every day. A long-forgotten inscription inside the cover of a cheap 70’s paperback plays to all of these things in a big way. It connects me to the people who’ve cracked this book’s spine in the past and helps me imagine future folks who will see my inscriptions in gifted books to friends and family.&lt;/p&gt;
+
+&lt;p&gt;Paperback books are one of those few environmentally unfriendly pleasures that I cannot give up. I enjoy used books, thrift stores, antiques, vinyl records, and anything else that’s passed through generations of human hands for many of the same reasons – the visceral connection to humanity. Call me overly-romantic, but nothing else connects us to the personal stories within history quite like experiencing the same arrangement of atoms in physical space that however many other living, breathing humans have handled over the years.&lt;/p&gt;
+
+&lt;p&gt;Basically, what I’m saying is that I probably won’t be moving over to eBooks anytime soon.&lt;/p&gt;
+
+&lt;p&gt;My great grandfather, the enigmatic Monte “Skipper” Chase, had a habit of inscribing his books and signing the author’s name as though they were close friends. This tidbit of family history has long struck me as one of those amazing experiences that can only come from human beings. The combination of care, pride, ego, passion, and awareness of our own mortality is something that only comes from our strange, horrifying, beautiful species.&lt;/p&gt;
+
+&lt;p&gt;Maybe I’m reading way, way too far into this. Maybe not. Maybe I’m waiting for the day I crack the cover of a paperback in a used bookstore and see an inscription made out to Monte Chase. Or, maybe I’m trying way too hard to defend my unrepentant hipsterdom.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">I buy a lot (read: far, far too many) of used books. It doesn’t take much to convince myself I’m supporting small local used bookstores (my favourite being KW Bookstore in Kitchener), so I rarely step out of one without at least one purchase. My favourite books to buy are older paperbacks printed in that magical era between the mid 1960s to the early 80s – especially anything with an orange Penguin spine. Something about the size, the paper stock, typesetting, cover and spine design, smell, and texture just speaks to me. The more creases in the spine, folded page corners, and scribbled notes throughout, the more I feel a connection with anyone who has thumbed through this copy over the past 50 years.</summary></entry><entry><title type="html">Find your :focus-within</title><link href="https://stephenbelyea.github.io/belwerks-site-2023/work/2020/09/07/find-your-focus-within.html" rel="alternate" type="text/html" title="Find your :focus-within" /><published>2020-09-07T00:00:00-04:00</published><updated>2020-09-07T00:00:00-04:00</updated><id>https://stephenbelyea.github.io/belwerks-site-2023/work/2020/09/07/find-your-focus-within</id><content type="html" xml:base="https://stephenbelyea.github.io/belwerks-site-2023/work/2020/09/07/find-your-focus-within.html">&lt;p&gt;I love writing &lt;strong&gt;CSS&lt;/strong&gt;. &lt;a href=&quot;https://sass-lang.com/&quot;&gt;&lt;strong&gt;SASS&lt;/strong&gt; is fun&lt;/a&gt;, &lt;a href=&quot;http://lesscss.org/&quot;&gt;&lt;strong&gt;LESS&lt;/strong&gt; is (or was?) too&lt;/a&gt;, but to me, nothing beats making magic with &lt;a href=&quot;https://www.w3.org/Style/CSS/Overview.en.html&quot;&gt;plain old vanilla &lt;strong&gt;CSS&lt;/strong&gt;&lt;/a&gt;. I will happily write to a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;style.css&lt;/code&gt; file any day rather than muck around with &lt;a href=&quot;https://cssinjs.org/?v=v10.4.0&quot;&gt;&lt;strong&gt;CSS-in-JS&lt;/strong&gt;&lt;/a&gt; for &lt;a href=&quot;https://styled-components.com/&quot;&gt;component encapsulation&lt;/a&gt;. That quackery is for the birds – or the full stack devs who are terrified of (or do not understand) the &lt;strong&gt;C&lt;/strong&gt; in Cascading Style Sheets (CSS).&lt;/p&gt;
+
+&lt;p&gt;Around the time I started as a developer, &lt;a href=&quot;http://amyhissom.com/HTML5-CSS3/history.html#5&quot;&gt;&lt;strong&gt;CSS3&lt;/strong&gt; was made official&lt;/a&gt; and varied support began rolling out across the browser-scape. &lt;a href=&quot;https://mashable.com/2012/07/17/history-html5/&quot;&gt;&lt;strong&gt;HTML5&lt;/strong&gt; was in a similar position&lt;/a&gt;, with &lt;a href=&quot;https://stackoverflow.com/questions/14429061/html5-shim-vs-shiv&quot;&gt;polyfils to bridge many of the gaps&lt;/a&gt;. It was a magical time, &lt;a href=&quot;https://alistapart.com/article/responsive-web-design/&quot;&gt;with responsive design taking over in a big way&lt;/a&gt; and rigid styles using tables or &lt;a href=&quot;https://www.cnn.com/2011/11/09/tech/mobile/flash-steve-jobs/index.html&quot;&gt;Flash going up in smoke&lt;/a&gt;. Sure, we were still a couple of years out from flexbox (&lt;a href=&quot;https://alistapart.com/article/the-story-of-css-grid-from-its-creators/&quot;&gt;let alone grid&lt;/a&gt;) and plugged our front ends full of absolute positioning and floats ahoy; but at least we were finally looking at the web as a more fluid and flexible place!&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/belwerks-site-2023/assets/brad-frost-mobile-first.jpg&quot; alt=&quot;mobile-first responsive web design title with a collection of phones, tablets, and computers that all read &apos;web&apos; on the screen&quot; /&gt;
+  &lt;figcaption&gt;Brad Frost’s illustration of the wide range of devices that can access the web at the head of his &lt;a href=&quot;https://bradfrost.com/blog/post/mobile-first-responsive-web-design/&quot;&gt;influential ‘mobile-first responsive web design’ blog post from 2011&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’ve been an avid user of &lt;strong&gt;CSS&lt;/strong&gt;’ &lt;a href=&quot;https://css-tricks.com/pseudo-class-selectors/&quot;&gt;pseudo classes&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/child-and-sibling-selectors/&quot;&gt;sibling selectors&lt;/a&gt;, and &lt;a href=&quot;https://css-tricks.com/almanac/selectors/a/attribute/&quot;&gt;attribute styling&lt;/a&gt; since those days. They’ve consistently been a fantastic set of tools for building specificity with flexibility – and without having to go overboard with classes and IDs. The feeling I get from a nice, clean, &lt;strong&gt;DRY&lt;/strong&gt; (Don’t Repeat Yourself) chain of pseudo-sibling-attribute styling to reveal error messages, balance columns, or punch up typography has barely faded over the years.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, like anyone playing with code tricks, I’ll get too clever for my own good and make a less-than-semantic mess. &lt;a href=&quot;https://github.com/stephenbelyea/F1yForms/blob/master/src/components/F1yForms/index.js#L69&quot;&gt;Reordering an input, label, and error message structure&lt;/a&gt;, for instance, to take advantage of the input’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aria-invalid&lt;/code&gt; attribute for styling the siblings. Or, and this one happens a lot, cramming way too much into a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;button&lt;/code&gt; in order to have a nice focus state within a card layout.&lt;/p&gt;
+
+&lt;p&gt;This latter issue came to an abrupt and amazing end for me this week. I found myself on MDN, &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button&quot;&gt;my prefered source of documentation for &lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, and vanilla &lt;strong&gt;JS&lt;/strong&gt;, checking out &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;button&lt;/code&gt; attributes&lt;/a&gt; for the building of a component. From there, I hopped into &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#Index_of_standard_pseudo-classes&quot;&gt;a listing of available pseudo classes&lt;/a&gt;. That’s when I found it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within&quot;&gt;&lt;strong&gt;:focus-within&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;The :focus-within CSS pseudo-class represents an element that has received focus or contains an element that has received focus. In other words, it represents an element that is itself matched by the :focus pseudo-class or has a descendant that is matched by :focus.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Wait, so there’s a way to target a container that “&lt;em&gt;contains&lt;/em&gt; an element that has received focus”!?&lt;/p&gt;
+
+&lt;p&gt;No longer would I need to fight the visual desire to have a card show a focus state against the semantic value of limiting the block level content of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;button&lt;/code&gt;. No longer would I have to pollute my component logic with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mouseEnter&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mouseLeave&lt;/code&gt; listeners to pass a class to the parent.&lt;/p&gt;
+
+&lt;p&gt;I was blown away! I used it right away in a prototype I was whipping up for HealthHub, and I’ll continue using it until the day I stop touching &lt;strong&gt;CSS&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/belwerks-site-2023/assets/patient-com-card.jpg&quot; alt=&quot;patient communication card with images of common patient requests translated into english and japanese&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For me, there are two key takeaways from finding something like this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; is still exciting. Learning new tricks still packs a punch and trying them out still keeps me engaged.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It never, ever hurts to take a look at documentation. Even if you’ve been doing something one way for years, there’s always a better (or at least different) method out there.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I say “&lt;em&gt;take a look at documentation&lt;/em&gt;”, because that’s where I found this piece. Sure, I’ve searched CSS Tricks or Stack Overflow for “&lt;em&gt;how to do x in y&lt;/em&gt;” hundreds (maybe even thousands, by now) of times and found a way to tackle the problem. And that’s great. Blogs (&lt;em&gt;ahem&lt;/em&gt;, like this one) are great for discovering cool tricks too. But there’s something just so satisfying about double checking documentation and happening upon something you didn’t even know you were looking for. I will happily take a fully functional native method over all the “clever” wizardry in the world any day of the week.&lt;/p&gt;
+
+&lt;p&gt;If you’re feeling unenthused about any element of your work, it never hurts to take a moment to top up your passion. &lt;a href=&quot;https://medium.com/@belwerks/inspiration-maintenance-1949f521302c&quot;&gt;I’ve written about “inspiration maintenance” before&lt;/a&gt;, and even I can frequently forget the value of it. Sometimes it’s a book. Sometimes a conference talk. Sometimes a blog post or LinkedIn share. And sometimes it’s just following an extra “related” link out of curiosity after you’ve already found the documentation you were looking for.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">I love writing CSS. SASS is fun, LESS is (or was?) too, but to me, nothing beats making magic with plain old vanilla CSS. I will happily write to a style.css file any day rather than muck around with CSS-in-JS for component encapsulation. That quackery is for the birds – or the full stack devs who are terrified of (or do not understand) the C in Cascading Style Sheets (CSS).</summary></entry></feed>

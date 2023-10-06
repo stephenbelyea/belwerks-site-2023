@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stephen Belyea is an Accessibility Nerd + Front End Developer with over a  decade's experience building things for the web. He likes to write stuff too.">
+  <link rel="stylesheet" href="/belwerks-site-2023/assets/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,500;0,600;1,500;1,600&family=Noto+Serif:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
+  <title>Find your :focus-within | Belwerks</title>
+</head><body>
+    <div class="wrapper layout-default">
+      <aside class="panel secondary"><div class="logo alt-font">
+  <div class="site-icon" role="presentation">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 84 91"
+    width="110">
+    <title>Belwerks</title>
+    <circle
+      cx="42"
+      cy="14"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="70"
+      cy="28"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="14"
+      cy="63"
+      r="8"
+      fill="#cf1020" />
+    <circle
+      cx="14"
+      cy="63"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="42"
+      cy="77"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="70"
+      cy="63"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <line
+      x1="14"
+      x2="70"
+      y1="45.5"
+      y2="45.5"
+      stroke="#353434"
+      strokeWidth="3" />
+    <line
+      x1="42"
+      x2="42"
+      y1="26"
+      y2="64"
+      stroke="#353434"
+      strokeWidth="3" />
+    <line
+      x1="14"
+      x2="14"
+      y1="44"
+      y2="50"
+      stroke="#353434"
+      strokeWidth="3" />
+    <line
+      x1="70"
+      x2="70"
+      y1="40"
+      y2="50"
+      stroke="#353434"
+      strokeWidth="3" />
+  </svg>
+</div>
+  <span class="site-name">
+  <span class="alt-colour">bel</span>werks
+</span>
+</div><nav class="site-nav alt-font">
+  <ul>
+      
+      
+      
+      
+        <li>
+          <a href="/belwerks-site-2023/" >Home</a>
+        </li>
+      
+      
+        <li>
+          <a href="/belwerks-site-2023/about/" >About</a>
+        </li>
+      
+      
+        <li>
+          <a href="/belwerks-site-2023/work/" >Work</a>
+        </li>
+      
+      
+        <li>
+          <a href="/belwerks-site-2023/life/" >Life</a>
+        </li>
+      </ul>
+</nav><div class="social">
+  <ul>
+    <li>
+      <a
+  href="https://www.linkedin.com/in/sebelyea"
+  target="_blank"
+  aria-describedby="link-new-tab">LinkedIn</a>
+    </li>
+    <li>
+      <a
+  href="https://github.com/stephenbelyea"
+  target="_blank"
+  aria-describedby="link-new-tab">GitHub</a>
+    </li>
+    <li><a
+  href="https://codepen.io/belwerks/"
+  target="_blank"
+  aria-describedby="link-new-tab">CodePen</a></li>
+    <li><a
+  href="https://medium.com/@belwerks"
+  target="_blank"
+  aria-describedby="link-new-tab">Medium</a></li>
+    <li>
+      <a
+  href="https://a11y.info/@belwerks"
+  target="_blank"
+  aria-describedby="link-new-tab">Mastodon</a>
+    </li>
+  </ul>
+</div></aside>
+      <main class="panel primary">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Find your :focus-within</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-09-07T00:00:00-04:00" itemprop="datePublished">Sep 7, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I love writing <strong>CSS</strong>. <a href="https://sass-lang.com/"><strong>SASS</strong> is fun</a>, <a href="http://lesscss.org/"><strong>LESS</strong> is (or was?) too</a>, but to me, nothing beats making magic with <a href="https://www.w3.org/Style/CSS/Overview.en.html">plain old vanilla <strong>CSS</strong></a>. I will happily write to a <code class="language-plaintext highlighter-rouge">style.css</code> file any day rather than muck around with <a href="https://cssinjs.org/?v=v10.4.0"><strong>CSS-in-JS</strong></a> for <a href="https://styled-components.com/">component encapsulation</a>. That quackery is for the birds – or the full stack devs who are terrified of (or do not understand) the <strong>C</strong> in Cascading Style Sheets (CSS).</p>
+
+<p>Around the time I started as a developer, <a href="http://amyhissom.com/HTML5-CSS3/history.html#5"><strong>CSS3</strong> was made official</a> and varied support began rolling out across the browser-scape. <a href="https://mashable.com/2012/07/17/history-html5/"><strong>HTML5</strong> was in a similar position</a>, with <a href="https://stackoverflow.com/questions/14429061/html5-shim-vs-shiv">polyfils to bridge many of the gaps</a>. It was a magical time, <a href="https://alistapart.com/article/responsive-web-design/">with responsive design taking over in a big way</a> and rigid styles using tables or <a href="https://www.cnn.com/2011/11/09/tech/mobile/flash-steve-jobs/index.html">Flash going up in smoke</a>. Sure, we were still a couple of years out from flexbox (<a href="https://alistapart.com/article/the-story-of-css-grid-from-its-creators/">let alone grid</a>) and plugged our front ends full of absolute positioning and floats ahoy; but at least we were finally looking at the web as a more fluid and flexible place!</p>
+
+<figure>
+<img src="/belwerks-site-2023/assets/brad-frost-mobile-first.jpg" alt="mobile-first responsive web design title with a collection of phones, tablets, and computers that all read 'web' on the screen" />
+  <figcaption>Brad Frost’s illustration of the wide range of devices that can access the web at the head of his <a href="https://bradfrost.com/blog/post/mobile-first-responsive-web-design/">influential ‘mobile-first responsive web design’ blog post from 2011</a></figcaption>
+</figure>
+
+<p>I’ve been an avid user of <strong>CSS</strong>’ <a href="https://css-tricks.com/pseudo-class-selectors/">pseudo classes</a>, <a href="https://css-tricks.com/child-and-sibling-selectors/">sibling selectors</a>, and <a href="https://css-tricks.com/almanac/selectors/a/attribute/">attribute styling</a> since those days. They’ve consistently been a fantastic set of tools for building specificity with flexibility – and without having to go overboard with classes and IDs. The feeling I get from a nice, clean, <strong>DRY</strong> (Don’t Repeat Yourself) chain of pseudo-sibling-attribute styling to reveal error messages, balance columns, or punch up typography has barely faded over the years.</p>
+
+<p>Sometimes, like anyone playing with code tricks, I’ll get too clever for my own good and make a less-than-semantic mess. <a href="https://github.com/stephenbelyea/F1yForms/blob/master/src/components/F1yForms/index.js#L69">Reordering an input, label, and error message structure</a>, for instance, to take advantage of the input’s <code class="language-plaintext highlighter-rouge">aria-invalid</code> attribute for styling the siblings. Or, and this one happens a lot, cramming way too much into a <code class="language-plaintext highlighter-rouge">button</code> in order to have a nice focus state within a card layout.</p>
+
+<p>This latter issue came to an abrupt and amazing end for me this week. I found myself on MDN, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">my prefered source of documentation for <strong>HTML</strong>, <strong>CSS</strong>, and vanilla <strong>JS</strong>, checking out <code class="language-plaintext highlighter-rouge">button</code> attributes</a> for the building of a component. From there, I hopped into <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#Index_of_standard_pseudo-classes">a listing of available pseudo classes</a>. That’s when I found it.</p>
+
+<blockquote>
+  <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within"><strong>:focus-within</strong></a></p>
+
+  <p>The :focus-within CSS pseudo-class represents an element that has received focus or contains an element that has received focus. In other words, it represents an element that is itself matched by the :focus pseudo-class or has a descendant that is matched by :focus.</p>
+</blockquote>
+
+<p>Wait, so there’s a way to target a container that “<em>contains</em> an element that has received focus”!?</p>
+
+<p>No longer would I need to fight the visual desire to have a card show a focus state against the semantic value of limiting the block level content of a <code class="language-plaintext highlighter-rouge">button</code>. No longer would I have to pollute my component logic with <code class="language-plaintext highlighter-rouge">mouseEnter</code> and <code class="language-plaintext highlighter-rouge">mouseLeave</code> listeners to pass a class to the parent.</p>
+
+<p>I was blown away! I used it right away in a prototype I was whipping up for HealthHub, and I’ll continue using it until the day I stop touching <strong>CSS</strong>.</p>
+
+<p><img src="/belwerks-site-2023/assets/patient-com-card.jpg" alt="patient communication card with images of common patient requests translated into english and japanese" /></p>
+
+<p>For me, there are two key takeaways from finding something like this:</p>
+
+<ol>
+  <li>
+    <p><strong>CSS</strong> is still exciting. Learning new tricks still packs a punch and trying them out still keeps me engaged.</p>
+  </li>
+  <li>
+    <p>It never, ever hurts to take a look at documentation. Even if you’ve been doing something one way for years, there’s always a better (or at least different) method out there.</p>
+  </li>
+</ol>
+
+<p>I say “<em>take a look at documentation</em>”, because that’s where I found this piece. Sure, I’ve searched CSS Tricks or Stack Overflow for “<em>how to do x in y</em>” hundreds (maybe even thousands, by now) of times and found a way to tackle the problem. And that’s great. Blogs (<em>ahem</em>, like this one) are great for discovering cool tricks too. But there’s something just so satisfying about double checking documentation and happening upon something you didn’t even know you were looking for. I will happily take a fully functional native method over all the “clever” wizardry in the world any day of the week.</p>
+
+<p>If you’re feeling unenthused about any element of your work, it never hurts to take a moment to top up your passion. <a href="https://medium.com/@belwerks/inspiration-maintenance-1949f521302c">I’ve written about “inspiration maintenance” before</a>, and even I can frequently forget the value of it. Sometimes it’s a book. Sometimes a conference talk. Sometimes a blog post or LinkedIn share. And sometimes it’s just following an extra “related” link out of curiosity after you’ve already found the documentation you were looking for.</p>
+
+  </div><a class="u-url" href="/belwerks-site-2023/work/2020/09/07/find-your-focus-within.html" hidden></a>
+</article>
+
+      </main>
+      <span class="visually-hidden" id="link-new-tab">opens new tab</span>
+<footer>
+  <p class="bold">&copy;2023 <span class="site-name">
+  <span class="alt-colour">bel</span>werks
+</span> | Stephen Belyea
+  </p>
+  <p>
+    <em>Built with
+      <span><a
+  href="https://jekyllrb.com/"
+  target="_blank"
+  aria-describedby="link-new-tab">Jekyll</a></span>, hosted on
+      <span><a
+  href="https://pages.github.com/"
+  target="_blank"
+  aria-describedby="link-new-tab">GitHub Pages</a></span>, and featuring the
+      <span><a
+  href="https://fonts.google.com/noto"
+  target="_blank"
+  aria-describedby="link-new-tab">Noto typeface</a></span>.</em>
+  </p>
+</footer>
+    </div>
+  </body>
+</html>
