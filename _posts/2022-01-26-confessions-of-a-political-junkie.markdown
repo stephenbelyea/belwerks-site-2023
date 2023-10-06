@@ -18,15 +18,11 @@ So, what happened? What could turn nearly two decades of indoctrinated fervour o
 
 You guessed it: _the pandemic_. 
 
-&nbsp;
-
 ----------
 
 For those of you in another time (or maybe unstuck from it altogether), folks my age refer to the global spread of COVID-19 throughout 2020, 2021, 2022, and probably well beyond as “THE Pandemic”. Kind of like how folks alive from 1914-1918 called [that feud between European empires](https://en.wikipedia.org/wiki/World_War_I) “The Great War.” I’m sure that sounds hilariously quaint to my future readers.
 
 ----------
-
-&nbsp;
 
 The pandemic has done a lot of damage to an awful lot of people. Obviously the [death and long-term illness rates](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) are a significant factor. Apart from having a couple of friends and colleagues struggling with “[Long COVID](https://www.webmd.com/lung/what-is-long-covid-pasc#1)”, I’m very fortunate to have seen very little of that side of the tragedy close up. I’m also very fortunate that I’ve not only been employed the entire time, but have been a part of “[The Great Resignation](https://en.wikipedia.org/wiki/Great_Resignation)” (twice, actually) during the pandemic. I’ve even been part of [that permanent shift to remote work](https://www.forbes.com/sites/rogertrapp/2021/09/29/the-shift-to-remote-working-is-just-the-start-now-it-must-get-better/?sh=7608c1646982) and have no intentions of wasting any more of my life in someone else’s office. 
 

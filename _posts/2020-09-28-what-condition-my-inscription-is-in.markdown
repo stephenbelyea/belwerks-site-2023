@@ -8,10 +8,9 @@ category: life
 
 I buy a lot (read: far, far too many) of used books. It doesn't take much to convince myself I'm supporting small local used bookstores (my favourite being [**KW Bookstore** in Kitchener](https://www.facebook.com/kwbookstore/)), so I rarely step out of one without at least one purchase. My favourite books to buy are older paperbacks printed in that magical era between the mid 1960s to the early 80s -- especially anything with [an orange **Penguin** spine](https://www.penguinrandomhouse.ca/series/PNG/penguin-orange-collection). Something about the size, the paper stock, typesetting, cover and spine design, smell, and texture just speaks to me. The more creases in the spine, folded page corners, and scribbled notes throughout, the more I feel a connection with anyone who has thumbed through this copy over the past 50 years.  
 
-<figure>
-  <img src="/assets/books-on-shelf.jpg" alt="three wall-length shelves filled with paperback novels of assorted ages, wear, and sizes">
-  <figcaption>While it's nice to have books up on a shelf, I'll admit I'm well overdue for sorting.</figcaption>
-</figure>
+{% figure caption:"While it's nice to have books up on a shelf, I'll admit I'm well overdue for sorting." %}
+  ![While it's nice to have books up on a shelf, I'll admit I'm well overdue for sorting.]({{ '/assets/books-on-shelf.jpg' | relative_url }})
+{% endfigure %}
 
 The real score, for me, is when the novel I've picked comes with a faded inscription pencilled-in on the first blank page. I don't mean an autograph from the author, though I do also enjoy collecting those, but from the person who once gifted the book to someone in their life. 
 

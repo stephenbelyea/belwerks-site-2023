@@ -19,6 +19,7 @@
   --colour-link: #cf1020;
   --colour-link-focus: rgb(114, 79, 79);
   --colour-link-focus-ring: rgba(114, 79, 79, 0.8);
+  --colour-border: rgb(230, 219, 219);
 
   --timing: 100ms;
 }
@@ -64,7 +65,8 @@ footer a {
 
 footer p,
 .small,
-small {
+small,
+figcaption {
   font-size: var(--font-size-sm);
 }
 
@@ -90,6 +92,7 @@ h1 {
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
   margin: 0 0 1em;
+  line-height: 1.35;
 }
 
 h2 {
@@ -97,6 +100,7 @@ h2 {
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading-alt);
   margin: 1.375em 0 1em;
+  line-height: 1.5;
 }
 
 h3 {
@@ -104,6 +108,7 @@ h3 {
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
   margin: 1.5em 0 1em;
+  line-height: 1.65;
 }
 
 h4 {
@@ -111,6 +116,7 @@ h4 {
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading-alt);
   margin: 1.5em 0 1em;
+  line-height: 1.75;
 }
 
 h5 {
@@ -127,4 +133,43 @@ h6 {
 
 p {
   margin: 1em 0;
+}
+
+p > img, figure {
+  margin: 2rem 0;
+}
+
+.post-meta {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-family-heading-alt);
+  margin: -0.5rem 0 2.5rem;
+}
+
+figure > figcaption {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  line-height: 1.75;
+}
+
+blockquote {
+  font-size: var(--font-size-md);
+  font-style: italic;
+  line-height: 1.65;
+  padding: 0.1rem 1rem 0.1rem 2rem;
+  margin: 1.5rem 0 1.75rem;
+  border-left: solid 0.25rem var(--colour-border);
+
+  p:only-child, p:first-child {
+    margin-top: 0;
+  }
+
+  p:only-child, p:last-child {
+    margin-bottom: 0.5rem;
+  }
+}
+
+hr {
+  margin: 3rem 0;
+  border: none;
+  border-bottom: solid 0.15rem var(--colour-border);
 }

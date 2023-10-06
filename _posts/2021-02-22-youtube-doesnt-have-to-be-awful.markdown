@@ -14,10 +14,9 @@ I'm talking about the hate-breeding swamp of grifters and loathsome goons who li
 
 I first encountered YouTube in the summer of 2006. I was up in Toronto for a few days from New Brunswick, looking for an apartment with my soon-to-be roommate, Arthur. On a break between scouring the Annex neighbourhood for listings, he fired up his computer to show me a new video sharing platform. We spent the next couple of hours watching Skinny Puppy music videos and David Lynch interview clips. It was awesome.
 
-<figure>
-  <img src="/assets/david-lynch-iphone.png" alt="close up of director david lynch's face with a microphone in front of him and a red curtain in the background">
-  <figcaption>David Lynch famously <a href="https://www.youtube.com/watch?v=wKiIroiCvZ0" target="_blank">dissing film watching on iPhones</a> circa 2008 (not 2006, I know).</figcaption>
-</figure>
+{% figure caption:"David Lynch famously [dissing film watching on iPhones](https://www.youtube.com/watch?v=wKiIroiCvZ0) circa 2008 (not 2006, I know)." %}
+  ![close up of director david lynch's face with a microphone in front of him and a red curtain in the background]({{ '/assets/david-lynch-iphone.png' | relative_url }})
+{% endfigure %}
 
 That's really all it was in the beginning. A cool platform for people to upload, watch, share, and comment on videos. I have [a few old ones up](https://www.youtube.com/watch?v=jOYA5IQbntU) since that era for exactly that purpose. It was because of this that YouTube wound up being a massive mainstream phenomenon which inevitably (sadly) led to a huge market valuation and eventual [acquisition by - who else - Google](https://en.wikipedia.org/wiki/History_of_YouTube#:~:text=On%20October%209%2C%202006%2C%20it,was%20Google's%20second%2Dlargest%20acquisition).
 
@@ -39,7 +38,9 @@ The next time YouTube recommends a pile of videos to populate your feed, ask you
 - Am I jumping into the comments and duking it out while watching the video?
 - Will I likely share this on other social media platforms?
 
-![grid of dozens of youtube thumbnails](/assets/youtube-recs.png "Revealing my recommendations, packed with bread tube, news clips, and late night hosts feels very intrusive.")
+{% figure caption:"Revealing my recommendations, packed with bread tube, news clips, and late night hosts feels very intrusive." %}
+  ![grid of dozens of youtube thumbnails]({{'/assets/youtube-recs.png' | relative_url}})
+{% endfigure %}
 
 ## So what can you do?
 
@@ -83,7 +84,9 @@ No one should have to say this one, but conspiracy theories can lead down dark, 
 
 ---
 
-![taco restaurant sign with spaced apart letters reading "fr e sh a voca do"](/assets/fresh-avacado.png "You have your makeup tutorials and I have my [FREE SHAVACADOO!](https://youtu.be/8rDNZ5Ebwsc?t=72)")
+{% figure caption:"You have your makeup tutorials and I have my [FREE SHAVACADOO!](https://youtu.be/8rDNZ5Ebwsc?t=72)" %}
+  ![taco restaurant sign with spaced apart letters reading "fr e sh a voca do]({{'/assets/fresh-avacado.png' | relative_url}})
+{% endfigure %}
 
 I could write another couple of thousand words on this, but I'll leave it here. I enjoy YouTube for a lot of stuff. I use it to learn just about everything related to woodwork - from [keeping my fingers intact](https://www.youtube.com/watch?v=qSbS5zhH7cE) to the finer details of [crafting my own hand tools](https://www.youtube.com/watch?v=JcaV5jWpR1k). Everything I've learned about the [perspectives and life experiences of transgender](https://www.youtube.com/watch?v=EdvM_pRfuFM) and [non-binary people](https://www.youtube.com/watch?v=N35D1jko6wA) has been from YouTube, and I feel I'm growing as a person because of it. Same goes for my scratching-the-surface level of learning about [the experience of black](https://www.youtube.com/watch?v=3dJ7_7VpR6k), brown, [indigenous](https://www.youtube.com/watch?v=A6MT6Qg9J7c), and other people navigating life in modern North America. And then there are plenty of video essays about [Zack Snyder's awful DC universe](https://www.youtube.com/watch?v=hdxk7dB9yeU), or hours of dashcam crashes and [Vine compilations](https://www.youtube.com/watch?v=8rDNZ5Ebwsc). We all have our trash.
 

@@ -12,12 +12,11 @@ Having a garage for the first time since leaving my parents’ home in New Bruns
 
 Woodwork has been a great hobby the past four years because it ticks a lot of boxes for me. By designing my own pieces, I work through rusty math skills and keep up with drawing. By being too cheap to fully jump into expensive tools and all the fun toys, I’m forced to get creative with jigs and workarounds to finish whatever piece I’m working on. And since we moved from a series of tiny apartments into a townhouse, there’s no shortage of furniture and storage needed that I’d rather build than buy. 
 
-After a little over a year in that first rented townhouse, we borrowed and scraped together enough funds to buy a townhouse of our own in Kitchener. Now that we’d had a garage for a year, it was considered a non-negotiable item in our short list of requirements. I’m happy we got it, because a fixer-upper comes with no shortage of repairs and upgrades to do. These allow me to continue building my skills in planning, designing, budgeting, and all the techniques involved in slowly working my way through each project. 
+After a little over a year in that first rented townhouse, we borrowed and scraped together enough funds to buy a townhouse of our own in Kitchener. Now that we’d had a garage for a year, it was considered a non-negotiable item in our short list of requirements. I’m happy we got it, because a fixer-upper comes with no shortage of repairs and upgrades to do. These allow me to continue building my skills in planning, designing, budgeting, and all the techniques involved in slowly working my way through each project.
 
-<figure>
-  <img src="/assets/desk-side-by-side.jpg" alt="early sketch of a desk and shelves next to the finished install">
-  <figcaption>Early iPad sketch of a desk and shelves next to yesterday's final installation, complete with my assistant. You'll notice a few changes due to available materials, additional storage, and cost of pre-manufactured components.</figcaption>
-</figure>
+{% figure caption:"Early iPad sketch of a desk and shelves next to yesterday's final installation, complete with my assistant. You'll notice a few changes due to available materials, additional storage, and cost of pre-manufactured components." %}
+  ![early sketch of a desk and shelves next to the finished install]({{ '/assets/desk-side-by-side.jpg' | relative_url }})
+{% endfigure %}
 
 I imagine some folks would find this all to be tedious, time-consuming, or an overall chore. Maybe it is to some extent. There are certainly some projects which drag on, that I’d rather skip. But overall, I love it. The feeling of accomplishment at standing back to check out the closet shelves you’ve just installed. The pride in showing off your newly refinished kitchen bar. It scratches that itch of starting, sticking through, and finishing a project to my own standards and knowing I was able to learn and get better at something along the way.
 
