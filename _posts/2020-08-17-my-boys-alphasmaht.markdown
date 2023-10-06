@@ -8,7 +8,7 @@ category: life
 
 Got something fun in the mail today. I ordered it from **eBay** on my birthday, as a gift to myself to help with writing. 
 
-![AlphaSmart 3000 keyboard fresh out of the bubble wrap](/assets/alphasmart-3000-unbox.jpg)
+![AlphaSmart 3000 keyboard fresh out of the bubble wrap]({{ '/assets/alphasmart-3000-unbox.jpg' | relative_url }})
 
 The [_AlphaSmart 3000_ was released in 2000](https://en.wikipedia.org/wiki/AlphaSmart#AlphaSmart_3000) as an upgrade to previous models in the **AlphaSmart** line of word processors. The font choice, keypad, shortcut controls, and key names (eg. "cmd") were apparently all meant to be familiar for **Apple** users. This played well with the _3000_'s biggest new feature: **USB**. The port format was so new and hip at the time that **AlphaSmart** released the _3000_ in [a bondi-blue plastic case to visually tie-in with the first generation of _iMac_](https://en.wikipedia.org/wiki/IMac_G3) (then the principle driver of **USB**).
 
@@ -16,7 +16,7 @@ Fortunately for me, writing this in 2020, **USB** hasn't managed to be completel
 
 You may be thinking "Ok, you hipster goon, go clack away at your mechanical keyboard and stop wasting our time." Totally fair. Buying a prehistoric word processor with an **LED** screen that displays four lines at a time (though, I must say, the character spacing, line height, and line length are all beautifully readable) does seem like a fairly foolish endeavour. For me, however, this helps address a genuine struggle.
 
-![A short story about Obi Wan saying "hello there" displayed on the AlphaSmart's LCD screen](/assets/alphasmart-3000-obi-wan.jpg)
+![A short story about Obi Wan saying "hello there" displayed on the AlphaSmart's LCD screen]({{ '/assets/alphasmart-3000-obi-wan.jpg' | relative_url }})
 
 I'm in that range of millenials ([sometimes referred to as _xennials_](https://www.mentalfloss.com/article/502250/how-tell-if-youre-xennial)) who have full, fond, childhood memories of the world sans internet. I remember writing my first essays on a typewriter and marking in the accents (I was in French immersion) with a pen. I recall the novelty of exploring the internet for news on the the **THX** remaster of the _Star Wars_ trilogy when it was generally a place filled more with good-willed, curious tech-heads than it was with Russian trolls and baby fascists. It was a magical, naive place. The first time I bought something online, my (parents') credit card number was sent in plain text and the protocol was "http" -- and I actually received the purchase without having my identity pillaged. The point is: I started exploring and crafting creativity, language, and art when sitting in front of a screen all day was a rare and privledged experience. Those were the days.
 

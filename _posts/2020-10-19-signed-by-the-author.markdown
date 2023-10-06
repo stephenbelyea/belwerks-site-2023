@@ -12,7 +12,7 @@ Last year, while on an extended leave from work, I finally put together a short 
 
 Here it is, for your enjoyment:
 
-![two comfy old chairs with their backs to a wall of floor to ceiling shelves, packed with books](/assets/cozy-library.jpg)
+![two comfy old chairs with their backs to a wall of floor to ceiling shelves, packed with books]({{ '/assets/cozy-library.jpg' | relative_url }})
 
 ## Signed by the author
 

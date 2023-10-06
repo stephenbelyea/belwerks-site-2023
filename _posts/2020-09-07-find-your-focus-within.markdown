@@ -30,7 +30,7 @@ No longer would I need to fight the visual desire to have a card show a focus st
 
 I was blown away! I used it right away in a prototype I was whipping up for HealthHub, and I’ll continue using it until the day I stop touching **CSS**.
 
-![patient communication card with images of common patient requests translated into english and japanese](/assets/patient-com-card.jpg)
+![patient communication card with images of common patient requests translated into english and japanese]({{ '/assets/patient-com-card.jpg' | relative_url }})
 
 For me, there are two key takeaways from finding something like this:
 

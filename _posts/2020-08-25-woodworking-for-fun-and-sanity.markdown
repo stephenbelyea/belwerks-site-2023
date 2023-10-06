@@ -22,7 +22,7 @@ I imagine some folks would find this all to be tedious, time-consuming, or an ov
 
 If you’re feeling bogged down or uncreative from the daily grind of work and routine, pick a small wood project and try building something with your hands! You don’t need a ton of expensive tools (I only just bought a tablesaw six months ago and had been making do without for three-and-a-half years prior) or materials. With a hammer, hand saw, sandpaper and nails, you can build just about anything simple -- from birdhouses to bookshelves. These don’t make much mess and can be built in as small a space as an apartment balcony. It is never too early or too late to get started! 
 
-![good clean fun and the art and craft of wood hardcover books on a wooden desk](/assets/woodwork-books.jpg)
+![good clean fun and the art and craft of wood hardcover books on a wooden desk]({{ '/assets/woodwork-books.jpg' | relative_url }})
 
 I have personally found two main books helpful in getting me up and running. [“The Art and Craft of Wood” by Silas J. Kyler and David Hildreth](https://www.quartoknows.com/books/9781631592973/The-Art-and-Craft-of-Wood.html?direct=1), and [“Good Clean Fun” by Nick Offerman](https://offermanwoodshop.com/store/library/books/good-clean-fun-autographed-copy/). The former is an all-encompassing look at woodwork, from harvesting, milling, planning, building, and finishing. The latter is a fun tour of Offerman’s shop, including many challenging projects (which I haven’t really tried yet), and I very much enjoy his passion and writing style.
 

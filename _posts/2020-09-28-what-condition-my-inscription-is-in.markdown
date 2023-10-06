@@ -21,7 +21,7 @@ I recently started reading a copy of James Joyce's _"A Portrait of the Artist as
 > lots of love, <br />
 > Amer
 
-![paperback open to the inside of the front cover with the quoted inscription written inside](/assets/inscription.jpg)
+![paperback open to the inside of the front cover with the quoted inscription written inside]({{ '/assets/inscription.jpg' | relative_url }})
 
 Who is Tricia? Who is Amer? What is their relationship? Why did Amer enjoy this novel so much? Did Tricia find the same joy in it? How did her copy wind up at a used bookstore in Kitchener, Ontario, Canada?
 
