@@ -1,3 +1,5 @@
+#!/bin/bash
+
 bundle install
 bundle exec jekyll build
 \cp -r _site/* docs
