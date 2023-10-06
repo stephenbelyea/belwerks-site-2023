@@ -5,14 +5,9 @@ description: >-
   Stephen Belyea is an Accessibility Nerd + Front End Developer with over a 
   decade's experience building things for the web. He likes to write stuff too.
 
-baseurl: ""
-url: https://belwerks.com
-
-github_username:  stephenbelyea
-linkedin_username: sebelyea
-mastodon:
-- username: belwerks
-  instance: a11y.info
+domain: stephenbelyea.github.io
+url: https://stephenbelyea.github.io
+baseurl: /belwerks-site-2023/
 
 theme: minima
 plugins:
