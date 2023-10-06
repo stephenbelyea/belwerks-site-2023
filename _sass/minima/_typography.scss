@@ -44,7 +44,7 @@ a {
   outline-offset: 0.35em;
   text-decoration: none;
 
-  &:hover, &[aria-current="page"] {
+  &:hover {
     color: var(--colour-link-focus);
     box-shadow: 0 0.175em 0 0 var(--colour-link-focus);
   }
