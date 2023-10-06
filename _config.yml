@@ -17,3 +17,6 @@ mastodon:
 theme: minima
 plugins:
   - jekyll-feed
+
+jekyll-figure:
+  paragraphs: false
