@@ -46,7 +46,7 @@ Unfortunately, this doesn’t include everyone facing the shit-storm that’s up
 
 ### _Strategy A:_ Be a Human raging against the Machine
 
-Fight it! Fight it with every goddamn fibre of of your fucking being! Be [the Luddite](https://www.history.com/news/who-were-the-luddites); asserting control of the corporate “efficiencies” rolled-out to make your life miserable and theirs more profitable.
+Fight it! Fight it with every goddamn fibre of your fucking being! Be [the Luddite](https://www.history.com/news/who-were-the-luddites); asserting control of the corporate “efficiencies” rolled-out to make your life miserable and theirs more profitable.
 
 Prove the worth of the massive messy mélange of humanity up against to monotonous mass of AI. The machines have been trained from day one with data collected for and by our most tasteless and talentless tech-bros. Lack of imagination, creativity, and humanity may not get you through GlassDoor’s automated CV parsing, but it will ultimately secure you the job that AI can’t manage to automate.
 
