@@ -4,18 +4,19 @@
   --font-weight-heading: 600;
   --font-weight-heading-alt: 500;
 
-  --font-family-body: 'Noto Serif', serif;
-  --font-family-heading: 'Noto Sans', sans-serif;
+  --font-family-body: "Noto Serif", serif;
+  --font-family-heading: "Noto Sans", sans-serif;
 
   --font-size-sm: 0.875em;
   --font-size-base: 1rem;
-  --font-size-md: 1.25rem;
-  --font-size-lg: 1.5rem;
+  --font-size-md: 1.15rem;
+  --font-size-lg: 1.45rem;
   --font-size-xl: 1.75rem;
-  --font-size-xxl: 2rem;
-  --font-size-mega: 2.75rem;
+  --font-size-xxl: 2.25rem;
+  --font-size-mega: 2.85rem;
 
   --colour-body: #3f3636;
+  --colour-body-alt: #6c0d15;
   --colour-link: #cf1020;
   --colour-link-focus: rgb(114, 79, 79);
   --colour-link-focus-ring: rgba(114, 79, 79, 0.8);
@@ -38,7 +39,8 @@ a,
 }
 
 a {
-  transition: color var(--timing), outline var(--timing), box-shadow var(--timing);
+  transition: color var(--timing), outline var(--timing),
+    box-shadow var(--timing);
   box-shadow: 0 0.1em 0 0 var(--colour-link);
   outline: solid transparent 0.15em;
   outline-offset: 0.35em;
@@ -83,7 +85,12 @@ figcaption {
   font-size: var(--font-size-mega);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: inherit;
 }
 
@@ -99,7 +106,8 @@ h2 {
   font-size: var(--font-size-xl);
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading-alt);
-  margin: 1.375em 0 1em;
+  color: var(--colour-body-alt);
+  margin: 1.5em 0 1em;
   line-height: 1.5;
 }
 
@@ -107,8 +115,15 @@ h3 {
   font-size: var(--font-size-lg);
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
-  margin: 1.5em 0 1em;
+  margin: 1.75em 0 1em;
   line-height: 1.65;
+
+  > em {
+    color: var(--colour-body-alt);
+    text-transform: uppercase;
+    font-size: 0.85em;
+    display: block;
+  }
 }
 
 h4 {
@@ -135,7 +150,8 @@ p {
   margin: 1em 0;
 }
 
-p > img, figure {
+p > img,
+figure {
   margin: 2rem 0;
 }
 
@@ -153,17 +169,20 @@ figure > figcaption {
 
 blockquote {
   font-size: var(--font-size-md);
+  color: var(--colour-body-alt);
   font-style: italic;
-  line-height: 1.65;
+  line-height: 1.85;
   padding: 0.1rem 1rem 0.1rem 2rem;
   margin: 1.5rem 0 1.75rem;
   border-left: solid 0.25rem var(--colour-border);
 
-  p:only-child, p:first-child {
+  p:only-child,
+  p:first-child {
     margin-top: 0;
   }
 
-  p:only-child, p:last-child {
+  p:only-child,
+  p:last-child {
     margin-bottom: 0.5rem;
   }
 }
