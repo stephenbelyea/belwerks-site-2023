@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://belwerks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://belwerks.com/" rel="alternate" type="text/html" /><updated>2023-10-06T14:49:55-04:00</updated><id>https://belwerks.com/feed.xml</id><title type="html">Belwerks</title><subtitle>Stephen Belyea is an Accessibility Nerd + Front End Developer with over a  decade&apos;s experience building things for the web. He likes to write stuff too.</subtitle><entry><title type="html">Make way Gatsby, Jekyll’s on the job!</title><link href="https://belwerks.com/work/2023/10/06/make-way-gatsby-jekylls-on-the-job.html" rel="alternate" type="text/html" title="Make way Gatsby, Jekyll’s on the job!" /><published>2023-10-06T00:00:00-04:00</published><updated>2023-10-06T00:00:00-04:00</updated><id>https://belwerks.com/work/2023/10/06/make-way-gatsby-jekylls-on-the-job</id><content type="html" xml:base="https://belwerks.com/work/2023/10/06/make-way-gatsby-jekylls-on-the-job.html">&lt;p&gt;It has been quite some time since I’ve posted. So long, in fact, that when I tried to pull down my previous blog site on my new laptop, the &lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;Gatsby&lt;/a&gt; setup was so out of date that it wouldn’t build locally. I could have reviewed the plugins and searched out migration documentation, sure. But I took this as an opportunity to try out a different setup.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://belwerks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://belwerks.com/" rel="alternate" type="text/html" /><updated>2023-12-24T13:28:14-05:00</updated><id>https://belwerks.com/feed.xml</id><title type="html">Belwerks</title><subtitle>Stephen Belyea is an Accessibility Nerd + Front End Developer with over a  decade&apos;s experience building things for the web. He likes to write stuff too.</subtitle><entry><title type="html">Surviving the era of AI</title><link href="https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai.html" rel="alternate" type="text/html" title="Surviving the era of AI" /><published>2023-12-24T00:00:00-05:00</published><updated>2023-12-24T00:00:00-05:00</updated><id>https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai</id><content type="html" xml:base="https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai.html">&lt;p&gt;I have kids. Three of them. They’re all amazing people in the making and I’m so proud and in love with them. I want the best for them and I believe they deserve the best the world can give them. But I’m also raising them in a time of unprecedented climate change and the ramifications that come from it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Succinctly put: the world I barely knew and mostly romanticised is positively fucked.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That doesn’t mean my kids are fucked, however - at least I hope not! It just means they’re growing up in a different world than I did; which, news flash, is how progress is supposed to unfold. Unfortunately, their new world order is pretty friggin’ scary to my grasp of the old way of doing things. Global mega-corporate monopolies are basically the de facto ruling class now; along with the lobbyists and cash-in-advance politicians they work with. Any hopes for high-level democracy and power-of-the people are pretty laughable in the age of blatant climate denialism in the face of basically every fact ever established.&lt;/p&gt;
+
+&lt;p&gt;But that’s ok. That’s the world I mostly knew was coming when my kids were on their way here. We have the fantastic privilege of taking some time to adjust to climate change and associated issues. We live well inland and globally North, with our small patch of turf and a predictable solar path that can help us continue to work with our shed-sized greenhouse and gardens. My partner and I knew the risks and the future and worked hard to ensure we carved out enough of a space that we could help our kids thrive within it.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/three-goofballs.png&quot; alt=&quot;Two boys and one baby girl pose with different silly faces on a white couch with black outlines in a room designed to look like a line illustration on pape&quot; /&gt;
+  &lt;figcaption&gt;My three goofballs enjoying an interactive art exhibit.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-future-will-not-be-the-same-for-us-all&quot;&gt;The future will not be the same for us all&lt;/h2&gt;
+
+&lt;p&gt;Great big ol’ statement of privilege here before I go further. I and my partner are currently laid off in &lt;a href=&quot;https://www.engadget.com/big-tech-layoffs-2023-152856197.html&quot;&gt;The Great Tech Restructuring of 2023&lt;/a&gt;, but we have the severance and freelance runway to be alright for the time being. Not everyone has this - in fact; most people don’t. We’ve worked very hard for the life we’ve built; but we’ve also had plenty of help, opportunity, and good fortune to help us along. There are no such thing as people &lt;a href=&quot;https://uselessetymology.com/2019/11/07/the-origins-of-the-phrase-pull-yourself-up-by-your-bootstraps/&quot;&gt;pulling themselves up by their own bootstraps&lt;/a&gt;, afterall.&lt;/p&gt;
+
+&lt;p&gt;All of this is a pre-amble to my actual point of focus: &lt;em&gt;Artificial Intelligence&lt;/em&gt;. &lt;em&gt;AI&lt;/em&gt;; or &lt;em&gt;machine learning&lt;/em&gt;; or &lt;em&gt;programmatic predictions&lt;/em&gt;; or &lt;em&gt;a bunch of clueless dickhead tech pricks fucking up the world&lt;/em&gt;; or whatever else you want to call it. We’re currently strapped in for an era of automation and job-loss that we haven’t seen since &lt;a href=&quot;https://jalopnik.com/henry-ford-did-not-invent-the-assembly-line-5412420&quot;&gt;Henry Ford stole the idea of the factory line from Ransom E. Olds&lt;/a&gt; and ran to the friggin’ bank with it. To put it frankly: Regular people are about to be a whole lot of fucked.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-can-we-do&quot;&gt;So what can we do?&lt;/h2&gt;
+
+&lt;p&gt;How can we fight back? What chance do I have for survival; let alone my kids!?&lt;/p&gt;
+
+&lt;p&gt;It all starts with accepting that they won’t spend their lives in a world the same as ours. For far too long, we’ve reaped the benefits of a default state of progress. We, the Millennials, were still raised on it. Our Boomer parents have never known a world without it. But our Generation A kids will never see it.&lt;/p&gt;
+
+&lt;p&gt;For those of us who watched the twin towers fall on a tube TV rolled into our homeroom class on the available A/V cart, the future has never been bright and endless and shiny. We’re raising kids in an era where ‘The Last of Us’ and ‘Idiocracy’ look far more realistic than ‘Star Trek’ or ‘The Jetsons’ or ever will.&lt;/p&gt;
+
+&lt;h2 id=&quot;where-does-ai-fit-into-all-of-this-great-big-mess&quot;&gt;Where does AI fit into all of this great big mess?&lt;/h2&gt;
+
+&lt;p&gt;Like many other things, the core of Artificial Intelligence as we’ll experience it is all about replacing the people at the bottom for the benefit of those at the top. It &lt;em&gt;has never&lt;/em&gt; (and &lt;em&gt;will never&lt;/em&gt;) been about improving general quality of life or “disrupting” industries for the good of the public. Like with every new development driven by the factory-owning class, it’s all about cutting out the fickle, expensive human beings who stand between owners and their pure, untainted profits.&lt;/p&gt;
+
+&lt;p&gt;Humans demand pesky things like breaks, sick days, fair pay, and general rights. Machines don’t. To a person who sees the bottom line as the only metric, that’s a simple calculation.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-can-i-actually-do&quot;&gt;So what can I actually do?&lt;/h2&gt;
+
+&lt;p&gt;There are a few options, fortunately. To keep things short: it won’t be simple. You’ll need creativity, gusto, and enough gumption to prove yourself more useful than the machines.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this doesn’t include everyone facing the shit-storm that’s upon us. I’m hopeful that those of us with the privilege, power, and potential necessary will help out the others around us, though. &lt;a href=&quot;https://www.history.com/topics/19th-century/labor&quot;&gt;History doesn’t always prove my optimism valid&lt;/a&gt;, but hey, I have to put my hope in something.&lt;/p&gt;
+
+&lt;h3 id=&quot;strategy-a-be-a-human-raging-against-the-machine&quot;&gt;&lt;em&gt;Strategy A:&lt;/em&gt; Be a Human raging against the Machine&lt;/h3&gt;
+
+&lt;p&gt;Fight it! Fight it with every goddamn fibre of of your fucking being! Be &lt;a href=&quot;https://www.history.com/news/who-were-the-luddites&quot;&gt;the Luddite&lt;/a&gt;; asserting control of the corporate “efficiencies” rolled-out to make your life miserable and theirs more profitable.&lt;/p&gt;
+
+&lt;p&gt;Prove the worth of the massive messy mélange of humanity up against to monotonous mass of AI. The machines have been trained from day one with data collected for and by our most tasteless and talentless tech-bros. Lack of imagination, creativity, and humanity may not get you through GlassDoor’s automated CV parsing, but it will ultimately secure you the job that AI can’t manage to automate.&lt;/p&gt;
+
+&lt;p&gt;Remember: Machine learning is driven and built by the least interesting people in history mining the global repository of successes and achievements. AI is built &lt;em&gt;by&lt;/em&gt; people with no creativity who subscribe to a world view consisting of fixed guidelines and easy solutions. Our least imaginitive Comp Sci grads are the folks currently defining our machine-learning landscape.&lt;/p&gt;
+
+&lt;h3 id=&quot;strategy-b-be-a-human-in-control-of-or-enabling-the-machine&quot;&gt;&lt;em&gt;Strategy B:&lt;/em&gt; Be a Human in control of (or enabling) the Machine&lt;/h3&gt;
+
+&lt;p&gt;The next option is to learn how everything works and how to service our new overlords. No matter how omnipresent or powerful AI gets, it’ll still need humans to trace the cables and update the hardware. Software will never be invincible; but the one dork with the admin password will be.&lt;/p&gt;
+
+&lt;p&gt;Even when AI takes over, some schmuck will still need to be there to replace fried fans, processors, or motherboards - not to mention all the folks who design, test, manufacture, sell, buy, and ship said hardware. Elon and others with no real-world experience never seem to clue into how little gets done without the low-paid workers to physically put the pieces together.&lt;/p&gt;
+
+&lt;p&gt;It’s a lot like when upper class scum get elected into positions of power on anti-immigrant rhetoric and &lt;a href=&quot;https://www.wptv.com/news/state/gov-ron-desantis-signs-immigration-overhaul-says-state-bracing-for-some-turbulent-times-ahead&quot;&gt;push to roll-out policies based on their ignorant views&lt;/a&gt;. Their inability (or unwillingness) to connect-the-dots and realise just how dependant we all are on humans being treated horribly and paid dismally &lt;a href=&quot;https://www.wptv.com/news/local-news/investigations/immigration-leaders-concerned-about-worker-shortages-produce-supply-due-to-new-florida-immigration-law&quot;&gt;starts causing back-lash and problems pretty quickly&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When there’s a gold rush, you’re better off being the people surveying land or selling shovels than yet another gold digger scrounging for whatever’s left.&lt;/p&gt;
+
+&lt;h3 id=&quot;strategy-c-be-a-human-who-is-out-of-the-way-of-the-machine&quot;&gt;&lt;em&gt;Strategy C:&lt;/em&gt; Be a Human who is out of the way of the Machine&lt;/h3&gt;
+
+&lt;p&gt;Rich people love getting richer. It’s all they care about or understand about the world around them. Doesn’t matter how many people are miserable or who of their employees can’t make rent. As long as the C-suite bonus clears and the board approval passes through legal; it’s all good.&lt;/p&gt;
+
+&lt;p&gt;At its core - AI is all about removing current blockers between rich people and their default goal of getting richer. If you, your role, line of work, or industry stand in between the wealthy and their unethical accumulation of profits: you’re fucked. You may think your management or engineering skills are valuable, but it’s only a matter of time before the rich fucks find a way to automate you out of living.&lt;/p&gt;
+
+&lt;p&gt;Never stand in between a rich prick and his potential stack of cash if you want to remain alive and employed. Never underestimate what &lt;a href=&quot;https://online.norwich.edu/six-causes-world-war-i&quot;&gt;degree of collateral damage the wealthy are willing to write-off in pursuit of new revenue streams and quarterly earnings&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;strategy-d-be-a-human-who-focuses-on-humans-regardless-of-the-machine&quot;&gt;&lt;em&gt;Strategy D:&lt;/em&gt; Be a Human who focuses on Humans, regardless of the Machine&lt;/h3&gt;
+
+&lt;p&gt;Above all else, the key to surviving the AI-takeover is ensuring you focus on the people and community around you. The most sophisticated machine learning imaginable will never, ever take the place of a five-minute conversation with a fellow human being with experiences, challenges, and adversity remotely relatable to your own. It’s the same reason why calling into Rogers or Bell (depending on your monopolistic Canadian telecom orientation) will typically result in a better deal.&lt;/p&gt;
+
+&lt;p&gt;Human beings don’t always (or ever) deal in cold, hard facts or logic. This can be a frustrating thing, but it can also make the difference between we and the machines. The most difficult logic to program is a typical human being’s fractured, nonsensical, unpredictable decision-making and problem-solving process. We’re messy. Super fuckin’ messy. By definition, we’ll never be at the machine-like level of precision and predictability.&lt;/p&gt;
+
+&lt;p&gt;But is that a bad thing, really? How many template-driven, fill-in-the-blanks movies, TV shows, and books have you genuinely enjoyed? And how many out-of-nowhere stories and characters have sucked you in and kept you hooked? There’s a reason why &lt;a href=&quot;https://www.forbes.com/sites/danidiplacido/2023/11/12/the-mcu-is-dying-and-only-a-supervillain-can-save-it/&quot;&gt;the Marvel Cinematic Universe has been on the decline&lt;/a&gt; while smaller studios like &lt;a href=&quot;https://www.theguardian.com/film/2023/mar/11/a24-oscars-indie-producer-everything-everywhere-all-at-once&quot;&gt;A24 have been seeing massive successes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/hotdog-fingers.webp&quot; alt=&quot;An older chinese woman stares at her own hands she&apos;s holding up in front of her which feature hot dogs instead of her fingers fingers&quot; /&gt;
+  &lt;figcaption&gt;Evelyn encountering the hotdog-finger-universe in ‘Everything Everywhere All at Once’&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Machines are phenomenal at replicating what has already worked. Want another Nirvana or Tupac record of un-released recordings? Machine Learning’s got your covered. Want something you’ve never heard before - whether it energizes or pisses you off? You’ll need a human for that one. At least for the time being.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-way-forward&quot;&gt;The way forward&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://riluxa.com/blog/blog-3/why-are-we-so-obsessed-with-artisans-and-their-crafts-259&quot;&gt;Human beings value craftsmanship and quality in the things we surround ourselves with&lt;/a&gt;. From &lt;a href=&quot;https://www.focusingfuture.com/me-consumer/hand-crafting-the-future/&quot;&gt;resurgences of hobbies&lt;/a&gt; to &lt;a href=&quot;https://discover.texasrealfood.com/homesteading/the-rise-of-modern-homesteading-a-brief-overview&quot;&gt;renewed interest in homesteading&lt;/a&gt;, we’re starting to see the next wave of quiet rebellion taking shape. For the time being, these are generally only possible for those with the privilege to engage in them. But &lt;a href=&quot;https://www.businessinsider.com/skilled-trade-occupations-projected-to-rapidly-grow-2021-11#18-aircraft-mechanics-and-service-technicians-employment-is-projected-to-increase-118-or-by-15300-from-2020-to-2030-3&quot;&gt;the projected growth in trade careers over the coming decades&lt;/a&gt; is a promising sign for helping to address that.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our only way out of this AI-fuelled dystopia is together.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We landed here by &lt;a href=&quot;https://www.vanityfair.com/news/2015/01/ronald-reagan-policy-political-failure&quot;&gt;letting the baron-class separate us&lt;/a&gt; and we’re seeing how that is playing out. Fight the machines by thinking about people!&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">I have kids. Three of them. They’re all amazing people in the making and I’m so proud and in love with them. I want the best for them and I believe they deserve the best the world can give them. But I’m also raising them in a time of unprecedented climate change and the ramifications that come from it.</summary></entry><entry><title type="html">Make way Gatsby, Jekyll’s on the job!</title><link href="https://belwerks.com/work/2023/10/06/make-way-gatsby-jekylls-on-the-job.html" rel="alternate" type="text/html" title="Make way Gatsby, Jekyll’s on the job!" /><published>2023-10-06T00:00:00-04:00</published><updated>2023-10-06T00:00:00-04:00</updated><id>https://belwerks.com/work/2023/10/06/make-way-gatsby-jekylls-on-the-job</id><content type="html" xml:base="https://belwerks.com/work/2023/10/06/make-way-gatsby-jekylls-on-the-job.html">&lt;p&gt;It has been quite some time since I’ve posted. So long, in fact, that when I tried to pull down my previous blog site on my new laptop, the &lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;Gatsby&lt;/a&gt; setup was so out of date that it wouldn’t build locally. I could have reviewed the plugins and searched out migration documentation, sure. But I took this as an opportunity to try out a different setup.&lt;/p&gt;
 
 &lt;p&gt;You’re now reading this on a pretty basic &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll site&lt;/a&gt;, built on &lt;a href=&quot;https://rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt; and hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
@@ -530,34 +620,4 @@ making stops along the way&lt;/p&gt;
 
 &lt;p&gt;Mirabelle carefully took the book, turning it over in her hands to examine the front and back. She cracked open the cover to glance inside. Her fingertips fell on the first blank page, where she found a note in the handwriting of a young woman. She took a moment to trace along the inscription with her fingers. It was signed by the author, but Mirabelle recognized the handwriting. Years’ worth of cards, art, and poems from Elise were tucked among cluttered shelves and pinned on busy walls around her home. That same bubbly script adorning all of it.&lt;/p&gt;
 
-&lt;p&gt;“Merci,” Mirabelle whispered as she looked up at Elise with a glint in her eye.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">In the last post, I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author’s name. I’ve loved that anecdote for a long, long time and always wanted to do something with it.</summary></entry><entry><title type="html">What condition my inscription is in</title><link href="https://belwerks.com/life/2020/09/28/what-condition-my-inscription-is-in.html" rel="alternate" type="text/html" title="What condition my inscription is in" /><published>2020-09-28T00:00:00-04:00</published><updated>2020-09-28T00:00:00-04:00</updated><id>https://belwerks.com/life/2020/09/28/what-condition-my-inscription-is-in</id><content type="html" xml:base="https://belwerks.com/life/2020/09/28/what-condition-my-inscription-is-in.html">&lt;p&gt;I buy a lot (read: far, far too many) of used books. It doesn’t take much to convince myself I’m supporting small local used bookstores (my favourite being &lt;a href=&quot;https://www.facebook.com/kwbookstore/&quot;&gt;&lt;strong&gt;KW Bookstore&lt;/strong&gt; in Kitchener&lt;/a&gt;), so I rarely step out of one without at least one purchase. My favourite books to buy are older paperbacks printed in that magical era between the mid 1960s to the early 80s – especially anything with &lt;a href=&quot;https://www.penguinrandomhouse.ca/series/PNG/penguin-orange-collection&quot;&gt;an orange &lt;strong&gt;Penguin&lt;/strong&gt; spine&lt;/a&gt;. Something about the size, the paper stock, typesetting, cover and spine design, smell, and texture just speaks to me. The more creases in the spine, folded page corners, and scribbled notes throughout, the more I feel a connection with anyone who has thumbed through this copy over the past 50 years.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&quot;/assets/books-on-shelf.jpg&quot; alt=&quot;While it&apos;s nice to have books up on a shelf, I&apos;ll admit I&apos;m well overdue for sorting.&quot; /&gt;
-  &lt;figcaption&gt;While it’s nice to have books up on a shelf, I’ll admit I’m well overdue for sorting.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The real score, for me, is when the novel I’ve picked comes with a faded inscription pencilled-in on the first blank page. I don’t mean an autograph from the author, though I do also enjoy collecting those, but from the person who once gifted the book to someone in their life.&lt;/p&gt;
-
-&lt;p&gt;I recently started reading a copy of James Joyce’s &lt;em&gt;“A Portrait of the Artist as a Young Man”&lt;/em&gt; that I had bought years ago. Inside the front cover read the following in quick but legible ink:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Tricia, &lt;br /&gt;
-Hope you enjoy this book as much as I did. &lt;br /&gt;
-lots of love, &lt;br /&gt;
-Amer&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/inscription.jpg&quot; alt=&quot;paperback open to the inside of the front cover with the quoted inscription written inside&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Who is Tricia? Who is Amer? What is their relationship? Why did Amer enjoy this novel so much? Did Tricia find the same joy in it? How did her copy wind up at a used bookstore in Kitchener, Ontario, Canada?&lt;/p&gt;
-
-&lt;p&gt;Like any life-long reader, I’m fond of stories about people. As someone who attempts to write my thoughts and experiences in an engaging way, I’m also taken by the mysteries and stories that happen around us every day. A long-forgotten inscription inside the cover of a cheap 70’s paperback plays to all of these things in a big way. It connects me to the people who’ve cracked this book’s spine in the past and helps me imagine future folks who will see my inscriptions in gifted books to friends and family.&lt;/p&gt;
-
-&lt;p&gt;Paperback books are one of those few environmentally unfriendly pleasures that I cannot give up. I enjoy used books, thrift stores, antiques, vinyl records, and anything else that’s passed through generations of human hands for many of the same reasons – the visceral connection to humanity. Call me overly-romantic, but nothing else connects us to the personal stories within history quite like experiencing the same arrangement of atoms in physical space that however many other living, breathing humans have handled over the years.&lt;/p&gt;
-
-&lt;p&gt;Basically, what I’m saying is that I probably won’t be moving over to eBooks anytime soon.&lt;/p&gt;
-
-&lt;p&gt;My great grandfather, the enigmatic Monte “Skipper” Chase, had a habit of inscribing his books and signing the author’s name as though they were close friends. This tidbit of family history has long struck me as one of those amazing experiences that can only come from human beings. The combination of care, pride, ego, passion, and awareness of our own mortality is something that only comes from our strange, horrifying, beautiful species.&lt;/p&gt;
-
-&lt;p&gt;Maybe I’m reading way, way too far into this. Maybe not. Maybe I’m waiting for the day I crack the cover of a paperback in a used bookstore and see an inscription made out to Monte Chase. Or, maybe I’m trying way too hard to defend my unrepentant hipsterdom.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">I buy a lot (read: far, far too many) of used books. It doesn’t take much to convince myself I’m supporting small local used bookstores (my favourite being KW Bookstore in Kitchener), so I rarely step out of one without at least one purchase. My favourite books to buy are older paperbacks printed in that magical era between the mid 1960s to the early 80s – especially anything with an orange Penguin spine. Something about the size, the paper stock, typesetting, cover and spine design, smell, and texture just speaks to me. The more creases in the spine, folded page corners, and scribbled notes throughout, the more I feel a connection with anyone who has thumbed through this copy over the past 50 years.</summary></entry></feed>
+&lt;p&gt;“Merci,” Mirabelle whispered as she looked up at Elise with a glint in her eye.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">In the last post, I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author’s name. I’ve loved that anecdote for a long, long time and always wanted to do something with it.</summary></entry></feed>
