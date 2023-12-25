@@ -15,15 +15,15 @@ html {
   max-width: 50rem;
   margin: 5rem auto 0.5rem;
 
-  >aside {
+  > aside {
     grid-area: side;
   }
 
-  >main {
+  > main {
     grid-area: main;
   }
 
-  >footer {
+  > footer {
     grid-area: foot;
   }
 
@@ -31,7 +31,8 @@ html {
     max-width: 100%;
   }
 
-  p > img, figure > img {
+  p > img,
+  figure > img {
     border-radius: 0.5rem;
   }
 
@@ -41,10 +42,6 @@ html {
 }
 
 @media screen and (max-width: 750px) {
-  html {
-    font-size: 92.5%;
-  }
-
   .wrapper {
     gap: 2.5rem;
     width: 94vw;
@@ -53,23 +50,9 @@ html {
 }
 
 @media screen and (max-width: 550px) {
-  html {
-    font-size: 95%;
-  }
-
   .wrapper {
     display: block;
     margin-top: 1.5rem;
-    width: 88vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 92.5%;
-  }
-
-  .wrapper {
-    width: 85vw;
+    width: 90vw;
   }
 }
