@@ -1,12 +1,5 @@
-@import "minima/reset",
-"minima/utils",
-"minima/layout",
-"minima/typography";
+@import "minima/reset", "minima/utils", "minima/layout", "minima/typography";
 
-@import "includes/site-icon",
-"includes/logo",
-"includes/nav",
-"includes/social",
-"includes/greeting",
-"includes/posts-feed",
-"includes/footer";
+@import "includes/site-icon", "includes/logo", "includes/nav", "includes/social",
+  "includes/greeting", "includes/posts-feed", "includes/read-time",
+  "includes/footer";
