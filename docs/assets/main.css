@@ -44,13 +44,9 @@ html { font-size: 100%; }
 .wrapper p > img, .wrapper figure > img { border-radius: 0.5rem; }
 .wrapper iframe { margin: 1.75rem 0; }
 
-@media screen and (max-width: 750px) { html { font-size: 92.5%; }
-  .wrapper { gap: 2.5rem; width: 94vw; margin-top: 3rem; } }
-@media screen and (max-width: 550px) { html { font-size: 95%; }
-  .wrapper { display: block; margin-top: 1.5rem; width: 88vw; } }
-@media screen and (max-width: 400px) { html { font-size: 92.5%; }
-  .wrapper { width: 85vw; } }
-:root { --font-weight-body: 300; --font-weight-bold: 600; --font-weight-heading: 600; --font-weight-heading-alt: 500; --font-family-body: "Noto Serif", serif; --font-family-heading: "Noto Sans", sans-serif; --font-size-sm: 0.875em; --font-size-base: 1rem; --font-size-md: 1.15rem; --font-size-lg: 1.45rem; --font-size-xl: 1.75rem; --font-size-xxl: 2.25rem; --font-size-mega: 2.85rem; --colour-body: #3f3636; --colour-body-alt: #6c0d15; --colour-link: #cf1020; --colour-link-focus: rgb(114, 79, 79); --colour-link-focus-ring: rgba(114, 79, 79, 0.8); --colour-border: rgb(230, 219, 219); --timing: 100ms; }
+@media screen and (max-width: 750px) { .wrapper { gap: 2.5rem; width: 94vw; margin-top: 3rem; } }
+@media screen and (max-width: 550px) { .wrapper { display: block; margin-top: 1.5rem; width: 90vw; } }
+:root { --font-weight-body: 300; --font-weight-bold: 600; --font-weight-heading: 600; --font-weight-heading-alt: 500; --font-family-body: "Noto Serif", serif; --font-family-heading: "Noto Sans", sans-serif; --font-size-sm: 0.875em; --font-size-base: 1rem; --font-size-md: 1.15em; --font-size-lg: 1.45em; --font-size-xl: 1.75em; --font-size-xxl: 2.25em; --font-size-mega: 2.85em; --colour-body: #3f3636; --colour-body-alt: #6c0d15; --colour-link: #cf1020; --colour-link-focus: rgb(114, 79, 79); --colour-link-focus-ring: rgba(114, 79, 79, 0.8); --colour-border: rgb(230, 219, 219); --timing: 100ms; }
 
 body { font-family: var(--font-family-body); font-weight: var(--font-weight-body); font-size: var(--font-size-base); color: var(--colour-body); line-height: 2; }
 
@@ -89,7 +85,7 @@ p { margin: 1em 0; }
 
 p > img, figure { margin: 2rem 0; }
 
-.post-meta { font-family: var(--font-family-heading); font-weight: var(--font-family-heading-alt); margin: -0.5rem 0 2.5rem; }
+.post-meta { font-family: var(--font-family-heading); font-weight: var(--font-family-heading-alt); margin: -0.75rem 0 2.52rem; color: var(--colour-body-alt); }
 
 figure > figcaption { margin-top: 1rem; padding: 0 1rem; line-height: 1.75; }
 
@@ -99,6 +95,7 @@ blockquote p:only-child, blockquote p:last-child { margin-bottom: 0.5rem; }
 
 hr { margin: 3rem 0; border: none; border-bottom: solid 0.15rem var(--colour-border); }
 
+@media screen and (max-width: 550px) { :root { --font-size-base: 1.125rem; --font-size-lg: 1.25em; --font-size-xl: 1.5em; --font-size-xxl: 1.75em; --font-size-mega: 2.25em; } }
 .site-icon { max-width: 4.15rem; margin: 0 auto; }
 .site-icon svg { max-width: 100%; }
 .site-icon circle, .site-icon line { stroke-width: 0.185rem; }
@@ -129,6 +126,9 @@ nav a[aria-current="page"]:not(:hover) { color: var(--colour-body); box-shadow: 
 .posts-feed .heading { font-size: var(--font-size-md); margin: 0 0 0.5em; }
 .posts-feed .meta { margin: 0 0 0.5em; }
 .posts-feed .description { margin: 0.5em 0; }
+
+.read-time { display: inline-block; }
+.read-time .bullet { display: inline-block; margin: 0 0.5em; opacity: 0.5; }
 
 footer { text-align: center; padding: 1rem 1rem 2rem; }
 footer p { margin: 0.1em 0; }

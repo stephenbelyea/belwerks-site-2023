@@ -152,14 +152,33 @@
 </div></aside>
       <main class="panel primary">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Pardon my french</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2020-11-19T00:00:00-05:00" itemprop="datePublished">Nov 19, 2020
-      </time></p>
-  </header>
+    <p class="post-meta"><time class="dt-published" datetime="2020-11-19T00:00:00-05:00" itemprop="datePublished">
+        Nov 19, 2020
+      </time>
+      <span class="read-time">
+  <span class="bullet" aria-hidden="true">&bull;</span>
+  ~<span id="read-time"></span> min read
+</span>
+<script>
+  const content = `<p>This year has been an active one for me when it comes to writing. I’ve been publishing across four different blog platforms, including some paid – both directly and indirectly. I’m planning to do a nice self-serving piece at the end of 2020 with more on this. Fear not!</p>
 
+<p>For now, I’ve hit a fun milestone: I’ve now had my work translated to French! I’ve written in French before, though not really since high school essays, but I’ve never had my (somewhat) professional writing translated until this point.</p>
+
+<p>This one started with a mashup of my three-part epic on the importance of accessibility for <a href="https://medium.com/healthhub-design">the HealthHub design team blog</a>. Our marketing team’s copywriter had the thankless task of composing my bumbling text into a single, comprehensible piece, which was posted in English on the HealthHub website’s news/blog section. From there, the tome was sent to a translator who combed through and did their best to make sense of it. It was an interesting process to be involved in each step of – including a couple of editors in the mix too.</p>
+
+<ul>
+  <li><a href="https://healthhubsolutions.ca/why-accessibility-matters-insights-from-healthhubs-senior-ui-and-accessibility-designer/">Read the English monolith</a></li>
+  <li><a href="https://healthhubsolutions.ca/fr/why-accessibility-matters-insights-from-healthhubs-senior-ui-and-accessibility-designer/">Read the french version</a></li>
+</ul>
+`;
+  const readMins = Math.ceil(content.split(' ').length / 280);
+  document.getElementById('read-time').innerText = readMins;
+</script>
+
+    </p>
+  </header>
   <div class="post-content e-content" itemprop="articleBody">
     <p>This year has been an active one for me when it comes to writing. I’ve been publishing across four different blog platforms, including some paid – both directly and indirectly. I’m planning to do a nice self-serving piece at the end of 2020 with more on this. Fear not!</p>
 
@@ -172,9 +191,8 @@
   <li><a href="https://healthhubsolutions.ca/fr/why-accessibility-matters-insights-from-healthhubs-senior-ui-and-accessibility-designer/">Read the french version</a></li>
 </ul>
 
-  </div><a class="u-url" href="/work/2020/11/19/pardon-my-french.html" hidden></a>
+  </div>
 </article>
-
       </main>
       <span class="visually-hidden" id="link-new-tab">opens new tab</span>
 <footer>

@@ -152,14 +152,44 @@
 </div></aside>
       <main class="panel primary">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">My boy&#39;s AlphaSmaht</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2020-08-17T00:00:00-04:00" itemprop="datePublished">Aug 17, 2020
-      </time></p>
-  </header>
+    <p class="post-meta"><time class="dt-published" datetime="2020-08-17T00:00:00-04:00" itemprop="datePublished">
+        Aug 17, 2020
+      </time>
+      <span class="read-time">
+  <span class="bullet" aria-hidden="true">&bull;</span>
+  ~<span id="read-time"></span> min read
+</span>
+<script>
+  const content = `<p>Got something fun in the mail today. I ordered it from <strong>eBay</strong> on my birthday, as a gift to myself to help with writing.</p>
 
+<p><img src="/assets/alphasmart-3000-unbox.jpg" alt="AlphaSmart 3000 keyboard fresh out of the bubble wrap" /></p>
+
+<p>The <a href="https://en.wikipedia.org/wiki/AlphaSmart#AlphaSmart_3000"><em>AlphaSmart 3000</em> was released in 2000</a> as an upgrade to previous models in the <strong>AlphaSmart</strong> line of word processors. The font choice, keypad, shortcut controls, and key names (eg. “cmd”) were apparently all meant to be familiar for <strong>Apple</strong> users. This played well with the <em>3000</em>’s biggest new feature: <strong>USB</strong>. The port format was so new and hip at the time that <strong>AlphaSmart</strong> released the <em>3000</em> in <a href="https://en.wikipedia.org/wiki/IMac_G3">a bondi-blue plastic case to visually tie-in with the first generation of <em>iMac</em></a> (then the principle driver of <strong>USB</strong>).</p>
+
+<p>Fortunately for me, writing this in 2020, <strong>USB</strong> hasn’t managed to be completely killed off yet. My 2012 <em>iMac</em> will connect with the <em>AlphaSmart 3000</em> natively. My work-issued 2020 <em>MacBook Pro</em> surprinsingly will as well; albeit with a dongle to convert from from <strong>USB-C</strong>. How often can you still make use of 20-year-old tech without it being a major undertaking? Let alone being an enjoyable experience!?</p>
+
+<p>You may be thinking “Ok, you hipster goon, go clack away at your mechanical keyboard and stop wasting our time.” Totally fair. Buying a prehistoric word processor with an <strong>LED</strong> screen that displays four lines at a time (though, I must say, the character spacing, line height, and line length are all beautifully readable) does seem like a fairly foolish endeavour. For me, however, this helps address a genuine struggle.</p>
+
+<p><img src="/assets/alphasmart-3000-obi-wan.jpg" alt="A short story about Obi Wan saying &quot;hello there&quot; displayed on the AlphaSmart's LCD screen" /></p>
+
+<p>I’m in that range of millenials (<a href="https://www.mentalfloss.com/article/502250/how-tell-if-youre-xennial">sometimes referred to as <em>xennials</em></a>) who have full, fond, childhood memories of the world sans internet. I remember writing my first essays on a typewriter and marking in the accents (I was in French immersion) with a pen. I recall the novelty of exploring the internet for news on the the <strong>THX</strong> remaster of the <em>Star Wars</em> trilogy when it was generally a place filled more with good-willed, curious tech-heads than it was with Russian trolls and baby fascists. It was a magical, naive place. The first time I bought something online, my (parents’) credit card number was sent in plain text and the protocol was “http” – and I actually received the purchase without having my identity pillaged. The point is: I started exploring and crafting creativity, language, and art when sitting in front of a screen all day was a rare and privledged experience. Those were the days.</p>
+
+<p>The past near-decade, while I’ve worked in the tech world as a web developer, I’ve had less and less desire to sit in front of a screen as a hobby after spending 8-12 hours a day, doing exactly the same thing for a paycheque. Sure, I’ve managed to type out a few finished pieces (including the only feature-length screenplay I’ve ever completed) over that time, but it comes with great effort, heavy self-fladulation, and a raging inner critic who happily has his way with my lack of progress. Not to mention the extra pressure it places on my wife and children when I’m furious with myself for, in my estimation, failing spectacularly at nearly every writing attempt. Given the results, it is little wonder that my defensive reaction has been to pull back from the passtime I so dearly love and the craft I’ve been aching to hone.</p>
+
+<p>Cue my good friend Daniel, the fellow who trained for and ran my birthday half-marathon at my side. He bought himself an <em>AlphaSmart 3000</em> a couple of months prior, due in large part to many of the same struggles I’ve had. We spent a chunk of that 21 kilometers in July talking about his experiences with it to that point. By the fourth split, I was sold. I ordered mine that afternoon and have been refreshing <strong>eBay</strong>’s shipping updates in the days since.</p>
+
+<p>How is it working out so far? Well, I’ve managed to power through this piece in a single session without checking the internet (except to be sure I got the release date correct), wasting time on <strong>Facebook</strong>, or fighting with weak wifi failing to sync with <em>Google Docs</em>. I was able to stand at the work bench in my garage and listen to <a href="https://www.allmusic.com/album/meat-puppets-ii-mw0000193623">the <strong>Meat Puppets</strong></a> on casette (again with the raging hipsterdom, I know) and type this up while waiting for the wood glue to dry on a shelf I’m constructing. And the best part? The <strong>USB</strong> transfer guarantees that I don’t have to manually type up a hand-scrawled monstrosity.</p>
+
+<p>I would say that’s a pretty decent show of success so far. Now, if you’ll excuse me, I’ll be running a manual spell check and fighting with the results of a 20-year-old dictionary. Really - “<em>AlphaSmart</em>” isn’t even recognized!?</p>
+`;
+  const readMins = Math.ceil(content.split(' ').length / 280);
+  document.getElementById('read-time').innerText = readMins;
+</script>
+
+    </p>
+  </header>
   <div class="post-content e-content" itemprop="articleBody">
     <p>Got something fun in the mail today. I ordered it from <strong>eBay</strong> on my birthday, as a gift to myself to help with writing.</p>
 
@@ -183,9 +213,8 @@
 
 <p>I would say that’s a pretty decent show of success so far. Now, if you’ll excuse me, I’ll be running a manual spell check and fighting with the results of a 20-year-old dictionary. Really - “<em>AlphaSmart</em>” isn’t even recognized!?</p>
 
-  </div><a class="u-url" href="/life/2020/08/17/my-boys-alphasmaht.html" hidden></a>
+  </div>
 </article>
-
       </main>
       <span class="visually-hidden" id="link-new-tab">opens new tab</span>
 <footer>

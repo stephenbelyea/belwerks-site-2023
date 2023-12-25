@@ -152,14 +152,32 @@
 </div></aside>
       <main class="panel primary">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Make way Gatsby, Jekyll&#39;s on the job!</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2023-10-06T00:00:00-04:00" itemprop="datePublished">Oct 6, 2023
-      </time></p>
-  </header>
+    <p class="post-meta"><time class="dt-published" datetime="2023-10-06T00:00:00-04:00" itemprop="datePublished">
+        Oct 6, 2023
+      </time>
+      <span class="read-time">
+  <span class="bullet" aria-hidden="true">&bull;</span>
+  ~<span id="read-time"></span> min read
+</span>
+<script>
+  const content = `<p>It has been quite some time since I’ve posted. So long, in fact, that when I tried to pull down my previous blog site on my new laptop, the <a href="https://www.gatsbyjs.com/">Gatsby</a> setup was so out of date that it wouldn’t build locally. I could have reviewed the plugins and searched out migration documentation, sure. But I took this as an opportunity to try out a different setup.</p>
 
+<p>You’re now reading this on a pretty basic <a href="https://jekyllrb.com/">Jekyll site</a>, built on <a href="https://rubyonrails.org/">Ruby on Rails</a> and hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+
+<p>I’ve been wanting to get to know <strong>Rails</strong> for many years, but the <a href="https://rubygems.org/">Gems</a> and out-of-sight stuff was a bit too much to take-in all at once. A little too much server-side approach for my client-side JS brain!</p>
+
+<p>Welp, here I am. Granted, a <strong>Jekyll</strong> app is hardly a deep dive into <strong>Rails</strong> - but it’s a start.</p>
+
+<p>If you notice some issues here and there, have patience. I have a running <a href="https://github.com/stephenbelyea/belwerks-site-2023/issues?q=is%3Aissue+sort%3Aupdated-asc">list of issues logged in GitHub</a> that I’ll be chipping away at here and there.</p>
+`;
+  const readMins = Math.ceil(content.split(' ').length / 280);
+  document.getElementById('read-time').innerText = readMins;
+</script>
+
+    </p>
+  </header>
   <div class="post-content e-content" itemprop="articleBody">
     <p>It has been quite some time since I’ve posted. So long, in fact, that when I tried to pull down my previous blog site on my new laptop, the <a href="https://www.gatsbyjs.com/">Gatsby</a> setup was so out of date that it wouldn’t build locally. I could have reviewed the plugins and searched out migration documentation, sure. But I took this as an opportunity to try out a different setup.</p>
 
@@ -171,9 +189,8 @@
 
 <p>If you notice some issues here and there, have patience. I have a running <a href="https://github.com/stephenbelyea/belwerks-site-2023/issues?q=is%3Aissue+sort%3Aupdated-asc">list of issues logged in GitHub</a> that I’ll be chipping away at here and there.</p>
 
-  </div><a class="u-url" href="/work/2023/10/06/make-way-gatsby-jekylls-on-the-job.html" hidden></a>
+  </div>
 </article>
-
       </main>
       <span class="visually-hidden" id="link-new-tab">opens new tab</span>
 <footer>

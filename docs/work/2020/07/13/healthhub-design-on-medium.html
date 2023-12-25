@@ -152,14 +152,30 @@
 </div></aside>
       <main class="panel primary">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">HealthHub Design on Medium</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2020-07-13T00:00:00-04:00" itemprop="datePublished">Jul 13, 2020
-      </time></p>
-  </header>
+    <p class="post-meta"><time class="dt-published" datetime="2020-07-13T00:00:00-04:00" itemprop="datePublished">
+        Jul 13, 2020
+      </time>
+      <span class="read-time">
+  <span class="bullet" aria-hidden="true">&bull;</span>
+  ~<span id="read-time"></span> min read
+</span>
+<script>
+  const content = `<p>The design team I’m a part of at HealthHub is pretty cool, if you’ll excuse a bit of pride. We are intentionally setup as a cross-disciplinary team in all the best ways. I mean, you’ve got to be very welcoming of people with different disciplines and perspectives if you’re willing to bring in a curmudgeonly old front ender like myself, eh?</p>
 
+<p>Together, we’re learning some of the <a href="https://www.wired.com/insights/2013/12/human-centered-design-matters/">pretty cool principles behind Human-Centred Design (HCD)</a>, from research, to prototyping, to getting our thoughts in front of the people who have problems that need solving as early as possible, to building better products based on what they share with us. I don’t mind saying that the more I learn about HCD and work within the team I’m on, the more it brings some light back to a career that’s been dimming for a while. That’s a big change for me, and I’m happy that I’ve found it.</p>
+
+<p>One thing I love at the core of our design team is that we’re all here to learn and get better at what we do. Today, we’re exhibiting this by setting up a publication on Medium to share what we care about, what we’re learning, and what’s keeping us engaged! Keep an eye out for some posts from me on (what else?) accessibility.</p>
+
+<p><a href="https://medium.com/healthhub-design">Check out our HealthHub Design team blog on Medium</a>!</p>
+`;
+  const readMins = Math.ceil(content.split(' ').length / 280);
+  document.getElementById('read-time').innerText = readMins;
+</script>
+
+    </p>
+  </header>
   <div class="post-content e-content" itemprop="articleBody">
     <p>The design team I’m a part of at HealthHub is pretty cool, if you’ll excuse a bit of pride. We are intentionally setup as a cross-disciplinary team in all the best ways. I mean, you’ve got to be very welcoming of people with different disciplines and perspectives if you’re willing to bring in a curmudgeonly old front ender like myself, eh?</p>
 
@@ -169,9 +185,8 @@
 
 <p><a href="https://medium.com/healthhub-design">Check out our HealthHub Design team blog on Medium</a>!</p>
 
-  </div><a class="u-url" href="/work/2020/07/13/healthhub-design-on-medium.html" hidden></a>
+  </div>
 </article>
-
       </main>
       <span class="visually-hidden" id="link-new-tab">opens new tab</span>
 <footer>
