@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stephen Belyea is an Accessibility Nerd + Front End Developer with over a  decade's experience building things for the web. He likes to write stuff too.">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,500;0,600;1,500;1,600&family=Noto+Serif:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
+  <title>Building a static podcast archive: Part 1 | Belwerks</title>
+</head><body>
+    <div class="wrapper layout-default">
+      <aside class="panel secondary"><div class="logo alt-font">
+  <div class="site-icon" role="presentation">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 84 91"
+    width="110">
+    <title>Belwerks</title>
+    <circle
+      cx="42"
+      cy="14"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="70"
+      cy="28"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="14"
+      cy="63"
+      r="8"
+      fill="#cf1020" />
+    <circle
+      cx="14"
+      cy="63"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="42"
+      cy="77"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <circle
+      cx="70"
+      cy="63"
+      r="12"
+      stroke="#353434"
+      strokeWidth="3"
+      fill="none" />
+    <line
+      x1="14"
+      x2="70"
+      y1="45.5"
+      y2="45.5"
+      stroke="#353434"
+      strokeWidth="3" />
+    <line
+      x1="42"
+      x2="42"
+      y1="26"
+      y2="64"
+      stroke="#353434"
+      strokeWidth="3" />
+    <line
+      x1="14"
+      x2="14"
+      y1="44"
+      y2="50"
+      stroke="#353434"
+      strokeWidth="3" />
+    <line
+      x1="70"
+      x2="70"
+      y1="40"
+      y2="50"
+      stroke="#353434"
+      strokeWidth="3" />
+  </svg>
+</div>
+  <span class="site-name">
+  <span class="alt-colour">bel</span>werks
+</span>
+</div><nav class="site-nav alt-font">
+  <ul>
+      
+      
+      
+      
+        <li>
+          <a href="/" >Home</a>
+        </li>
+      
+      
+        <li>
+          <a href="/about/" >About</a>
+        </li>
+      
+      
+        <li>
+          <a href="/work/" >Work</a>
+        </li>
+      
+      
+        <li>
+          <a href="/life/" >Life</a>
+        </li>
+      </ul>
+</nav><div class="social">
+  <ul>
+    <li>
+      <a
+  href="https://www.linkedin.com/in/sebelyea"
+  target="_blank"
+  aria-describedby="link-new-tab">LinkedIn</a>
+    </li>
+    <li>
+      <a
+  href="https://github.com/stephenbelyea"
+  target="_blank"
+  aria-describedby="link-new-tab">GitHub</a>
+    </li>
+    <li><a
+  href="https://codepen.io/belwerks"
+  target="_blank"
+  aria-describedby="link-new-tab">CodePen</a></li>
+    <li><a
+  href="https://medium.com/@belwerks"
+  target="_blank"
+  aria-describedby="link-new-tab">Medium</a></li>
+    <li>
+      <a
+  href="https://a11y.info/@belwerks"
+  target="_blank"
+  aria-describedby="link-new-tab">Mastodon</a>
+    </li>
+  </ul>
+</div></aside>
+      <main class="panel primary">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Building a static podcast archive: Part 1</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2024-01-06T00:00:00-05:00" itemprop="datePublished">
+        Jan 6, 2024
+      </time>
+      <span class="read-time">
+  <span class="bullet" aria-hidden="true">&bull;</span>
+  ~<span id="read-time"></span> min read
+</span>
+<script>
+  const content = `<p>If you’re only interested in the technical process, consider skipping the context up front and starting at <a href="#working-with-the-rss-feed">“Working with the RSS feed”</a>.</p>
+
+<p><strong>Note:</strong> At the time of writing this, the links to our old site(s) are all still alive. Seeing as the plan is to sunset these at some point, however, that may no longer be the case when you’re reading this. Sorry!</p>
+
+<h2 id="little-ditty-bout-jake-pat-and-stephen">Little ditty ‘bout Jake, Pat, and Stephen</h2>
+
+<p>A few years back, a couple of friends (Jake and Pat) and I setup a podcast called <strong>The Dust Off</strong>. It was a lot of fun, but the technical side at the time was still fairly involved if you didn’t have a big budget or network affiliation. The original version of <a href="http://thedustoff.com">thedustoff.com</a> was cobbled together using a handful of <strong>WordPress</strong> plugins to update and generate the RSS feed, <strong>SoundCloud</strong> to store and serve the files, redirect tools like <strong>PodTrac</strong> to keep an eye on our numbers, and a whole lot of manual work for tagging, uploading, and cross-linking.</p>
+
+<figure>
+<img src="/assets/steve-jake-pat.jpg" alt="brick walls line a paved alley, with three young men in shorts and t-shirts standing at varied distances from the camera" />
+  <figcaption>Steve (that’s me), Jake, and Pat try to look cool in an alley near Jake’s Toronto apartment.</figcaption>
+</figure>
+
+<h3 id="birth-of-a-station">Birth of a station</h3>
+
+<p>As <strong>The Dust Off</strong> grew and started to find an audience, some friends took an interest in starting their own shows too. Since we already had the technical infrastructure and were paying for <strong>DreamHost</strong> for hosting the site(s) and <strong>SoundCloud</strong> for the files, it made sense to help them out. Before long, this lead to the formation of <strong>Station Zed</strong>, (<a href="https://www.stationzed.com">stationzed.com</a>) our collaborative podcast network with a goal of helping other creative folks get up and running on no budget. At it’s peak in 2018, <strong>Station Zed</strong> was the home of four distinct shows:</p>
+
+<ul>
+  <li><a href="http://thedustoff.com/series/thedustoff/"><strong>The Dust Off</strong> (2016-18)</a> - a show about revisiting movies, shows, games, and other things that held meaning to the hosts over the years</li>
+  <li><a href="https://www.stationzed.com/wrestle-daddies/"><strong>Wrestle Daddies</strong> (2017-18)</a> - an indie wrestling federation run by two bonkers promoters who develop and track the careers of fictional wrestlers with whacky schticks</li>
+  <li><a href="https://www.stationzed.com/springfield-the-later-years/"><strong>Springfield: The Later Years</strong> (2018-19)</a> - a view-and-review of episodes from the maligned later seasons of The Simpsons by two big fans of the best years of the show</li>
+  <li><a href="https://www.stationzed.com/boozing-and-bonding/"><strong>Boozing &amp; Bonding</strong> (2018-21)</a> - a tour through classic Bond movies and hand-picked cocktails and drinks paired with each one</li>
+</ul>
+
+<figure>
+<img src="/assets/station-zed-shows.png" alt="grid of four thumbnail images on a black background, each with the show's title and a different style of illustration, colours, font, and design." />
+  <figcaption>Show logos for ‘Boozing &amp; Bonding’, ‘Springfield: The Later Years’, ‘The Dust Off’, and ‘Wrestle Daddies’.</figcaption>
+</figure>
+
+<p>We all had a blast introducing season-long plot lines, big twists, and eccentric guests across the Station Zed shows. Everyone involved appeared as guests on the other shows - either as themselves or some strange character. It was a lot of fun.</p>
+
+<h3 id="death-of-a-network">Death of a network</h3>
+
+<p>After some time, however, the scheduling, promotion, manual effort, and costs started carving away at the enjoyment of it all. One by one, the shows wound down and the dream of <strong>Station Zed</strong> was gone, like tears in rain.</p>
+
+<p>Admittedly, that was a bit dramatic. I just love working-in Roy Batty’s speech at any possible opportunity. <strong>Station Zed</strong> didn’t actually go anywhere, to be fair. The original domain has been live since it launched and all show posts and feeds have remained online. Costs were adding up, however, for a network infrastructure that was no longer actively in use. First to drop was <strong>SoundCloud</strong>, with the “Pro” subscription being cancelled. Unfortunately, this lead to the service hiding most of our backlog of episodes, meaning the MP3s were no longer accessible and listeners had no way of hearing our previous work.</p>
+
+<p>Around the same time, the <strong>WordPress</strong> sites and databases were shifted over to <strong>Digital Ocean</strong> to save hosting costs. Additional <strong>Digital Ocean</strong> buckets were also setup to serve the audio files, though this required manual updating of episode posts and file redirects. Unfortunately, the <strong>Digital Ocean</strong> approach has come with many issues around traffic overages and <strong>MySQL</strong> database crashes. Not the most stable environment.</p>
+
+<p>Things have mostly been in this state since 2020-21, as <strong>Boozing &amp; Bonding</strong> sobered up and released their final few episodes.</p>
+
+<figure>
+<img src="/assets/station-zed-banner.png" alt="a blue 60's style space background with a black satellite floating around and a small thumbnail of an astronaut reaching up next to yellow text reading 'Station Zed - Podcasting from Eh to Zed'" />
+  <figcaption>Station Zed’s retro space theme on full display with the site’s original banner.</figcaption>
+</figure>
+
+<h2 id="starting-at-the-bottom">Starting at the bottom</h2>
+
+<p>Like many other folks working for tech startups, I was laid-off in the final months of 2023. While I had some freelance lined up to keep me afloat, this change of employment did lead to some extra time for side-projects. Archiving <strong>The Dust Off</strong> and <strong>Station Zed</strong> to keep it all online and cut down on recurring costs has been a back-burner goal for some time now, and this seemed like a good opportunity.</p>
+
+<p>Unfortunately, when I visited the live site(s) to download episodes, it turned out that our de-subscribing from <strong>SoundCloud</strong> and partial shift in file hosting to <strong>Digital Ocean</strong> wound up leaving most episodes of each show still unavailable.</p>
+
+<p>Thanks to our RSS configuration, however, the XML feed files were still alive and well. This is where the archiving effort started.</p>
+
+<h3 id="working-with-the-rss-feed">Working with the RSS feed</h3>
+
+<h4 id="consuming-xml-directly">Consuming XML directly</h4>
+
+<p>The first step was to download the original RSS feed as XML file(s) from both <strong>The Dust Off</strong> and <strong>Station Zed</strong>. Because <strong>The Dust Off</strong> launched before the network, it has always lived on its own separate domain. The other shows were all hosted directly from <strong>Station Zed</strong>.</p>
+
+<p>At the time of writing this, both domains are still up and running. You can find the respective XML-based RSS feeds at the following addresses:</p>
+
+<ul>
+  <li><a href="http://thedustoff.com/feed/podcast"><strong>The Dust Off</strong>’s dedicated RSS</a></li>
+  <li><a href="https://www.stationzed.com/feed/podcast"><strong>Station Zed</strong>’s network RSS</a></li>
+</ul>
+
+<p>I started the process with a prototype using only <strong>The Dust Off</strong>, which I’ve left unfinished on <a href="https://github.com/stephenbelyea/thedustoff/tree/main"><strong>GitHub</strong></a>. This initial version directly consumed the XML file as the data-source to feed the static site’s front end. Due to the dead file paths and old domain links throughout the RSS entries, this quickly became a cumbersome process of <a href="https://github.com/stephenbelyea/thedustoff/commit/5b6642c82e50df227d8d5775034d35c752f6e647">manually searching out and updating content in the feed file</a>.</p>
+
+<p>In short, this didn’t feel like a simple, sustainable solution. Especially when the <a href="https://github.com/stephenbelyea/thedustoff/commit/57e0cf24b1406a8b0b8f78351a955e469165dde2">initial approach of linking to MP3 files shared from <strong>DropBox</strong></a> wound up causing traffic issues and blocked access - not to mention reliance on <strong>TinyUrl</strong> and other URL shorteners to get around invalid characters in the <strong>DropBox</strong> URLs when parsed as XML.</p>
+
+<p>On the other hand, this initial prototype did offer a helpful start at <a href="https://github.com/stephenbelyea/thedustoff/blob/main/docs/script.js">parsing the XML feed and appending to the site’s DOM structure using JS</a> without additional plugins or libraries. So, that was a plus!</p>
+
+<h4 id="parsing-xml-to-build-json">Parsing XML to build JSON</h4>
+
+<p>Given the progress made and stuff learned with the specific <strong>The Dust Off</strong> prototype, I opted to open a new repo and start fresh on the full <strong>Station Zed</strong> archive. I knew that our source RSS feed data would need to be updated for file paths, links, and other info as things developed, so I shifted the purpose of <a href="https://github.com/stephenbelyea/stationzed/tree/main/scripts/xml-feeds">the XML feed files</a> to serve only as original basis - rather than active source-of-truth.</p>
+
+<p>I like working with JSON, so I opted to use that as the new data format for our episode feeds. This kicked off with a fairly simple Node parser built using the XmlToJs library to <a href="https://github.com/stephenbelyea/stationzed/commit/0d8788a22b7e55e925536f696bfa2ea504777519">structure a simpler content model and spit out the new files</a>.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">getFeedSingleItem</span> <span class="o">=</span> <span class="p">(</span><span class="nx">singleItem</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">{</span>
+    <span class="nx">title</span><span class="p">,</span> <span class="nx">link</span><span class="p">,</span> <span class="nx">pubDate</span><span class="p">,</span> <span class="nx">description</span><span class="p">,</span> <span class="nx">enclosure</span><span class="p">,</span> <span class="p">...</span><span class="nx">item</span>
+  <span class="p">}</span> <span class="o">=</span> <span class="nx">singleItem</span><span class="p">;</span>
+
+  <span class="kd">const</span> <span class="nx">linkParts</span> <span class="o">=</span> <span class="nx">link</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">split</span><span class="p">(</span><span class="err">“</span><span class="o">/</span><span class="err">“</span><span class="p">).</span><span class="nx">filter</span><span class="p">((</span><span class="nx">part</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">part</span> <span class="o">!==</span> <span class="err">“”</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">idFromLink</span> <span class="o">=</span> <span class="nx">linkParts</span><span class="p">[</span><span class="nx">linkParts</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span>
+
+  <span class="kd">const</span> <span class="nx">dateObj</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">pubDate</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+  <span class="kd">const</span> <span class="nx">formattedDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Intl</span><span class="p">.</span><span class="nx">DateTimeFormat</span><span class="p">(</span><span class="err">“</span><span class="nx">en</span><span class="o">-</span><span class="nx">CA</span><span class="err">”</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">year</span><span class="p">:</span> <span class="err">“</span><span class="nx">numeric</span><span class="err">”</span><span class="p">,</span>
+    <span class="na">month</span><span class="p">:</span> <span class="err">“</span><span class="nx">long</span><span class="err">”</span><span class="p">,</span>
+    <span class="na">day</span><span class="p">:</span> <span class="err">“</span><span class="nx">numeric</span><span class="err">”</span><span class="p">,</span>
+  <span class="p">}).</span><span class="nx">format</span><span class="p">(</span><span class="nx">dateObj</span><span class="p">);</span>
+
+  <span class="k">return</span> <span class="p">{</span>
+    <span class="na">title</span><span class="p">:</span> <span class="nx">title</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">id</span><span class="p">:</span> <span class="nx">idFromLink</span><span class="p">,</span>
+    <span class="na">date</span><span class="p">:</span> <span class="nx">formattedDate</span><span class="p">,</span>
+    <span class="na">summary</span><span class="p">:</span> <span class="nx">description</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">fileUrl</span><span class="p">:</span> <span class="nx">enclosure</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="err">“</span><span class="nx">$</span><span class="err">”</span><span class="p">].</span><span class="nx">url</span><span class="p">,</span>
+    <span class="na">fileType</span><span class="p">:</span> <span class="nx">enclosure</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="err">“</span><span class="nx">$</span><span class="err">”</span><span class="p">].</span><span class="nx">type</span><span class="p">,</span>
+    <span class="na">show</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">author</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">duration</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">duration</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">explicit</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">explicit</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">keywords</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">keywords</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">content</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">content</span><span class="p">:</span><span class="nx">encoded</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">imageUrl</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">image</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="err">“</span><span class="nx">$</span><span class="err">”</span><span class="p">].</span><span class="nx">href</span><span class="p">,</span>
+  <span class="p">};</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>This approach also made it easy to split each episode’s URL and store an ID based on the post slug generated by <strong>WordPress</strong>. Due to the consistent and reliable slugs, this wound up being a key piece of info for working with each episode moving forward.</p>
+
+<p>Since <strong>The Dust Off</strong> domain (and RSS feed) had a single-series configuration and publishing process that differed from <strong>Station Zed</strong>’s multiple shows, some tweaks were needed to ensure <a href="https://github.com/stephenbelyea/stationzed/commit/2fd21266359498d3cfec3ab88e7ab4f98f2b8c66">each show was grabbing the correct feed data for the JSON model</a>.</p>
+
+<p>At this point, the original XML had provided vital in building our transformed data, but could now be left safely behind.</p>
+
+<hr />
+
+<p>We’ll keep this walkthrough going in Part 2 - which will be much more technical focused and less about the back-story. Keep an eye out for it!</p>
+`;
+  const readMins = Math.ceil(content.split(' ').length / 280);
+  document.getElementById('read-time').innerText = readMins;
+</script>
+
+    </p>
+  </header>
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>If you’re only interested in the technical process, consider skipping the context up front and starting at <a href="#working-with-the-rss-feed">“Working with the RSS feed”</a>.</p>
+
+<p><strong>Note:</strong> At the time of writing this, the links to our old site(s) are all still alive. Seeing as the plan is to sunset these at some point, however, that may no longer be the case when you’re reading this. Sorry!</p>
+
+<h2 id="little-ditty-bout-jake-pat-and-stephen">Little ditty ‘bout Jake, Pat, and Stephen</h2>
+
+<p>A few years back, a couple of friends (Jake and Pat) and I setup a podcast called <strong>The Dust Off</strong>. It was a lot of fun, but the technical side at the time was still fairly involved if you didn’t have a big budget or network affiliation. The original version of <a href="http://thedustoff.com">thedustoff.com</a> was cobbled together using a handful of <strong>WordPress</strong> plugins to update and generate the RSS feed, <strong>SoundCloud</strong> to store and serve the files, redirect tools like <strong>PodTrac</strong> to keep an eye on our numbers, and a whole lot of manual work for tagging, uploading, and cross-linking.</p>
+
+<figure>
+<img src="/assets/steve-jake-pat.jpg" alt="brick walls line a paved alley, with three young men in shorts and t-shirts standing at varied distances from the camera" />
+  <figcaption>Steve (that’s me), Jake, and Pat try to look cool in an alley near Jake’s Toronto apartment.</figcaption>
+</figure>
+
+<h3 id="birth-of-a-station">Birth of a station</h3>
+
+<p>As <strong>The Dust Off</strong> grew and started to find an audience, some friends took an interest in starting their own shows too. Since we already had the technical infrastructure and were paying for <strong>DreamHost</strong> for hosting the site(s) and <strong>SoundCloud</strong> for the files, it made sense to help them out. Before long, this lead to the formation of <strong>Station Zed</strong>, (<a href="https://www.stationzed.com">stationzed.com</a>) our collaborative podcast network with a goal of helping other creative folks get up and running on no budget. At it’s peak in 2018, <strong>Station Zed</strong> was the home of four distinct shows:</p>
+
+<ul>
+  <li><a href="http://thedustoff.com/series/thedustoff/"><strong>The Dust Off</strong> (2016-18)</a> - a show about revisiting movies, shows, games, and other things that held meaning to the hosts over the years</li>
+  <li><a href="https://www.stationzed.com/wrestle-daddies/"><strong>Wrestle Daddies</strong> (2017-18)</a> - an indie wrestling federation run by two bonkers promoters who develop and track the careers of fictional wrestlers with whacky schticks</li>
+  <li><a href="https://www.stationzed.com/springfield-the-later-years/"><strong>Springfield: The Later Years</strong> (2018-19)</a> - a view-and-review of episodes from the maligned later seasons of The Simpsons by two big fans of the best years of the show</li>
+  <li><a href="https://www.stationzed.com/boozing-and-bonding/"><strong>Boozing &amp; Bonding</strong> (2018-21)</a> - a tour through classic Bond movies and hand-picked cocktails and drinks paired with each one</li>
+</ul>
+
+<figure>
+<img src="/assets/station-zed-shows.png" alt="grid of four thumbnail images on a black background, each with the show's title and a different style of illustration, colours, font, and design." />
+  <figcaption>Show logos for ‘Boozing &amp; Bonding’, ‘Springfield: The Later Years’, ‘The Dust Off’, and ‘Wrestle Daddies’.</figcaption>
+</figure>
+
+<p>We all had a blast introducing season-long plot lines, big twists, and eccentric guests across the Station Zed shows. Everyone involved appeared as guests on the other shows - either as themselves or some strange character. It was a lot of fun.</p>
+
+<h3 id="death-of-a-network">Death of a network</h3>
+
+<p>After some time, however, the scheduling, promotion, manual effort, and costs started carving away at the enjoyment of it all. One by one, the shows wound down and the dream of <strong>Station Zed</strong> was gone, like tears in rain.</p>
+
+<p>Admittedly, that was a bit dramatic. I just love working-in Roy Batty’s speech at any possible opportunity. <strong>Station Zed</strong> didn’t actually go anywhere, to be fair. The original domain has been live since it launched and all show posts and feeds have remained online. Costs were adding up, however, for a network infrastructure that was no longer actively in use. First to drop was <strong>SoundCloud</strong>, with the “Pro” subscription being cancelled. Unfortunately, this lead to the service hiding most of our backlog of episodes, meaning the MP3s were no longer accessible and listeners had no way of hearing our previous work.</p>
+
+<p>Around the same time, the <strong>WordPress</strong> sites and databases were shifted over to <strong>Digital Ocean</strong> to save hosting costs. Additional <strong>Digital Ocean</strong> buckets were also setup to serve the audio files, though this required manual updating of episode posts and file redirects. Unfortunately, the <strong>Digital Ocean</strong> approach has come with many issues around traffic overages and <strong>MySQL</strong> database crashes. Not the most stable environment.</p>
+
+<p>Things have mostly been in this state since 2020-21, as <strong>Boozing &amp; Bonding</strong> sobered up and released their final few episodes.</p>
+
+<figure>
+<img src="/assets/station-zed-banner.png" alt="a blue 60's style space background with a black satellite floating around and a small thumbnail of an astronaut reaching up next to yellow text reading 'Station Zed - Podcasting from Eh to Zed'" />
+  <figcaption>Station Zed’s retro space theme on full display with the site’s original banner.</figcaption>
+</figure>
+
+<h2 id="starting-at-the-bottom">Starting at the bottom</h2>
+
+<p>Like many other folks working for tech startups, I was laid-off in the final months of 2023. While I had some freelance lined up to keep me afloat, this change of employment did lead to some extra time for side-projects. Archiving <strong>The Dust Off</strong> and <strong>Station Zed</strong> to keep it all online and cut down on recurring costs has been a back-burner goal for some time now, and this seemed like a good opportunity.</p>
+
+<p>Unfortunately, when I visited the live site(s) to download episodes, it turned out that our de-subscribing from <strong>SoundCloud</strong> and partial shift in file hosting to <strong>Digital Ocean</strong> wound up leaving most episodes of each show still unavailable.</p>
+
+<p>Thanks to our RSS configuration, however, the XML feed files were still alive and well. This is where the archiving effort started.</p>
+
+<h3 id="working-with-the-rss-feed">Working with the RSS feed</h3>
+
+<h4 id="consuming-xml-directly">Consuming XML directly</h4>
+
+<p>The first step was to download the original RSS feed as XML file(s) from both <strong>The Dust Off</strong> and <strong>Station Zed</strong>. Because <strong>The Dust Off</strong> launched before the network, it has always lived on its own separate domain. The other shows were all hosted directly from <strong>Station Zed</strong>.</p>
+
+<p>At the time of writing this, both domains are still up and running. You can find the respective XML-based RSS feeds at the following addresses:</p>
+
+<ul>
+  <li><a href="http://thedustoff.com/feed/podcast"><strong>The Dust Off</strong>’s dedicated RSS</a></li>
+  <li><a href="https://www.stationzed.com/feed/podcast"><strong>Station Zed</strong>’s network RSS</a></li>
+</ul>
+
+<p>I started the process with a prototype using only <strong>The Dust Off</strong>, which I’ve left unfinished on <a href="https://github.com/stephenbelyea/thedustoff/tree/main"><strong>GitHub</strong></a>. This initial version directly consumed the XML file as the data-source to feed the static site’s front end. Due to the dead file paths and old domain links throughout the RSS entries, this quickly became a cumbersome process of <a href="https://github.com/stephenbelyea/thedustoff/commit/5b6642c82e50df227d8d5775034d35c752f6e647">manually searching out and updating content in the feed file</a>.</p>
+
+<p>In short, this didn’t feel like a simple, sustainable solution. Especially when the <a href="https://github.com/stephenbelyea/thedustoff/commit/57e0cf24b1406a8b0b8f78351a955e469165dde2">initial approach of linking to MP3 files shared from <strong>DropBox</strong></a> wound up causing traffic issues and blocked access - not to mention reliance on <strong>TinyUrl</strong> and other URL shorteners to get around invalid characters in the <strong>DropBox</strong> URLs when parsed as XML.</p>
+
+<p>On the other hand, this initial prototype did offer a helpful start at <a href="https://github.com/stephenbelyea/thedustoff/blob/main/docs/script.js">parsing the XML feed and appending to the site’s DOM structure using JS</a> without additional plugins or libraries. So, that was a plus!</p>
+
+<h4 id="parsing-xml-to-build-json">Parsing XML to build JSON</h4>
+
+<p>Given the progress made and stuff learned with the specific <strong>The Dust Off</strong> prototype, I opted to open a new repo and start fresh on the full <strong>Station Zed</strong> archive. I knew that our source RSS feed data would need to be updated for file paths, links, and other info as things developed, so I shifted the purpose of <a href="https://github.com/stephenbelyea/stationzed/tree/main/scripts/xml-feeds">the XML feed files</a> to serve only as original basis - rather than active source-of-truth.</p>
+
+<p>I like working with JSON, so I opted to use that as the new data format for our episode feeds. This kicked off with a fairly simple Node parser built using the XmlToJs library to <a href="https://github.com/stephenbelyea/stationzed/commit/0d8788a22b7e55e925536f696bfa2ea504777519">structure a simpler content model and spit out the new files</a>.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">getFeedSingleItem</span> <span class="o">=</span> <span class="p">(</span><span class="nx">singleItem</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">{</span>
+    <span class="nx">title</span><span class="p">,</span> <span class="nx">link</span><span class="p">,</span> <span class="nx">pubDate</span><span class="p">,</span> <span class="nx">description</span><span class="p">,</span> <span class="nx">enclosure</span><span class="p">,</span> <span class="p">...</span><span class="nx">item</span>
+  <span class="p">}</span> <span class="o">=</span> <span class="nx">singleItem</span><span class="p">;</span>
+
+  <span class="kd">const</span> <span class="nx">linkParts</span> <span class="o">=</span> <span class="nx">link</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">split</span><span class="p">(</span><span class="err">“</span><span class="o">/</span><span class="err">“</span><span class="p">).</span><span class="nx">filter</span><span class="p">((</span><span class="nx">part</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">part</span> <span class="o">!==</span> <span class="err">“”</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">idFromLink</span> <span class="o">=</span> <span class="nx">linkParts</span><span class="p">[</span><span class="nx">linkParts</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span>
+
+  <span class="kd">const</span> <span class="nx">dateObj</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">pubDate</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+  <span class="kd">const</span> <span class="nx">formattedDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Intl</span><span class="p">.</span><span class="nx">DateTimeFormat</span><span class="p">(</span><span class="err">“</span><span class="nx">en</span><span class="o">-</span><span class="nx">CA</span><span class="err">”</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">year</span><span class="p">:</span> <span class="err">“</span><span class="nx">numeric</span><span class="err">”</span><span class="p">,</span>
+    <span class="na">month</span><span class="p">:</span> <span class="err">“</span><span class="nx">long</span><span class="err">”</span><span class="p">,</span>
+    <span class="na">day</span><span class="p">:</span> <span class="err">“</span><span class="nx">numeric</span><span class="err">”</span><span class="p">,</span>
+  <span class="p">}).</span><span class="nx">format</span><span class="p">(</span><span class="nx">dateObj</span><span class="p">);</span>
+
+  <span class="k">return</span> <span class="p">{</span>
+    <span class="na">title</span><span class="p">:</span> <span class="nx">title</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">id</span><span class="p">:</span> <span class="nx">idFromLink</span><span class="p">,</span>
+    <span class="na">date</span><span class="p">:</span> <span class="nx">formattedDate</span><span class="p">,</span>
+    <span class="na">summary</span><span class="p">:</span> <span class="nx">description</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">fileUrl</span><span class="p">:</span> <span class="nx">enclosure</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="err">“</span><span class="nx">$</span><span class="err">”</span><span class="p">].</span><span class="nx">url</span><span class="p">,</span>
+    <span class="na">fileType</span><span class="p">:</span> <span class="nx">enclosure</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="err">“</span><span class="nx">$</span><span class="err">”</span><span class="p">].</span><span class="nx">type</span><span class="p">,</span>
+    <span class="na">show</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">author</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">duration</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">duration</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">explicit</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">explicit</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">keywords</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">keywords</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">content</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">content</span><span class="p">:</span><span class="nx">encoded</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+    <span class="na">imageUrl</span><span class="p">:</span> <span class="nx">item</span><span class="p">[</span><span class="err">“</span><span class="na">itunes</span><span class="p">:</span><span class="nx">image</span><span class="err">”</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="err">“</span><span class="nx">$</span><span class="err">”</span><span class="p">].</span><span class="nx">href</span><span class="p">,</span>
+  <span class="p">};</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>This approach also made it easy to split each episode’s URL and store an ID based on the post slug generated by <strong>WordPress</strong>. Due to the consistent and reliable slugs, this wound up being a key piece of info for working with each episode moving forward.</p>
+
+<p>Since <strong>The Dust Off</strong> domain (and RSS feed) had a single-series configuration and publishing process that differed from <strong>Station Zed</strong>’s multiple shows, some tweaks were needed to ensure <a href="https://github.com/stephenbelyea/stationzed/commit/2fd21266359498d3cfec3ab88e7ab4f98f2b8c66">each show was grabbing the correct feed data for the JSON model</a>.</p>
+
+<p>At this point, the original XML had provided vital in building our transformed data, but could now be left safely behind.</p>
+
+<hr />
+
+<p>We’ll keep this walkthrough going in Part 2 - which will be much more technical focused and less about the back-story. Keep an eye out for it!</p>
+
+  </div>
+</article>
+      </main>
+      <span class="visually-hidden" id="link-new-tab">opens new tab</span>
+<footer>
+  <p class="bold">&copy;2024 <span class="site-name">
+  <span class="alt-colour">bel</span>werks
+</span> | Stephen Belyea
+  </p>
+  <p>
+    <em>Built with
+      <span><a
+  href="https://jekyllrb.com/"
+  target="_blank"
+  aria-describedby="link-new-tab">Jekyll</a></span>, hosted on
+      <span><a
+  href="https://pages.github.com/"
+  target="_blank"
+  aria-describedby="link-new-tab">GitHub Pages</a></span>, and featuring the
+      <span><a
+  href="https://fonts.google.com/noto"
+  target="_blank"
+  aria-describedby="link-new-tab">Noto typeface</a></span>.</em>
+  </p>
+</footer>
+    </div>
+  </body>
+</html>

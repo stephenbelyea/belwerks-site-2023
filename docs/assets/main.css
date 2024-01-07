@@ -36,7 +36,7 @@ textarea:not([rows]) { min-height: 10em; }
 
 html { font-size: 100%; }
 
-.wrapper { display: grid; gap: 6rem; grid-template-columns: auto 1fr; grid-template-rows: 1fr auto; grid-template-areas: "side main" "foot foot"; min-height: 100vh; width: 92vw; max-width: 50rem; margin: 5rem auto 0.5rem; }
+.wrapper { display: grid; gap: 6rem; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: 1fr auto; grid-template-areas: "side main" "foot foot"; min-height: 100vh; width: 92vw; max-width: 50rem; margin: 5rem auto 0.5rem; }
 .wrapper > aside { grid-area: side; }
 .wrapper > main { grid-area: main; }
 .wrapper > footer { grid-area: foot; }
@@ -46,7 +46,7 @@ html { font-size: 100%; }
 
 @media screen and (max-width: 750px) { .wrapper { gap: 2.5rem; width: 94vw; margin-top: 3rem; } }
 @media screen and (max-width: 550px) { .wrapper { display: block; margin-top: 1.5rem; width: 90vw; } }
-:root { --font-weight-body: 300; --font-weight-bold: 600; --font-weight-heading: 600; --font-weight-heading-alt: 500; --font-family-body: "Noto Serif", serif; --font-family-heading: "Noto Sans", sans-serif; --font-size-sm: 0.875em; --font-size-base: 1rem; --font-size-md: 1.15em; --font-size-lg: 1.45em; --font-size-xl: 1.75em; --font-size-xxl: 2.25em; --font-size-mega: 2.85em; --colour-body: #3f3636; --colour-body-alt: #6c0d15; --colour-link: #cf1020; --colour-link-focus: rgb(114, 79, 79); --colour-link-focus-ring: rgba(114, 79, 79, 0.8); --colour-border: rgb(230, 219, 219); --timing: 100ms; }
+:root { --font-weight-body: 300; --font-weight-bold: 600; --font-weight-heading: 600; --font-weight-heading-alt: 500; --font-family-body: "Noto Serif", serif; --font-family-heading: "Noto Sans", sans-serif; --font-size-sm: 0.875em; --font-size-base: 1rem; --font-size-md: 1.15em; --font-size-lg: 1.45em; --font-size-xl: 1.75em; --font-size-xxl: 2.25em; --font-size-mega: 2.85em; --colour-body-dark: #240404; --colour-body: #3f3636; --colour-body-alt: #6c0d15; --colour-link: #cf1020; --colour-link-focus: rgb(114, 79, 79); --colour-link-focus-ring: rgba(114, 79, 79, 0.8); --colour-border: rgb(230, 219, 219); --colour-border-background: rgba(230, 219, 219, 0.25); --timing: 100ms; }
 
 body { font-family: var(--font-family-body); font-weight: var(--font-weight-body); font-size: var(--font-size-base); color: var(--colour-body); line-height: 2; }
 
@@ -94,6 +94,11 @@ blockquote p:only-child, blockquote p:first-child { margin-top: 0; }
 blockquote p:only-child, blockquote p:last-child { margin-bottom: 0.5rem; }
 
 hr { margin: 3rem 0; border: none; border-bottom: solid 0.15rem var(--colour-border); }
+
+pre { max-width: 100%; overflow-x: auto; padding: 1rem; margin: 1.75rem 0; border-radius: 0.5rem; background: var(--colour-border-background); border: solid 0.15rem var(--colour-border); font-size: var(--font-size-sm); line-height: 1.75; }
+pre .nx { color: var(--colour-body-alt); }
+pre .na { color: var(--colour-body-dark); }
+pre .kd, pre .k, pre .mi, pre .o { color: var(--colour-link); }
 
 @media screen and (max-width: 550px) { :root { --font-size-base: 1.125rem; --font-size-lg: 1.25em; --font-size-xl: 1.5em; --font-size-xxl: 1.75em; --font-size-mega: 2.25em; } }
 .site-icon { max-width: 4.15rem; margin: 0 auto; }

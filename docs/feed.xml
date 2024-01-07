@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://belwerks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://belwerks.com/" rel="alternate" type="text/html" /><updated>2023-12-24T20:37:08-05:00</updated><id>https://belwerks.com/feed.xml</id><title type="html">Belwerks</title><subtitle>Stephen Belyea is an Accessibility Nerd + Front End Developer with over a  decade&apos;s experience building things for the web. He likes to write stuff too.</subtitle><entry><title type="html">Surviving the era of AI</title><link href="https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai.html" rel="alternate" type="text/html" title="Surviving the era of AI" /><published>2023-12-24T00:00:00-05:00</published><updated>2023-12-24T00:00:00-05:00</updated><id>https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai</id><content type="html" xml:base="https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai.html">&lt;p&gt;I have kids. Three of them. They’re all amazing people in the making and I’m so proud and in love with them. I want the best for them and I believe they deserve the best the world can give them. But I’m also raising them in a time of unprecedented climate change and the ramifications that come from it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://belwerks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://belwerks.com/" rel="alternate" type="text/html" /><updated>2024-01-07T00:26:52-05:00</updated><id>https://belwerks.com/feed.xml</id><title type="html">Belwerks</title><subtitle>Stephen Belyea is an Accessibility Nerd + Front End Developer with over a  decade&apos;s experience building things for the web. He likes to write stuff too.</subtitle><entry><title type="html">Building a static podcast archive: Part 1</title><link href="https://belwerks.com/work/2024/01/06/building-a-static-podcast-archive-part-1.html" rel="alternate" type="text/html" title="Building a static podcast archive: Part 1" /><published>2024-01-06T00:00:00-05:00</published><updated>2024-01-06T00:00:00-05:00</updated><id>https://belwerks.com/work/2024/01/06/building-a-static-podcast-archive-part-1</id><content type="html" xml:base="https://belwerks.com/work/2024/01/06/building-a-static-podcast-archive-part-1.html">&lt;p&gt;If you’re only interested in the technical process, consider skipping the context up front and starting at &lt;a href=&quot;#working-with-the-rss-feed&quot;&gt;“Working with the RSS feed”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; At the time of writing this, the links to our old site(s) are all still alive. Seeing as the plan is to sunset these at some point, however, that may no longer be the case when you’re reading this. Sorry!&lt;/p&gt;
+
+&lt;h2 id=&quot;little-ditty-bout-jake-pat-and-stephen&quot;&gt;Little ditty ‘bout Jake, Pat, and Stephen&lt;/h2&gt;
+
+&lt;p&gt;A few years back, a couple of friends (Jake and Pat) and I setup a podcast called &lt;strong&gt;The Dust Off&lt;/strong&gt;. It was a lot of fun, but the technical side at the time was still fairly involved if you didn’t have a big budget or network affiliation. The original version of &lt;a href=&quot;http://thedustoff.com&quot;&gt;thedustoff.com&lt;/a&gt; was cobbled together using a handful of &lt;strong&gt;WordPress&lt;/strong&gt; plugins to update and generate the RSS feed, &lt;strong&gt;SoundCloud&lt;/strong&gt; to store and serve the files, redirect tools like &lt;strong&gt;PodTrac&lt;/strong&gt; to keep an eye on our numbers, and a whole lot of manual work for tagging, uploading, and cross-linking.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/steve-jake-pat.jpg&quot; alt=&quot;brick walls line a paved alley, with three young men in shorts and t-shirts standing at varied distances from the camera&quot; /&gt;
+  &lt;figcaption&gt;Steve (that’s me), Jake, and Pat try to look cool in an alley near Jake’s Toronto apartment.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;birth-of-a-station&quot;&gt;Birth of a station&lt;/h3&gt;
+
+&lt;p&gt;As &lt;strong&gt;The Dust Off&lt;/strong&gt; grew and started to find an audience, some friends took an interest in starting their own shows too. Since we already had the technical infrastructure and were paying for &lt;strong&gt;DreamHost&lt;/strong&gt; for hosting the site(s) and &lt;strong&gt;SoundCloud&lt;/strong&gt; for the files, it made sense to help them out. Before long, this lead to the formation of &lt;strong&gt;Station Zed&lt;/strong&gt;, (&lt;a href=&quot;https://www.stationzed.com&quot;&gt;stationzed.com&lt;/a&gt;) our collaborative podcast network with a goal of helping other creative folks get up and running on no budget. At it’s peak in 2018, &lt;strong&gt;Station Zed&lt;/strong&gt; was the home of four distinct shows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thedustoff.com/series/thedustoff/&quot;&gt;&lt;strong&gt;The Dust Off&lt;/strong&gt; (2016-18)&lt;/a&gt; - a show about revisiting movies, shows, games, and other things that held meaning to the hosts over the years&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.stationzed.com/wrestle-daddies/&quot;&gt;&lt;strong&gt;Wrestle Daddies&lt;/strong&gt; (2017-18)&lt;/a&gt; - an indie wrestling federation run by two bonkers promoters who develop and track the careers of fictional wrestlers with whacky schticks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.stationzed.com/springfield-the-later-years/&quot;&gt;&lt;strong&gt;Springfield: The Later Years&lt;/strong&gt; (2018-19)&lt;/a&gt; - a view-and-review of episodes from the maligned later seasons of The Simpsons by two big fans of the best years of the show&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.stationzed.com/boozing-and-bonding/&quot;&gt;&lt;strong&gt;Boozing &amp;amp; Bonding&lt;/strong&gt; (2018-21)&lt;/a&gt; - a tour through classic Bond movies and hand-picked cocktails and drinks paired with each one&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/station-zed-shows.png&quot; alt=&quot;grid of four thumbnail images on a black background, each with the show&apos;s title and a different style of illustration, colours, font, and design.&quot; /&gt;
+  &lt;figcaption&gt;Show logos for ‘Boozing &amp;amp; Bonding’, ‘Springfield: The Later Years’, ‘The Dust Off’, and ‘Wrestle Daddies’.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We all had a blast introducing season-long plot lines, big twists, and eccentric guests across the Station Zed shows. Everyone involved appeared as guests on the other shows - either as themselves or some strange character. It was a lot of fun.&lt;/p&gt;
+
+&lt;h3 id=&quot;death-of-a-network&quot;&gt;Death of a network&lt;/h3&gt;
+
+&lt;p&gt;After some time, however, the scheduling, promotion, manual effort, and costs started carving away at the enjoyment of it all. One by one, the shows wound down and the dream of &lt;strong&gt;Station Zed&lt;/strong&gt; was gone, like tears in rain.&lt;/p&gt;
+
+&lt;p&gt;Admittedly, that was a bit dramatic. I just love working-in Roy Batty’s speech at any possible opportunity. &lt;strong&gt;Station Zed&lt;/strong&gt; didn’t actually go anywhere, to be fair. The original domain has been live since it launched and all show posts and feeds have remained online. Costs were adding up, however, for a network infrastructure that was no longer actively in use. First to drop was &lt;strong&gt;SoundCloud&lt;/strong&gt;, with the “Pro” subscription being cancelled. Unfortunately, this lead to the service hiding most of our backlog of episodes, meaning the MP3s were no longer accessible and listeners had no way of hearing our previous work.&lt;/p&gt;
+
+&lt;p&gt;Around the same time, the &lt;strong&gt;WordPress&lt;/strong&gt; sites and databases were shifted over to &lt;strong&gt;Digital Ocean&lt;/strong&gt; to save hosting costs. Additional &lt;strong&gt;Digital Ocean&lt;/strong&gt; buckets were also setup to serve the audio files, though this required manual updating of episode posts and file redirects. Unfortunately, the &lt;strong&gt;Digital Ocean&lt;/strong&gt; approach has come with many issues around traffic overages and &lt;strong&gt;MySQL&lt;/strong&gt; database crashes. Not the most stable environment.&lt;/p&gt;
+
+&lt;p&gt;Things have mostly been in this state since 2020-21, as &lt;strong&gt;Boozing &amp;amp; Bonding&lt;/strong&gt; sobered up and released their final few episodes.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/station-zed-banner.png&quot; alt=&quot;a blue 60&apos;s style space background with a black satellite floating around and a small thumbnail of an astronaut reaching up next to yellow text reading &apos;Station Zed - Podcasting from Eh to Zed&apos;&quot; /&gt;
+  &lt;figcaption&gt;Station Zed’s retro space theme on full display with the site’s original banner.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;starting-at-the-bottom&quot;&gt;Starting at the bottom&lt;/h2&gt;
+
+&lt;p&gt;Like many other folks working for tech startups, I was laid-off in the final months of 2023. While I had some freelance lined up to keep me afloat, this change of employment did lead to some extra time for side-projects. Archiving &lt;strong&gt;The Dust Off&lt;/strong&gt; and &lt;strong&gt;Station Zed&lt;/strong&gt; to keep it all online and cut down on recurring costs has been a back-burner goal for some time now, and this seemed like a good opportunity.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, when I visited the live site(s) to download episodes, it turned out that our de-subscribing from &lt;strong&gt;SoundCloud&lt;/strong&gt; and partial shift in file hosting to &lt;strong&gt;Digital Ocean&lt;/strong&gt; wound up leaving most episodes of each show still unavailable.&lt;/p&gt;
+
+&lt;p&gt;Thanks to our RSS configuration, however, the XML feed files were still alive and well. This is where the archiving effort started.&lt;/p&gt;
+
+&lt;h3 id=&quot;working-with-the-rss-feed&quot;&gt;Working with the RSS feed&lt;/h3&gt;
+
+&lt;h4 id=&quot;consuming-xml-directly&quot;&gt;Consuming XML directly&lt;/h4&gt;
+
+&lt;p&gt;The first step was to download the original RSS feed as XML file(s) from both &lt;strong&gt;The Dust Off&lt;/strong&gt; and &lt;strong&gt;Station Zed&lt;/strong&gt;. Because &lt;strong&gt;The Dust Off&lt;/strong&gt; launched before the network, it has always lived on its own separate domain. The other shows were all hosted directly from &lt;strong&gt;Station Zed&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;At the time of writing this, both domains are still up and running. You can find the respective XML-based RSS feeds at the following addresses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thedustoff.com/feed/podcast&quot;&gt;&lt;strong&gt;The Dust Off&lt;/strong&gt;’s dedicated RSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.stationzed.com/feed/podcast&quot;&gt;&lt;strong&gt;Station Zed&lt;/strong&gt;’s network RSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I started the process with a prototype using only &lt;strong&gt;The Dust Off&lt;/strong&gt;, which I’ve left unfinished on &lt;a href=&quot;https://github.com/stephenbelyea/thedustoff/tree/main&quot;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;. This initial version directly consumed the XML file as the data-source to feed the static site’s front end. Due to the dead file paths and old domain links throughout the RSS entries, this quickly became a cumbersome process of &lt;a href=&quot;https://github.com/stephenbelyea/thedustoff/commit/5b6642c82e50df227d8d5775034d35c752f6e647&quot;&gt;manually searching out and updating content in the feed file&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In short, this didn’t feel like a simple, sustainable solution. Especially when the &lt;a href=&quot;https://github.com/stephenbelyea/thedustoff/commit/57e0cf24b1406a8b0b8f78351a955e469165dde2&quot;&gt;initial approach of linking to MP3 files shared from &lt;strong&gt;DropBox&lt;/strong&gt;&lt;/a&gt; wound up causing traffic issues and blocked access - not to mention reliance on &lt;strong&gt;TinyUrl&lt;/strong&gt; and other URL shorteners to get around invalid characters in the &lt;strong&gt;DropBox&lt;/strong&gt; URLs when parsed as XML.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, this initial prototype did offer a helpful start at &lt;a href=&quot;https://github.com/stephenbelyea/thedustoff/blob/main/docs/script.js&quot;&gt;parsing the XML feed and appending to the site’s DOM structure using JS&lt;/a&gt; without additional plugins or libraries. So, that was a plus!&lt;/p&gt;
+
+&lt;h4 id=&quot;parsing-xml-to-build-json&quot;&gt;Parsing XML to build JSON&lt;/h4&gt;
+
+&lt;p&gt;Given the progress made and stuff learned with the specific &lt;strong&gt;The Dust Off&lt;/strong&gt; prototype, I opted to open a new repo and start fresh on the full &lt;strong&gt;Station Zed&lt;/strong&gt; archive. I knew that our source RSS feed data would need to be updated for file paths, links, and other info as things developed, so I shifted the purpose of &lt;a href=&quot;https://github.com/stephenbelyea/stationzed/tree/main/scripts/xml-feeds&quot;&gt;the XML feed files&lt;/a&gt; to serve only as original basis - rather than active source-of-truth.&lt;/p&gt;
+
+&lt;p&gt;I like working with JSON, so I opted to use that as the new data format for our episode feeds. This kicked off with a fairly simple Node parser built using the XmlToJs library to &lt;a href=&quot;https://github.com/stephenbelyea/stationzed/commit/0d8788a22b7e55e925536f696bfa2ea504777519&quot;&gt;structure a simpler content model and spit out the new files&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getFeedSingleItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;singleItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pubDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;enclosure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;singleItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;linkParts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;part&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;part&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;idFromLink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;linkParts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;linkParts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dateObj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pubDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;formattedDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Intl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;DateTimeFormat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CA&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;numeric&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;long&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;numeric&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dateObj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;idFromLink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;formattedDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;fileUrl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;enclosure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;fileType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;enclosure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;itunes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;duration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;itunes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;duration&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;explicit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;itunes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;explicit&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;keywords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;itunes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;keywords&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;encoded&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;imageUrl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;itunes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This approach also made it easy to split each episode’s URL and store an ID based on the post slug generated by &lt;strong&gt;WordPress&lt;/strong&gt;. Due to the consistent and reliable slugs, this wound up being a key piece of info for working with each episode moving forward.&lt;/p&gt;
+
+&lt;p&gt;Since &lt;strong&gt;The Dust Off&lt;/strong&gt; domain (and RSS feed) had a single-series configuration and publishing process that differed from &lt;strong&gt;Station Zed&lt;/strong&gt;’s multiple shows, some tweaks were needed to ensure &lt;a href=&quot;https://github.com/stephenbelyea/stationzed/commit/2fd21266359498d3cfec3ab88e7ab4f98f2b8c66&quot;&gt;each show was grabbing the correct feed data for the JSON model&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At this point, the original XML had provided vital in building our transformed data, but could now be left safely behind.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We’ll keep this walkthrough going in Part 2 - which will be much more technical focused and less about the back-story. Keep an eye out for it!&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">If you’re only interested in the technical process, consider skipping the context up front and starting at “Working with the RSS feed”.</summary></entry><entry><title type="html">Surviving the era of AI</title><link href="https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai.html" rel="alternate" type="text/html" title="Surviving the era of AI" /><published>2023-12-24T00:00:00-05:00</published><updated>2023-12-24T00:00:00-05:00</updated><id>https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai</id><content type="html" xml:base="https://belwerks.com/life/2023/12/24/surviving-the-era-of-ai.html">&lt;p&gt;I have kids. Three of them. They’re all amazing people in the making and I’m so proud and in love with them. I want the best for them and I believe they deserve the best the world can give them. But I’m also raising them in a time of unprecedented climate change and the ramifications that come from it.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Succinctly put: the world I barely knew and mostly romanticised is positively fucked.&lt;/p&gt;
@@ -418,206 +537,4 @@ making stops along the way&lt;/p&gt;
   &lt;figcaption&gt;Photo by Charlie Hardy for &lt;a href=&quot;https://happymag.tv/a-chat-with-amyl-and-the-sniffers/&quot;&gt;an interview with Amyl and the Sniffers&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;May punk bands and horror films continue to delight and surprise me well past the age where it’s remotely acceptable for me to continue sporting black graphic tees and whatever half-shaved haircut I’ve given myself that month.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">I recently subscribed to Shudder, the streaming video service for horror fans, and it helped remind me of one key aspect of my being: I friggin’ love horror movies. By the numbers, it is absolutely my favourite genre.</summary></entry><entry><title type="html">Signed by the author</title><link href="https://belwerks.com/life/2020/10/19/signed-by-the-author.html" rel="alternate" type="text/html" title="Signed by the author" /><published>2020-10-19T00:00:00-04:00</published><updated>2020-10-19T00:00:00-04:00</updated><id>https://belwerks.com/life/2020/10/19/signed-by-the-author</id><content type="html" xml:base="https://belwerks.com/life/2020/10/19/signed-by-the-author.html">&lt;p&gt;&lt;a href=&quot;/what-condition-my-inscription-is-in/&quot;&gt;In the last post&lt;/a&gt;, I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author’s name. I’ve loved that anecdote for a long, long time and always wanted to do something with it.&lt;/p&gt;
-
-&lt;p&gt;Last year, while on an extended leave from work, I finally put together a short story inspired very loosely by the Skipper’s little idiosyncracy. Mix in my grandmother’s (the Skipper’s daughter) passion for classic films and books, some French-Canadian heritage, and my own love of reading, and I wound up with 2000-or-so words that I’m pretty happy with.&lt;/p&gt;
-
-&lt;p&gt;Here it is, for your enjoyment:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/cozy-library.jpg&quot; alt=&quot;two comfy old chairs with their backs to a wall of floor to ceiling shelves, packed with books&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;signed-by-the-author&quot;&gt;Signed by the author&lt;/h2&gt;
-
-&lt;p&gt;“Ow are your studies, Elise?” Mirabelle cut the silence as she placed two steaming mugs on an antique coffee table and nestled into her worn leather reading chair. She brushed her bouncing grey bangs out of her face and waited for a response.&lt;/p&gt;
-
-&lt;p&gt;“They’re okay,” Elise smiled politely and turned to meet Mirabelle’s lively, brown eyes. Elise had been scanning the bookshelves and framed photos around her grandmother’s stuffy living room, waiting for the questions to start. She tugged at the battered quilt around her legs, tucking it in to fend off the winter chill.&lt;/p&gt;
-
-&lt;p&gt;“You are nearly finished,” Mirabelle would not let the quiet come again, “that must be exciting – non?”&lt;/p&gt;
-
-&lt;p&gt;“I guess, yeah,” Elise considered whether to continue. She picked up her tea and decided to throw her grandmother a line.&lt;/p&gt;
-
-&lt;p&gt;“Just kinda want it done with,” Elise offered while blowing steam from her mug, “it’s all pretty boring now.”&lt;/p&gt;
-
-&lt;p&gt;“It can not possibly be all so dull,” Mirabelle jumped in with a tone that immediately felt more judgemental than she intended. She scolded herself as she leaned forward to pluck her mug from the table.&lt;/p&gt;
-
-&lt;p&gt;“It &lt;em&gt;is&lt;/em&gt;,” Elise muttered before taking a sip. She shifted in her seat, away from her grandmother and back to scanning spines on the bookshelf. Had she already made it to ‘R’ before the last question? That still left far more on the shelf than Elise had ever read; even when she used to love reading.&lt;/p&gt;
-
-&lt;p&gt;Mirabelle knew she was losing Elise again and it pained her. She and the dark-haired young woman sitting beside her had grown so distant the past few years. She missed the little girl with such a fiery spirit and brown eyes wide enough to drink in every bit of life the world had to offer. Mirabelle was desperate to be a part of her granddaughter’s life again, more than she had failed to with her own children. Her son treated these visits with Elise as charity, and Mirabelle hated the feeling. Now his daughter was doing the same and it ached. She took a long sip and felt like crawling into her mug to hide.&lt;/p&gt;
-
-&lt;p&gt;“Tell me, what is one thing you are working on?” Mirabelle was grasping.&lt;/p&gt;
-
-&lt;p&gt;Elise cut short a sigh before Mirabelle caught it, “I have to find a book I’ve connected with and write about what makes it personal and stuff.”&lt;/p&gt;
-
-&lt;p&gt;“This is fantastic!” Mirabelle lit up.&lt;/p&gt;
-
-&lt;p&gt;Elise didn’t hide her sigh this time. It drained out of her before she responded.&lt;/p&gt;
-
-&lt;p&gt;“Except when am I supposed to find time to &lt;em&gt;enjoy&lt;/em&gt; a book?” She felt a bit harsh for the long sigh and the sting it caused her grandmother.&lt;/p&gt;
-
-&lt;p&gt;“Is the task to enjoy a book,” Mirabelle asked carefully, “or connect with it?”&lt;/p&gt;
-
-&lt;p&gt;“Same thing,” Elise knew it wasn’t, “and I still don’t have time for it with all the other stuff I have to get done.”&lt;/p&gt;
-
-&lt;p&gt;“Ave you not found one?” Mirabelle was poised in her seat.&lt;/p&gt;
-
-&lt;p&gt;“No, I haven’t,” Elise knew she had just thrown her grandmother a lifeline.&lt;/p&gt;
-
-&lt;p&gt;Mirabelle was up and darting toward her wall of books before Elise could finish lifting her mug for another sip. Elise noticed the worn-down path of carpet her grandmother followed. Mirabelle’s fingers waved in front of the shelf for a second, tracking her target, before locking onto a spine. Elise fell into a rush of memories, watching her grandmother pluck a book from those floor-to-ceiling shelves. She caught herself smiling as Mirabelle swung around.&lt;/p&gt;
-
-&lt;p&gt;“Ave you read this?” Mirabelle asked as she held out her selection.&lt;/p&gt;
-
-&lt;p&gt;Elise sat up and reached out for the ancient looking hardcover. She turned the book over, glancing at the back and again at the cover.&lt;/p&gt;
-
-&lt;p&gt;“I’ve heard of it,” Elise was skeptical, though unsure why, “some guy in like the 50’s hitchhikes across the States.”&lt;/p&gt;
-
-&lt;p&gt;“Not just any ‘guy’, Elise,” Mirabelle was beaming, “ouvret!”&lt;/p&gt;
-
-&lt;p&gt;Elise peeled open the front cover and stopped on the first page. A hand-written note was scribbled across the page.&lt;/p&gt;
-
-&lt;p&gt;“Is this from the author?” Elise scanned the inscription.&lt;/p&gt;
-
-&lt;p&gt;“Eh ben oui,” Mirabelle sat facing Elise on the edge of her seat, “it is.”&lt;/p&gt;
-
-&lt;p&gt;Elise flipped back to the cover and pointed at the author’s name, “but it’s not the same.”&lt;/p&gt;
-
-&lt;p&gt;“Jean-Louis is – was – is real name,” Mirabelle fed the mystery, waiting to hook her granddaughter.&lt;/p&gt;
-
-&lt;p&gt;“‘Beaulieu’ was your maiden name, right?” Mirabelle nodded.&lt;/p&gt;
-
-&lt;p&gt;“This is old French,” Elise was mouthing as she worked through the inscription.&lt;/p&gt;
-
-&lt;p&gt;“Québecois by way of Massachusetts,” Mirabelle smiled.&lt;/p&gt;
-
-&lt;p&gt;“Is that Latin?” Elise turned the book to face her grandmother.&lt;/p&gt;
-
-&lt;p&gt;“‘Ic calix!’,” Mirabelle spouted without looking, “something ee used to say.”&lt;/p&gt;
-
-&lt;p&gt;Elise dropped her hands across the open book and looked up at Mirabelle, “okay, you win, what’s the story?”&lt;/p&gt;
-
-&lt;p&gt;“Win what?” Mirabelle finished a long sip of tea and feigned coy.&lt;/p&gt;
-
-&lt;p&gt;Elise furrowed her brow and smirked, “give it up, grand-mère.”&lt;/p&gt;
-
-&lt;p&gt;“I was your age,” Mirabelle set her mug down, smiled, and sat back in her chair. She paused, drinking-in the memory, “just about to trade school for the world!”&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;“How was it?” Bernard asked his daughter without watching for her response across the bench seat. He held tight to the steering wheel, flicking an eye to his mother’s snowy house shrinking in the rearview mirror. The end of her road was always the worst leg of the trip in this weather. He’d dug this truck out of that ditch more than once over the years.&lt;/p&gt;
-
-&lt;p&gt;“Fine,” Elise turned to her father with a smile, “actually we had fun.”&lt;/p&gt;
-
-&lt;p&gt;“Fun?” Bernard couldn’t help but scoff and glance over at Elise to scan for signs of sarcasm. Bernard’s eyes were wide and lively, like his mother’s and his daughter’s, but with a hazel tint that shifted green the more upset he was. Elise caught the green when his eyes snapped her way.&lt;/p&gt;
-
-&lt;p&gt;“She has some cool stories,” Elise was surprised at herself for being happy. She struggled to think of the last time a smile snuck up on her.&lt;/p&gt;
-
-&lt;p&gt;“Like what?” Bernard asked with his eyes fixed back on the road.&lt;/p&gt;
-
-&lt;p&gt;“Just about writers she knew and road trips and stuff,” Elise trailed off. She wanted to keep the details light in hopes that her father would find less to jump on. She never enjoyed his interrogations after a trip to her grandmother’s.&lt;/p&gt;
-
-&lt;p&gt;Bernard smirked to himself and nodded, “well thank you, El, for spending time with her.”&lt;/p&gt;
-
-&lt;p&gt;Elise turned and caught a glance from her father.&lt;/p&gt;
-
-&lt;p&gt;“It means a lot to her,” he delivered before locking his eyes back to the road ahead.&lt;/p&gt;
-
-&lt;p&gt;“It was fun,” Elise shrugged. She sat up straight and faced forward while her father white-knuckled the wheel around the snowy bend. They had both learned to drive on this road, and she knew it demanded more focus than most she’d encountered since. The cab of the truck was silent except for muffled snow crunching under studded tires and hot air blasting the windshield.&lt;/p&gt;
-
-&lt;p&gt;“What’s in there?” Bernard asked after a long breath of relief, gesturing to the bag at Elise’s feet. They’d finally cleared the worst of the route.&lt;/p&gt;
-
-&lt;p&gt;“She lent me a couple of books to help with an assignment,” Elise reached for the bag.&lt;/p&gt;
-
-&lt;p&gt;“You be careful with those,” Bernard warned, “she loves her books more than she ever loved her kids.”&lt;/p&gt;
-
-&lt;p&gt;Elise rolled her eyes. She had heard this pity party from him many times before and wasn’t falling for it. She extracted the ancient looking hardcover her grandmother had first pulled down from the shelf.&lt;/p&gt;
-
-&lt;p&gt;“This one’s signed,” she ran her fingers over the cover.&lt;/p&gt;
-
-&lt;p&gt;“Are the others signed too?” Bernard asked in a neutral tone.&lt;/p&gt;
-
-&lt;p&gt;“Dunno,” Elise shrugged and leaned forward to check the bag. She pulled two more books from it and cracked each cover, scanning the first few pages.&lt;/p&gt;
-
-&lt;p&gt;“Oh, cool,” her face lit up, “they are!”&lt;/p&gt;
-
-&lt;p&gt;“Mm-hm,” Bernard uttered through a strained, tight-lipped grin.&lt;/p&gt;
-
-&lt;p&gt;“I bet she has great stories behind these,” Elise scanned over the inscriptions.&lt;/p&gt;
-
-&lt;p&gt;“I bet she does,” Bernard let his tone go, coming off more bitter and flippant to his daughter than he should have.&lt;/p&gt;
-
-&lt;p&gt;One at a time, Elise closed the books and stacked them in her lap. She sighed loudly and rolled her head to the side to stare at her father. Bernard caught the move in his peripheral and glanced back at Elise.&lt;/p&gt;
-
-&lt;p&gt;“What?” He played dumb with his eyes returned to the road.&lt;/p&gt;
-
-&lt;p&gt;“I know you two don’t get along or whatever,” Elise projected in a tone she meant as calm and collected, “but you’re always telling me how important it is to connect with her.”&lt;/p&gt;
-
-&lt;p&gt;Bernard nodded and inhaled a “yuh.”&lt;/p&gt;
-
-&lt;p&gt;“Now we finally find a way to do just that,” Elise dropped the calm exterior and decided to go for the throat, “and you’re acting like a jealous asshole.”&lt;/p&gt;
-
-&lt;p&gt;Bernard took a long breath, determined to leave his daughter’s comment alone. She knew how to sting him. He took another breath. She turned away from him and crossed her arms. She could see his effort and decided to let the exchange cool off. They both sat staring out the windshield for a long moment, pouting.&lt;/p&gt;
-
-&lt;p&gt;“Those books,” Bernard spoke softly, “are they all the same author?”&lt;/p&gt;
-
-&lt;p&gt;“No,” Elise responded flatly and flipped the stack up to double check the spines.&lt;/p&gt;
-
-&lt;p&gt;“Take a look at the inscriptions,” Bernard tilted his head to gesture toward the books.&lt;/p&gt;
-
-&lt;p&gt;“I &lt;em&gt;have&lt;/em&gt;,” Elise shot back without budging.&lt;/p&gt;
-
-&lt;p&gt;“Take another look,” Bernard glanced at Elise and caught her eye, “humour me.”&lt;/p&gt;
-
-&lt;p&gt;Elise made a show of flipping open the cover of each book and wobbling her head on her shoulders.&lt;/p&gt;
-
-&lt;p&gt;“Notice the handwriting?” Bernard asked without acknowledging her performance.&lt;/p&gt;
-
-&lt;p&gt;“It’s,” Elise broke off the sass and paused for a closer inspection, “it’s the same.” She wasn’t sure what to feel. Was it betrayal? Frustration? Amusement? She settled on a curt “&lt;em&gt;hm&lt;/em&gt;.”&lt;/p&gt;
-
-&lt;p&gt;Bernard nodded and inhaled another “yuh.”&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;“Ow are your studies, Elise?” Mirabelle asked as she stood up from her vegetable garden with a full basket. Her back yard was small, but brimming with lush garden beds. Packed in the back, a small frosted glass greenhouse glowed green with all the life inside. Elise always loved her grandmother’s gardens and longed to have her own when she made it to the home owning point in life.&lt;/p&gt;
-
-&lt;p&gt;“They’re all done, grand-mère!” Elise beamed.&lt;/p&gt;
-
-&lt;p&gt;“Your father tells me you are not taking university?” Mirabelle was placing her gloves and gardening tools away in the tiny shed, next to the greenhouse.&lt;/p&gt;
-
-&lt;p&gt;“I’m taking a year first,” Elise held the vegetable basket, “trading school for the world.”&lt;/p&gt;
-
-&lt;p&gt;Mirabelle smiled at her granddaughter. She closed the shed and held out her hand for the basket. Elise obliged.&lt;/p&gt;
-
-&lt;p&gt;“That is smart of you,” Mirabelle walked the narrow path between overflowing garden beds, towards her home, “what are your plans?”&lt;/p&gt;
-
-&lt;p&gt;“I haven’t decided,” Elise looked down at her grandmother’s bare feet in the beaten down grass. She blushed at the thought of judgement to come.&lt;/p&gt;
-
-&lt;p&gt;“That is even more smart of you,” Mirabelle opened the door and stepped inside, rubbing her feet on the worn mat. Mirabelle set her basket on the counter and started the kitchen tap. She hummed as she began rinsing the vegetables. Elise stepped into the adjoining living room and picked up her bag.&lt;/p&gt;
-
-&lt;p&gt;“I brought your books back,” Elise started as she stepped back into the kitchen.&lt;/p&gt;
-
-&lt;p&gt;“Un moment,” Mirabelle spoke over the tap, “nearly finished.”&lt;/p&gt;
-
-&lt;p&gt;Elise pulled the three hardcover books from her bag and set them on the table. Mirabelle dried her hands and carefully folded the towel before returning it to the oven door’s handle. She turned, smiling at her granddaughter.&lt;/p&gt;
-
-&lt;p&gt;“Did this elp with your assignment?” Mirabelle asked, picking up the ancient hardcover. Her smile settled to a content smirk as she caressed the book’s spine.&lt;/p&gt;
-
-&lt;p&gt;“Kind of,” Elise shrugged, “but I didn’t do it on that one.”&lt;/p&gt;
-
-&lt;p&gt;Mirabelle broke from her trance and looked up at her granddaughter, almost hurt.&lt;/p&gt;
-
-&lt;p&gt;“After hearing your stories,” Elise dug in the bag and fished out a battered paperback, “I found this in a shop.”&lt;/p&gt;
-
-&lt;p&gt;“Oh, I adore her!” Mirabelle lit back up as Elise held the cover to face her, “but I ave not read this.”&lt;/p&gt;
-
-&lt;p&gt;“It’s about a journalist in the 70’s who goes looking for her father at their old family cottage in Québec,” Elise handed the book to her grandmother, “you can have it.”&lt;/p&gt;
-
-&lt;p&gt;Mirabelle carefully took the book, turning it over in her hands to examine the front and back. She cracked open the cover to glance inside. Her fingertips fell on the first blank page, where she found a note in the handwriting of a young woman. She took a moment to trace along the inscription with her fingers. It was signed by the author, but Mirabelle recognized the handwriting. Years’ worth of cards, art, and poems from Elise were tucked among cluttered shelves and pinned on busy walls around her home. That same bubbly script adorning all of it.&lt;/p&gt;
-
-&lt;p&gt;“Merci,” Mirabelle whispered as she looked up at Elise with a glint in her eye.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">In the last post, I mentioned my great-grandfather, Monte Chase, and his habit of signing his own books in the author’s name. I’ve loved that anecdote for a long, long time and always wanted to do something with it.</summary></entry></feed>
+&lt;p&gt;May punk bands and horror films continue to delight and surprise me well past the age where it’s remotely acceptable for me to continue sporting black graphic tees and whatever half-shaved haircut I’ve given myself that month.&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">I recently subscribed to Shudder, the streaming video service for horror fans, and it helped remind me of one key aspect of my being: I friggin’ love horror movies. By the numbers, it is absolutely my favourite genre.</summary></entry></feed>
