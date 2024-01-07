@@ -14,6 +14,10 @@ If you’re only interested in the technical process, consider skipping the cont
 
 A few years back, a couple of friends (Jake and Pat) and I setup a podcast called **The Dust Off**. It was a lot of fun, but the technical side at the time was still fairly involved if you didn’t have a big budget or network affiliation. The original version of [thedustoff.com](http://thedustoff.com) was cobbled together using a handful of **WordPress** plugins to update and generate the RSS feed, **SoundCloud** to store and serve the files, redirect tools like **PodTrac** to keep an eye on our numbers, and a whole lot of manual work for tagging, uploading, and cross-linking.
 
+{% figure caption:"Steve (that's me), Jake, and Pat try to look cool in an alley near Jake's Toronto apartment." %}
+![brick walls line a paved alley, with three young men in shorts and t-shirts standing at varied distances from the camera]({{ '/assets/steve-jake-pat.jpg' | relative_url }})
+{% endfigure %}
+
 ### Birth of a station
 
 As **The Dust Off** grew and started to find an audience, some friends took an interest in starting their own shows too. Since we already had the technical infrastructure and were paying for **DreamHost** for hosting the site(s) and **SoundCloud** for the files, it made sense to help them out. Before long, this lead to the formation of **Station Zed**, ([stationzed.com](https://www.stationzed.com)) our collaborative podcast network with a goal of helping other creative folks get up and running on no budget. At it’s peak in 2018, **Station Zed** was the home of four distinct shows:
@@ -22,6 +26,10 @@ As **The Dust Off** grew and started to find an audience, some friends took an i
 - [**Wrestle Daddies** (2017-18)](https://www.stationzed.com/wrestle-daddies/) - an indie wrestling federation run by two bonkers promoters who develop and track the careers of fictional wrestlers with whacky schticks
 - [**Springfield: The Later Years** (2018-19)](https://www.stationzed.com/springfield-the-later-years/) - a view-and-review of episodes from the maligned later seasons of The Simpsons by two big fans of the best years of the show
 - [**Boozing & Bonding** (2018-21)](https://www.stationzed.com/boozing-and-bonding/) - a tour through classic Bond movies and hand-picked cocktails and drinks paired with each one
+
+{% figure caption:"Show logos for 'Boozing & Bonding', 'Springfield: The Later Years', 'The Dust Off', and 'Wrestle Daddies'." %}
+![grid of four thumbnail images on a black background, each with the show's title and a different style of illustration, colours, font, and design.]({{ '/assets/station-zed-shows.png' | relative_url }})
+{% endfigure %}
 
 We all had a blast introducing season-long plot lines, big twists, and eccentric guests across the Station Zed shows. Everyone involved appeared as guests on the other shows - either as themselves or some strange character. It was a lot of fun.
 
@@ -34,6 +42,10 @@ Admittedly, that was a bit dramatic. I just love working-in Roy Batty’s speech
 Around the same time, the **WordPress** sites and databases were shifted over to **Digital Ocean** to save hosting costs. Additional **Digital Ocean** buckets were also setup to serve the audio files, though this required manual updating of episode posts and file redirects. Unfortunately, the **Digital Ocean** approach has come with many issues around traffic overages and **MySQL** database crashes. Not the most stable environment.
 
 Things have mostly been in this state since 2020-21, as **Boozing & Bonding** sobered up and released their final few episodes.
+
+{% figure caption:"Station Zed's retro space theme on full display with the site's original banner." %}
+![a blue 60's style space background with a black satellite floating around and a small thumbnail of an astronaut reaching up next to yellow text reading 'Station Zed - Podcasting from Eh to Zed']({{ '/assets/station-zed-banner.png' | relative_url }})
+{% endfigure %}
 
 ## Starting at the bottom
 
