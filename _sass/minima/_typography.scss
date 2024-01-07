@@ -15,12 +15,14 @@
   --font-size-xxl: 2.25em;
   --font-size-mega: 2.85em;
 
+  --colour-body-dark: #240404;
   --colour-body: #3f3636;
   --colour-body-alt: #6c0d15;
   --colour-link: #cf1020;
   --colour-link-focus: rgb(114, 79, 79);
   --colour-link-focus-ring: rgba(114, 79, 79, 0.8);
   --colour-border: rgb(230, 219, 219);
+  --colour-border-background: rgba(230, 219, 219, 0.25);
 
   --timing: 100ms;
 }
@@ -192,6 +194,33 @@ hr {
   margin: 3rem 0;
   border: none;
   border-bottom: solid 0.15rem var(--colour-border);
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 1rem;
+  margin: 1.75rem 0;
+  border-radius: 0.5rem;
+  background: var(--colour-border-background);
+  border: solid 0.15rem var(--colour-border);
+  font-size: var(--font-size-sm);
+  line-height: 1.75;
+
+  .nx {
+    color: var(--colour-body-alt);
+  }
+
+  .na {
+    color: var(--colour-body-dark);
+  }
+
+  .kd,
+  .k,
+  .mi,
+  .o {
+    color: var(--colour-link);
+  }
 }
 
 @media screen and (max-width: 550px) {
