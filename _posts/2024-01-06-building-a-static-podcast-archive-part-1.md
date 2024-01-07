@@ -37,15 +37,15 @@ We all had a blast introducing season-long plot lines, big twists, and eccentric
 
 After some time, however, the scheduling, promotion, manual effort, and costs started carving away at the enjoyment of it all. One by one, the shows wound down and the dream of **Station Zed** was gone, like tears in rain.
 
+{% figure caption:"Station Zed's retro space theme on full display with the site's original banner." %}
+![a blue 60's style space background with a black satellite floating around and a small thumbnail of an astronaut reaching up next to yellow text reading 'Station Zed - Podcasting from Eh to Zed']({{ '/assets/station-zed-banner.png' | relative_url }})
+{% endfigure %}
+
 Admittedly, that was a bit dramatic. I just love working-in Roy Batty’s speech at any possible opportunity. **Station Zed** didn’t actually go anywhere, to be fair. The original domain has been live since it launched and all show posts and feeds have remained online. Costs were adding up, however, for a network infrastructure that was no longer actively in use. First to drop was **SoundCloud**, with the “Pro” subscription being cancelled. Unfortunately, this lead to the service hiding most of our backlog of episodes, meaning the MP3s were no longer accessible and listeners had no way of hearing our previous work.
 
 Around the same time, the **WordPress** sites and databases were shifted over to **Digital Ocean** to save hosting costs. Additional **Digital Ocean** buckets were also setup to serve the audio files, though this required manual updating of episode posts and file redirects. Unfortunately, the **Digital Ocean** approach has come with many issues around traffic overages and **MySQL** database crashes. Not the most stable environment.
 
 Things have mostly been in this state since 2020-21, as **Boozing & Bonding** sobered up and released their final few episodes.
-
-{% figure caption:"Station Zed's retro space theme on full display with the site's original banner." %}
-![a blue 60's style space background with a black satellite floating around and a small thumbnail of an astronaut reaching up next to yellow text reading 'Station Zed - Podcasting from Eh to Zed']({{ '/assets/station-zed-banner.png' | relative_url }})
-{% endfigure %}
 
 ## Starting at the bottom
 
