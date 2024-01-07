@@ -214,32 +214,32 @@
 
 <p>Unfortunately, when I visited the live site(s) to download episodes, it turned out that our de-subscribing from <strong>SoundCloud</strong> and partial shift in file hosting to <strong>Digital Ocean</strong> wound up leaving most episodes of each show still unavailable.</p>
 
-<p>Thanks to our RSS configuration, however, the XML feed files were still alive and well. This is where the archiving effort started.</p>
+<p>Thanks to our RSS configuration, however, the <code class="language-plaintext highlighter-rouge">XML</code> feed files were still alive and well. This is where the archiving effort started.</p>
 
 <h3 id="working-with-the-rss-feed">Working with the RSS feed</h3>
 
-<h4 id="consuming-xml-directly">Consuming XML directly</h4>
+<h4 id="consuming-xml-directly">Consuming <code class="language-plaintext highlighter-rouge">XML</code> directly</h4>
 
-<p>The first step was to download the original RSS feed as XML file(s) from both <strong>The Dust Off</strong> and <strong>Station Zed</strong>. Because <strong>The Dust Off</strong> launched before the network, it has always lived on its own separate domain. The other shows were all hosted directly from <strong>Station Zed</strong>.</p>
+<p>The first step was to download the original RSS feed as <code class="language-plaintext highlighter-rouge">XML</code> file(s) from both <strong>The Dust Off</strong> and <strong>Station Zed</strong>. Because <strong>The Dust Off</strong> launched before the network, it has always lived on its own separate domain. The other shows were all hosted directly from <strong>Station Zed</strong>.</p>
 
-<p>At the time of writing this, both domains are still up and running. You can find the respective XML-based RSS feeds at the following addresses:</p>
+<p>At the time of writing this, both domains are still up and running. You can find the respective <code class="language-plaintext highlighter-rouge">XML</code>-based RSS feeds at the following addresses:</p>
 
 <ul>
   <li><a href="http://thedustoff.com/feed/podcast"><strong>The Dust Off</strong>’s dedicated RSS</a></li>
   <li><a href="https://www.stationzed.com/feed/podcast"><strong>Station Zed</strong>’s network RSS</a></li>
 </ul>
 
-<p>I started the process with a prototype using only <strong>The Dust Off</strong>, which I’ve left unfinished on <a href="https://github.com/stephenbelyea/thedustoff/tree/main"><strong>GitHub</strong></a>. This initial version directly consumed the XML file as the data-source to feed the static site’s front end. Due to the dead file paths and old domain links throughout the RSS entries, this quickly became a cumbersome process of <a href="https://github.com/stephenbelyea/thedustoff/commit/5b6642c82e50df227d8d5775034d35c752f6e647">manually searching out and updating content in the feed file</a>.</p>
+<p>I started the process with a prototype using only <strong>The Dust Off</strong>, which I’ve left unfinished on <a href="https://github.com/stephenbelyea/thedustoff/tree/main"><strong>GitHub</strong></a>. This initial version directly consumed the <code class="language-plaintext highlighter-rouge">XML</code> file as the data-source to feed the static site’s front end. Due to the dead file paths and old domain links throughout the RSS entries, this quickly became a cumbersome process of <a href="https://github.com/stephenbelyea/thedustoff/commit/5b6642c82e50df227d8d5775034d35c752f6e647">manually searching out and updating content in the feed file</a>.</p>
 
-<p>In short, this didn’t feel like a simple, sustainable solution. Especially when the <a href="https://github.com/stephenbelyea/thedustoff/commit/57e0cf24b1406a8b0b8f78351a955e469165dde2">initial approach of linking to MP3 files shared from <strong>DropBox</strong></a> wound up causing traffic issues and blocked access - not to mention reliance on <strong>TinyUrl</strong> and other URL shorteners to get around invalid characters in the <strong>DropBox</strong> URLs when parsed as XML.</p>
+<p>In short, this didn’t feel like a simple, sustainable solution. Especially when the <a href="https://github.com/stephenbelyea/thedustoff/commit/57e0cf24b1406a8b0b8f78351a955e469165dde2">initial approach of linking to MP3 files shared from <strong>DropBox</strong></a> wound up causing traffic issues and blocked access - not to mention reliance on <strong>TinyUrl</strong> and other URL shorteners to get around invalid characters in the <strong>DropBox</strong> URLs when parsed as <code class="language-plaintext highlighter-rouge">XML</code>.</p>
 
-<p>On the other hand, this initial prototype did offer a helpful start at <a href="https://github.com/stephenbelyea/thedustoff/blob/main/docs/script.js">parsing the XML feed and appending to the site’s DOM structure using JS</a> without additional plugins or libraries. So, that was a plus!</p>
+<p>On the other hand, this initial prototype did offer a helpful start at <a href="https://github.com/stephenbelyea/thedustoff/blob/main/docs/script.js">parsing the <code class="language-plaintext highlighter-rouge">XML</code> feed and appending to the site’s DOM structure using JS</a> without additional plugins or libraries. So, that was a plus!</p>
 
-<h4 id="parsing-xml-to-build-json">Parsing XML to build JSON</h4>
+<h4 id="parsing-xml-to-build-json">Parsing <code class="language-plaintext highlighter-rouge">XML</code> to build <code class="language-plaintext highlighter-rouge">JSON</code></h4>
 
-<p>Given the progress made and stuff learned with the specific <strong>The Dust Off</strong> prototype, I opted to open a new repo and start fresh on the full <strong>Station Zed</strong> archive. I knew that our source RSS feed data would need to be updated for file paths, links, and other info as things developed, so I shifted the purpose of <a href="https://github.com/stephenbelyea/stationzed/tree/main/scripts/xml-feeds">the XML feed files</a> to serve only as original basis - rather than active source-of-truth.</p>
+<p>Given the progress made and stuff learned with the specific <strong>The Dust Off</strong> prototype, I opted to open a new repo and start fresh on the full <strong>Station Zed</strong> archive. I knew that our source RSS feed data would need to be updated for file paths, links, and other info as things developed, so I shifted the purpose of <a href="https://github.com/stephenbelyea/stationzed/tree/main/scripts/xml-feeds">the <code class="language-plaintext highlighter-rouge">XML</code> feed files</a> to serve only as original basis - rather than active source-of-truth.</p>
 
-<p>I like working with JSON, so I opted to use that as the new data format for our episode feeds. This kicked off with a fairly simple Node parser built using the XmlToJs library to <a href="https://github.com/stephenbelyea/stationzed/commit/0d8788a22b7e55e925536f696bfa2ea504777519">structure a simpler content model and spit out the new files</a>.</p>
+<p>I like working with <code class="language-plaintext highlighter-rouge">JSON</code>, so I opted to use that as the new data format for our episode feeds. This kicked off with a fairly simple Node parser built using <a href="https://www.npmjs.com/package/xml2js">the <strong>Xml2Js</strong> library</a> to <a href="https://github.com/stephenbelyea/stationzed/commit/0d8788a22b7e55e925536f696bfa2ea504777519">structure a simpler content model and spit out the new files</a>.</p>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">getFeedSingleItem</span> <span class="o">=</span> <span class="p">(</span><span class="nx">singleItem</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="kd">const</span> <span class="p">{</span>
@@ -275,13 +275,13 @@
 
 <p>This approach also made it easy to split each episode’s URL and store an ID based on the post slug generated by <strong>WordPress</strong>. Due to the consistent and reliable slugs, this wound up being a key piece of info for working with each episode moving forward.</p>
 
-<p>Since <strong>The Dust Off</strong> domain (and RSS feed) had a single-series configuration and publishing process that differed from <strong>Station Zed</strong>’s multiple shows, some tweaks were needed to ensure <a href="https://github.com/stephenbelyea/stationzed/commit/2fd21266359498d3cfec3ab88e7ab4f98f2b8c66">each show was grabbing the correct feed data for the JSON model</a>.</p>
+<p>Since <strong>The Dust Off</strong> domain (and RSS feed) had a single-series configuration and publishing process that differed from <strong>Station Zed</strong>’s multiple shows, some tweaks were needed to ensure <a href="https://github.com/stephenbelyea/stationzed/commit/2fd21266359498d3cfec3ab88e7ab4f98f2b8c66">each show was grabbing the correct feed data for the <code class="language-plaintext highlighter-rouge">JSON</code> model</a>.</p>
 
-<p>At this point, the original XML had provided vital in building our transformed data, but could now be left safely behind.</p>
+<p>At this point, the original <code class="language-plaintext highlighter-rouge">XML</code> had provided vital in building our transformed data, but could now be left safely behind.</p>
 
 <hr />
 
-<p>We’ll keep this walkthrough going in Part 2 - which will be much more technical focused and less about the back-story. Keep an eye out for it!</p>
+<p>We’ll keep this walkthrough going in <strong>Part 2</strong> - which will be much more technical focused and less about the back-story. Keep an eye out for it!</p>
 `;
   const readMins = Math.ceil(content.split(' ').length / 280);
   document.getElementById('read-time').innerText = readMins;
@@ -342,32 +342,32 @@
 
 <p>Unfortunately, when I visited the live site(s) to download episodes, it turned out that our de-subscribing from <strong>SoundCloud</strong> and partial shift in file hosting to <strong>Digital Ocean</strong> wound up leaving most episodes of each show still unavailable.</p>
 
-<p>Thanks to our RSS configuration, however, the XML feed files were still alive and well. This is where the archiving effort started.</p>
+<p>Thanks to our RSS configuration, however, the <code class="language-plaintext highlighter-rouge">XML</code> feed files were still alive and well. This is where the archiving effort started.</p>
 
 <h3 id="working-with-the-rss-feed">Working with the RSS feed</h3>
 
-<h4 id="consuming-xml-directly">Consuming XML directly</h4>
+<h4 id="consuming-xml-directly">Consuming <code class="language-plaintext highlighter-rouge">XML</code> directly</h4>
 
-<p>The first step was to download the original RSS feed as XML file(s) from both <strong>The Dust Off</strong> and <strong>Station Zed</strong>. Because <strong>The Dust Off</strong> launched before the network, it has always lived on its own separate domain. The other shows were all hosted directly from <strong>Station Zed</strong>.</p>
+<p>The first step was to download the original RSS feed as <code class="language-plaintext highlighter-rouge">XML</code> file(s) from both <strong>The Dust Off</strong> and <strong>Station Zed</strong>. Because <strong>The Dust Off</strong> launched before the network, it has always lived on its own separate domain. The other shows were all hosted directly from <strong>Station Zed</strong>.</p>
 
-<p>At the time of writing this, both domains are still up and running. You can find the respective XML-based RSS feeds at the following addresses:</p>
+<p>At the time of writing this, both domains are still up and running. You can find the respective <code class="language-plaintext highlighter-rouge">XML</code>-based RSS feeds at the following addresses:</p>
 
 <ul>
   <li><a href="http://thedustoff.com/feed/podcast"><strong>The Dust Off</strong>’s dedicated RSS</a></li>
   <li><a href="https://www.stationzed.com/feed/podcast"><strong>Station Zed</strong>’s network RSS</a></li>
 </ul>
 
-<p>I started the process with a prototype using only <strong>The Dust Off</strong>, which I’ve left unfinished on <a href="https://github.com/stephenbelyea/thedustoff/tree/main"><strong>GitHub</strong></a>. This initial version directly consumed the XML file as the data-source to feed the static site’s front end. Due to the dead file paths and old domain links throughout the RSS entries, this quickly became a cumbersome process of <a href="https://github.com/stephenbelyea/thedustoff/commit/5b6642c82e50df227d8d5775034d35c752f6e647">manually searching out and updating content in the feed file</a>.</p>
+<p>I started the process with a prototype using only <strong>The Dust Off</strong>, which I’ve left unfinished on <a href="https://github.com/stephenbelyea/thedustoff/tree/main"><strong>GitHub</strong></a>. This initial version directly consumed the <code class="language-plaintext highlighter-rouge">XML</code> file as the data-source to feed the static site’s front end. Due to the dead file paths and old domain links throughout the RSS entries, this quickly became a cumbersome process of <a href="https://github.com/stephenbelyea/thedustoff/commit/5b6642c82e50df227d8d5775034d35c752f6e647">manually searching out and updating content in the feed file</a>.</p>
 
-<p>In short, this didn’t feel like a simple, sustainable solution. Especially when the <a href="https://github.com/stephenbelyea/thedustoff/commit/57e0cf24b1406a8b0b8f78351a955e469165dde2">initial approach of linking to MP3 files shared from <strong>DropBox</strong></a> wound up causing traffic issues and blocked access - not to mention reliance on <strong>TinyUrl</strong> and other URL shorteners to get around invalid characters in the <strong>DropBox</strong> URLs when parsed as XML.</p>
+<p>In short, this didn’t feel like a simple, sustainable solution. Especially when the <a href="https://github.com/stephenbelyea/thedustoff/commit/57e0cf24b1406a8b0b8f78351a955e469165dde2">initial approach of linking to MP3 files shared from <strong>DropBox</strong></a> wound up causing traffic issues and blocked access - not to mention reliance on <strong>TinyUrl</strong> and other URL shorteners to get around invalid characters in the <strong>DropBox</strong> URLs when parsed as <code class="language-plaintext highlighter-rouge">XML</code>.</p>
 
-<p>On the other hand, this initial prototype did offer a helpful start at <a href="https://github.com/stephenbelyea/thedustoff/blob/main/docs/script.js">parsing the XML feed and appending to the site’s DOM structure using JS</a> without additional plugins or libraries. So, that was a plus!</p>
+<p>On the other hand, this initial prototype did offer a helpful start at <a href="https://github.com/stephenbelyea/thedustoff/blob/main/docs/script.js">parsing the <code class="language-plaintext highlighter-rouge">XML</code> feed and appending to the site’s DOM structure using JS</a> without additional plugins or libraries. So, that was a plus!</p>
 
-<h4 id="parsing-xml-to-build-json">Parsing XML to build JSON</h4>
+<h4 id="parsing-xml-to-build-json">Parsing <code class="language-plaintext highlighter-rouge">XML</code> to build <code class="language-plaintext highlighter-rouge">JSON</code></h4>
 
-<p>Given the progress made and stuff learned with the specific <strong>The Dust Off</strong> prototype, I opted to open a new repo and start fresh on the full <strong>Station Zed</strong> archive. I knew that our source RSS feed data would need to be updated for file paths, links, and other info as things developed, so I shifted the purpose of <a href="https://github.com/stephenbelyea/stationzed/tree/main/scripts/xml-feeds">the XML feed files</a> to serve only as original basis - rather than active source-of-truth.</p>
+<p>Given the progress made and stuff learned with the specific <strong>The Dust Off</strong> prototype, I opted to open a new repo and start fresh on the full <strong>Station Zed</strong> archive. I knew that our source RSS feed data would need to be updated for file paths, links, and other info as things developed, so I shifted the purpose of <a href="https://github.com/stephenbelyea/stationzed/tree/main/scripts/xml-feeds">the <code class="language-plaintext highlighter-rouge">XML</code> feed files</a> to serve only as original basis - rather than active source-of-truth.</p>
 
-<p>I like working with JSON, so I opted to use that as the new data format for our episode feeds. This kicked off with a fairly simple Node parser built using the XmlToJs library to <a href="https://github.com/stephenbelyea/stationzed/commit/0d8788a22b7e55e925536f696bfa2ea504777519">structure a simpler content model and spit out the new files</a>.</p>
+<p>I like working with <code class="language-plaintext highlighter-rouge">JSON</code>, so I opted to use that as the new data format for our episode feeds. This kicked off with a fairly simple Node parser built using <a href="https://www.npmjs.com/package/xml2js">the <strong>Xml2Js</strong> library</a> to <a href="https://github.com/stephenbelyea/stationzed/commit/0d8788a22b7e55e925536f696bfa2ea504777519">structure a simpler content model and spit out the new files</a>.</p>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">getFeedSingleItem</span> <span class="o">=</span> <span class="p">(</span><span class="nx">singleItem</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="kd">const</span> <span class="p">{</span>
@@ -403,13 +403,13 @@
 
 <p>This approach also made it easy to split each episode’s URL and store an ID based on the post slug generated by <strong>WordPress</strong>. Due to the consistent and reliable slugs, this wound up being a key piece of info for working with each episode moving forward.</p>
 
-<p>Since <strong>The Dust Off</strong> domain (and RSS feed) had a single-series configuration and publishing process that differed from <strong>Station Zed</strong>’s multiple shows, some tweaks were needed to ensure <a href="https://github.com/stephenbelyea/stationzed/commit/2fd21266359498d3cfec3ab88e7ab4f98f2b8c66">each show was grabbing the correct feed data for the JSON model</a>.</p>
+<p>Since <strong>The Dust Off</strong> domain (and RSS feed) had a single-series configuration and publishing process that differed from <strong>Station Zed</strong>’s multiple shows, some tweaks were needed to ensure <a href="https://github.com/stephenbelyea/stationzed/commit/2fd21266359498d3cfec3ab88e7ab4f98f2b8c66">each show was grabbing the correct feed data for the <code class="language-plaintext highlighter-rouge">JSON</code> model</a>.</p>
 
-<p>At this point, the original XML had provided vital in building our transformed data, but could now be left safely behind.</p>
+<p>At this point, the original <code class="language-plaintext highlighter-rouge">XML</code> had provided vital in building our transformed data, but could now be left safely behind.</p>
 
 <hr />
 
-<p>We’ll keep this walkthrough going in Part 2 - which will be much more technical focused and less about the back-story. Keep an eye out for it!</p>
+<p>We’ll keep this walkthrough going in <strong>Part 2</strong> - which will be much more technical focused and less about the back-story. Keep an eye out for it!</p>
 
   </div>
 </article>
