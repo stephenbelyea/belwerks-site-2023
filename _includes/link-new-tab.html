@@ -2,7 +2,6 @@
   href="{{include.href}}"
   target="_blank"
   aria-describedby="link-new-tab"
-  {% if include.rel %}
-    rel="{{include.rel}}"
-  {% endif %}
-  >{{ include.label }}</a>
+  rel="noreferrer noopener">
+  {{ include.label }}
+</a>
