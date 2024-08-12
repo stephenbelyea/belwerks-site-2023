@@ -24,4 +24,4 @@ There is no pipeline setup to build and serve Jekyll from the GitHub repo level.
 zsh scripts/deploy.sh
 ```
 
-From there, GitHub Pages will serve the static contents of the `docs/` folder, which now contains the built site updates you have locally (and hopefully check-in).
+From there, GitHub Pages will serve the static contents of the `docs/` folder, which now contains the built site updates you have locally (and have hopefully checked-in).
